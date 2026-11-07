@@ -1,11 +1,10 @@
 # Class 11 — Edition Register (2026–27)
 
 **Audit manifest:** [Open original CSV](https://github.com/Eaglesiva/tn-class-11/blob/scert/class-11/audit-2026-27/docs/class_11_2026_27_audit_manifest.csv)  
-**Audit branch:** [scert/class-11/audit-2026-27](https://github.com/Eaglesiva/tn-class-11/tree/scert/class-11/audit-2026-27)  
 **Main content commit:** [`5850ccfa1510`](https://github.com/Eaglesiva/tn-class-11/commit/5850ccfa1510f61ef7e1badf3a7e9ff1b89fbe06)  
 **Official split branch commit:** [`c1a58225d286`](https://github.com/Eaglesiva/tn-class-11/commit/c1a58225d286d945010422a3e16eb3be846a323f)
 
-| Subject / Volume | Medium | Official pages | Main pages | Page-2 imprint (official) | Page-2 comparison | Audit status | Verified Page 2 location | Official PDF |
+| Subject / Volume | Medium | Official pages | Main pages | Page-2 imprint | Page-2 comparison | Audit status | Verified Page 2 | Official PDF |
 |---|---|---:|---:|---|---|---|---|---|
 | General Tamil | Tamil | 248 | 176 | முதல்்பதிப்பு \\| -	 2018 \\| திருத்திய பதிப்பு	 -	 2019, 2020, \\| 2021, 2022, 2023 | GITHUB_HAS_2025_REVISED_OFFICIAL_HAS_2024 | `GITHUB_IS_NEWER` | [Main Page 2](https://github.com/Eaglesiva/tn-class-11/blob/5850ccfa1510f61ef7e1badf3a7e9ff1b89fbe06/tamil/00_introduction/page_002.pdf) | [Official PDF](https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/11th_Genreal%20Tamil.pdf) |
 | General English | English | 216 | 216 | First Edition \\| -  2018 \\| Revised Edition	 -  2019, 2020, 2022 \\| Reprint | OFFICIAL_2024_REPRINT_VS_MAIN_LEGACY_2018 | `VERSION_DIFFERENT; OFFICIAL_SPLIT_STORED_IN_UPDATE_BRANCH` | [Official split Page 2](https://github.com/Eaglesiva/tn-class-11/blob/c1a58225d286d945010422a3e16eb3be846a323f/english/editions/2026-27-scert-official/pages/page_002.pdf) | [Official PDF](https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/11th_General%20English_Text.pdf) |
@@ -42,9 +41,9 @@
 
 ## Decision notes
 
-- The source manifest distinguishes newer 2025 GitHub books, 2024 SCERT reprints stored on the update branch, and exact 2024 matches already on main. These are not interchangeable.
+- The source manifest distinguishes newer 2025 GitHub books, 2024 SCERT reprints stored on the update branch, and exact 2024 matches already on main.
 - Where GitHub main is marked newer than the official SCERT portal's 2024 reprint, preserve main and do not replace it with the older portal copy.
 - Where an official split is on `scert/class-11/official-version-updates`, the Page-2 link points directly to that split PDF. Compare it with the main Page-2 link before deciding whether to promote it.
-- Chemistry English Vol I remains API_MAPPING_UNRESOLVED in the audit because the official API duplicates the Vol II URL. Keep the split evidence but do not promote it until the official source mapping is resolved.
-- Manifest Page-2 text is extracted evidence. The direct PDF links are provided for visual verification. Full book comparison and school distribution validation remain required before CURRENT/ARCHIVE labels.
+- Chemistry English Vol I remains `API_MAPPING_UNRESOLVED` because the official API duplicates the Vol II URL. Keep the split evidence but do not promote it until source mapping is resolved.
+- Manifest Page-2 text is extracted evidence. Direct PDFs are linked for visual review; full-book comparison and school distribution validation remain required before CURRENT/ARCHIVE labels.
 - No production book/page files were replaced.
