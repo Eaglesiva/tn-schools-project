@@ -104,7 +104,43 @@ Total files on `main`: **1,473 files**
 | `science_em/` | 54 | 39 | 51 | **144** | 15 | 3 | **162** |
 | `social_science_tm/` | 60 | 40 | 48 | **148** | 13 | 3 | **164** |
 | `social_science_em/` | 60 | 40 | 48 | **148** | 13 | 3 | **164** |
-| **Totals** | **456** | **330** | **412** | **1,299 PDFs** | **139 `questions.md`** | **24 `pages.json`** | **1,462 Files** |
+| **Totals** | **498** | **349** | **452** | **1,299 PDFs** | **139 `questions.md`** | **24 `pages.json`** | **1,462 Files** |
+### C. Term-Wise Content Breakdown & Active Retention Policy
+
+Detailed audit of the 1,462 legacy content files on `tn-class-03/main` establishes the exact verified distribution:
+
+1. **Term 1 (Eligible for Future Archival upon 2026 Upgrade):**
+   - **498** Single-page PDFs
+   - **8** `pages.json` manifests
+   - **48** `questions.md` files
+   - **Subtotal: 554 files**
+
+2. **Term 2 (Eligible for Future Archival upon 2026 Upgrade):**
+   - **349** Single-page PDFs
+   - **8** `pages.json` manifests
+   - **40** `questions.md` files
+   - **Subtotal: 397 files**
+
+   > **Planned Future Archival Subtotal (Term 1 + Term 2):** **847 PDFs + 16 manifests + 88 questions = 951 files**.
+
+3. **Term 3 (Active Retention Required — DO NOT ARCHIVE / DO NOT DELETE):**
+   - **452** Single-page PDFs
+   - **8** `pages.json` manifests
+   - **43** `questions.md` files
+   - **Subtotal: 503 files**
+   - **Retention Directive:** Because SCERT has not released 2026 Term 3 books (confirmed HTTP 403 Forbidden on upstream distribution servers), these 503 files **MUST remain live and active** in the `Eaglesiva/tn-class-03` repository and are fully accessible via `index.html`. They must NEVER be deleted during the Term 1 and Term 2 upgrade.
+
+4. **Root / Subject-Level Assets:**
+   - **8** `book_back_questions/questions.md` files (one per legacy subject folder: `tamil/`, `english/`, `maths_tm/`, `maths_em/`, `science_tm/`, `science_em/`, `social_science_tm/`, `social_science_em/`).
+
+**Grand Total Reconciliation:**
+- Future Archival Eligible (Term 1 & 2): **951 files**
+- Active Retention Required (Term 3): **503 files**
+- Subject Root Questions: **8 files**
+- **Total Content Files:** **1,462 files**
+- Retained Infrastructure: **11 files**
+- **Total Repository Blobs on `main` (`a7206fe3...`):** **1,473 blobs** (100% accounted for).
+
 
 ### B. Retained Active Infrastructure Assets (11 Files — NEVER to be Archived or Deleted)
 
@@ -187,5 +223,11 @@ Every 2026 combined textbook is mapped directly to its legacy antecedent subject
 1. **Isolation of Legacy Questions:** The 139 legacy `questions.md` files belong strictly to the 2018–2022 curriculum and must be transferred exclusively to `Eaglesiva/tn-class-03-archive` under `legacy-2018-2022/`. They must NEVER be copied or merged into the 2026 book directories.
 2. **Visual Review Pending for Term 2 Page-2 Imprints:** Term 2 volumes (`vol1_tamil_english`, `vol2_maths_sci_soc_tm`, `vol2_maths_sci_soc_em`) have raster/image-only Page 2 imprints without extractable text. They remain strictly classified as `VISUAL_REVIEW_PENDING` until direct visual verification is completed. No speculative confirmation is permitted.
 3. **Combined Books TOC & Subject Boundary Requirement:** All 6 released books are combined multi-subject volumes. Individual subject routing requires manual review of lesson boundaries as recorded in `toc.json`.
-4. **Mandatory UI & Viewer Routing Gate:** Before any merge to `main`, `index.html` and `viewer.html` must be verified on a dedicated fix/migration branch to ensure zero 404 links, automatic detection of `pages.json`, and seamless sequential page navigation for `page-001.pdf`.
+4. **Mandatory UI & Viewer Routing Gate (Completed on Precheck Branch):**
+   - Branch: `precheck/class-03-viewer-and-index` at commit [`b1bf4ab6bd6fa763a806154c256018436f00b3d6`](https://github.com/Eaglesiva/tn-class-03/commit/b1bf4ab6bd6fa763a806154c256018436f00b3d6) (ahead by 3, behind by 0).
+   - Only `index.html` and `viewer.html` modified.
+   - All 6 2026 combined books mapped; 42 route links tested.
+   - **Planned Destination Mapping:** **42/42 PASS (100%)** against `scert/class-03/audit-2026-27` trees (`official_editions/2026-27/`).
+   - **Precheck Branch Local Presence:** **0/42 (DEFERRED to Step 6 Active Upgrade)** as `books/2026-27/` will be transferred only upon user approval.
+   - **Legacy Term 3 Book Access:** **8/8 PASS (100%)** — All 8 legacy Term 3 books (503 files) integrated into `index.html` cards and verified live in current `main`.
 5. **Strict Pre-Execution Boundary:** Steps 2 through 10 remain on HOLD until this Step 0 & Step 1 Draft Register is thoroughly reviewed and approved by the user.
