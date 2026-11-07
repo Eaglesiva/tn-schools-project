@@ -69,3 +69,17 @@ A branch may be considered for deletion only after:
 6. The user approves retirement of the branch.
 
 No branch has been deleted or merged in this consolidation pass.
+
+
+## Archive repository audit — all 12 archive repositories
+
+The archive repositories were also inspected directly:
+
+| Archive repository | Branches | Initial root contents | Status |
+|---|---|---|---|
+| `tn-class-01-archive` through `tn-class-12-archive` | `main` only (continuation checked; no additional branches) | `README.md` only | Empty archive targets; no PDFs, page assets, manifests or audit documents present |
+
+- All 12 archive repositories have Admin / Read / Write access.
+- Updated each archive README to state that it is an empty archive target and to link to the Common Archive Policy and the corresponding class section in the Master Cross-Verification Index.
+- No textbook or page assets were copied into any archive repository because no book has yet passed the final `ARCHIVE_APPROVED` gate.
+- The complete 24-repository scope is therefore: 12 current class repositories (with 34 observed branches total) + 12 empty archive repositories (one `main` branch each) + the separate Common control repository.
