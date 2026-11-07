@@ -1,42 +1,47 @@
 # Class 02 — Edition Migration Execution & Final Verification Report
 
-**Document Status:** COMPLETED & VERIFIED ON MIGRATION BRANCHES (READY FOR MERGE)  
+**Document Status:** STEP 6 & STEP 7 COMPLETED & 100% VERIFIED ON MIGRATION BRANCHES (READY FOR STEP 8 MAIN MERGE)  
 **Target Class:** Class 02 (Tamil Nadu State Board)  
 **Execution Date:** 2026-11-08  
 **Executed by:** Antigravity (Implementation Agent)  
 **Active Repository (`tn-class-02`):** Branch `migration/class-02-edition-upgrade` (Commit: `2e3a4fc122889016e74f3f20cdc6ed2518e95777`)  
-**Archive Repository (`tn-class-02-archive`):** Branch `migration/class-02-legacy-import` (Commit: `574fd1a3a94fd3c0e1580b4f8b1c3a16acebdaaf`)  
+**Archive Repository (`tn-class-02-archive`):** Branch `migration/class-02-legacy-import` (Ingestion Commit: `574fd1a3a94fd3c0e1580b4f8b1c3a16acebdaaf`, Branch HEAD: `bb7b454c2aa12c1ea97fd7fb6189a1ae918904d5`)  
+**Main Branch Status:** `tn-class-02/main` (`196f8e32ccdbbbcf50a89b83d1da8a509fe42e20`) and `tn-class-02-archive/main` (`7f3cb55440bb58d6210e8396901c725f87c52c42`) remain **100% UNTOUCHED / NOT YET MERGED**.  
 **Verification Result:** **100% Zero-Data-Loss / 100% Git Blob SHA Equality confirmed.**
 
 ---
 
 ## 1. Migration Execution Audit Trail
 
-| Repository | Branch | Commit Hash | Changes / Actions | Files Impacted |
+| Repository | Branch | Commit Hash | Role / Changes | Files Impacted |
 |:---|:---|:---|:---|:---:|
 | **`Eaglesiva/tn-class-02-archive`** | `migration/class-02-legacy-import` | `574fd1a3a94fd3c0e1580b4f8b1c3a16acebdaaf` | **feat(archive): import Class 02 complete legacy 2018-2022 collection**<br>Archived all legacy subjects (Tamil, English, Maths TM/EM, Science TM/EM) across Terms 1, 2, and 3 into `legacy-2018-2022/`. | **1,176 files**<br>(1,044 PDFs + 114 questions.md + 18 `pages.json`) |
-| **`Eaglesiva/tn-class-02`** | `migration/class-02-edition-upgrade` | `2e3a4fc122889016e74f3f20cdc6ed2518e95777` | **feat(books): promote official 2026 First Edition books to books/2026-27/**<br>Promoted 6 official 2026 volumes directly into active `books/2026-27/`. Removed old 2018/2022 syllabus files from active directory tree. | **854 files**<br>(824 single-page PDFs + 30 JSON manifests) |
+| **`Eaglesiva/tn-class-02-archive`** | `migration/class-02-legacy-import` | `9fbcef5f4b644ea1176e41ce5628f64e10b82471` | **docs(audit): publish Class 02 edition migration audit report** | 1 file added |
+| **`Eaglesiva/tn-class-02-archive`** | `migration/class-02-legacy-import` | `bb7b454c2aa12c1ea97fd7fb6189a1ae918904d5` | **docs(archive): update README with complete Class 02 legacy inventory** (Current Branch HEAD) | 1 file updated |
+| **`Eaglesiva/tn-class-02`** | `migration/class-02-edition-upgrade` | `2e3a4fc122889016e74f3f20cdc6ed2518e95777` | **feat(books): promote official 2026 First Edition books to books/2026-27/**<br>Promoted 6 official 2026 volumes directly into active `books/2026-27/`. Removed old 2018/2022 syllabus files from active directory tree. (Current Branch HEAD) | **854 files**<br>(824 single-page PDFs + 30 JSON manifests) |
 
 ---
 
 ## 2. Step 7: Post-Migration Audit & Hash Verification Results
 
 ### A. Archive Repository Audit (`tn-class-02-archive`)
-- **Total Blobs in Migration Branch:** 1,177 (1,176 legacy files + `README.md`)
-- **Blobs under `legacy-2018-2022/`:** **1,176**
-  - PDFs: 1,044
-  - Markdown Questions: 114
-  - Structural `pages.json` manifests: 18
+- **Total Blobs in Migration Branch (`migration/class-02-legacy-import`):** **1,178 blobs**
+  - Legacy Content Files under `legacy-2018-2022/`: **1,176 files**
+    - Single-Page PDFs: 1,044
+    - Markdown Questions: 114
+    - Structural `pages.json` manifests: 18
+  - Root Repository Files: **2 files** (`README.md` + `CLASS_02_FINAL_MIGRATION_AUDIT_REPORT.md`)
 - **Source Blobs in `tn-class-02/main`:** 1,176
 - **Missing Blobs in Archive:** **0**
-- **Blob SHA Mismatches:** **0**
+- **SHA Mismatches:** **0**
 - **Git Blob SHA Equality:** **1,176 / 1,176 (100.0% Match)**
 
 ### B. Active Upgrade Repository Audit (`tn-class-02`)
-- **Total Blobs in Migration Branch:** 865
-- **Blobs under `books/2026-27/`:** **854**
-  - Official 2026 Single-Page PDFs: **824** (160 + 144 + 144 + 136 + 120 + 120)
-  - Official JSON Manifests: **30** (5 per volume across 6 volumes)
+- **Total Blobs in Migration Branch (`migration/class-02-edition-upgrade`):** **865 blobs**
+  - Official 2026 Edition Files under `books/2026-27/`: **854 files**
+    - Official 2026 Single-Page PDFs: **824** (160 + 144 + 144 + 136 + 120 + 120)
+    - Official JSON Manifests: **30** (5 per volume across 6 volumes)
+  - Non-Book Infrastructure Files: **11 files** (`README.md`, `index.html`, `viewer.html`, `docs/*`, `vendor/*`)
 - **Legacy Files Remaining on Upgrade Branch:** **0** (Legacy folders completely removed)
 - **Source Audit Blobs in `scert/class-02/audit-2026-27`:** 854
 - **Git Blob SHA Equality:** **854 / 854 (100.0% Match)**
