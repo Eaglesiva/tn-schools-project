@@ -60,3 +60,10 @@ The following current-main workflow directories were checked across `tn-class-01
 - The safe final design is to keep the Pages production branch on `main`, restrict or disable previews for working/audit branches, and publish a deliberate allow-listed site output while preserving the viewer's required book-page assets. This must be validated per repository in the Cloudflare dashboard before implementation.
 
 **Still unverified:** Production branch, build command, root directory, output directory, Preview deployment policy and Build watch paths for each Cloudflare Pages project. No Cloudflare setting was changed.
+
+
+### Additional audit-branch workflow inspection — Classes 1–8
+
+Each of the Classes 1–8 SCERT audit branches contains a matching `scert-audit-classN.yml` workflow. The inspected workflows support manual dispatch and pushes scoped to the audit branch; they stage the audit manifest, official API snapshot, audit summary and `official_editions/` assets, then push to `HEAD:${{ github.ref_name }}`.
+
+**Finding:** These workflows update their own audit branch, not `main`, and do not call Cloudflare deployment APIs. If Cloudflare Preview deployments are enabled for all branches, however, these branch pushes may still create preview deployments. The Cloudflare dashboard preview policy remains unverified.
