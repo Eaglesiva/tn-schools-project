@@ -60,3 +60,22 @@
 - Cloudflare deployment policy is documented, but the Cloudflare dashboard settings have not been inspected or changed. Common remains documentation-only and is not a Pages production source.
 
 **Next safe step:** finish the unified per-book register (Classes 1–12) with immutable commit links to each full page set, Page-2 split PDF, page map, official source, imprint, page count and comparison status; then review class-specific remaining documents and Cloudflare settings before any production migration.
+
+
+### Consolidation continuation — master register and deployment review (2026-11-07)
+
+- Created [MASTER CROSS-VERIFICATION INDEX](../03-edition-register/MASTER_CROSS_VERIFICATION_INDEX.md) in Common. It embeds the individual registers for Classes 1–12 and currently consolidates **124 book / volume / medium rows**, with direct Page-2, official PDF and GitHub evidence links.
+- Created/normalized the Class 7–12 registers. Corrected malformed Markdown links in Classes 1–6 so the existing-main Page-2 proofs are clickable.
+- Verified that representative Page-2 PDF paths exist in the relevant branches for Classes 1, 2, 6, 7, 8, 9, 10, 11 and 12 using GitHub file retrieval. This confirms the linked files exist; it is **not** a claim that every page has been visually reviewed in this pass.
+- Copied the class-specific audit manifests / summaries for Classes 1–12 into each class repository's `main/docs/edition-audit/2026-27/` and added a class-local navigation README. The original working branches remain unchanged.
+- Added the canonical cross-class blueprint, dated global audit snapshots, and a Common evidence index to `tn-schools-project`. Shared files were copied from the Class 10 work branch; source originals were retained.
+- Inspected the GitHub Actions workflows on Classes 9–12. The observed refresh/update workflows target their named refresh/audit branches; Class 10's manual edition-sync defaults to `feature/scert-edition-pilot`; Class 10 Page-2 preview uploads a temporary Actions artifact. No direct Cloudflare deployment API call or automatic push to `main` was found in the inspected workflows.
+- Updated [Cloudflare deployment policy](../04-quality-control/CLOUDFLARE_DEPLOYMENT_POLICY.md) with these findings and the remaining dashboard checks.
+
+### Current verified boundary
+
+- **Page-2 link existence:** representative direct GitHub PDF paths were checked successfully.
+- **Page-2 visual confirmation:** not yet completed for every registered book. Manifest imprint strings are extracted evidence and must not be described as fresh visual inspection.
+- **Edition decision:** no new global CURRENT/ARCHIVE decisions have been made. Classes 10–12 include explicit pending, legacy/newer-main and API-mapping cases; the register preserves those statuses.
+- **Cloudflare:** GitHub workflow behavior is partly understood, but production branch / output directory / preview policy / build watch paths remain dashboard-only settings and are unverified. No deployment setting or production book asset was changed.
+- **Branch cleanup:** no non-main branch has been deleted or merged. Document migration is currently additive and verified; remaining branch-specific evidence still needs classification before any branch can be retired.
