@@ -224,19 +224,20 @@ GitHub Main Tree மற்றும் பொருத்தமான Audit / Ed
 
 **Current Path, Planned Destination Path, Final Path ஆகிய மூன்றையும் ஒரே Column-ல் கலக்கக்கூடாது.** Migration முடியும் முன் Planned Path-ஐ Live Link என்று காட்டக்கூடாது.
 
-### STEP 5 — Migration Plan மற்றும் Approval Gate
+### STEP 5 — Migration Plan மற்றும் ARCHIVE_APPROVED Gate
 
 Draft Register முடிந்த பிறகு:
 
-1. பழைய Edition எந்த Archive Folder-க்கு செல்ல வேண்டும் என்று பட்டியலிடவும்.
-2. புதிய Edition எந்த Active Folder-ல் இருக்க வேண்டும் என்று பட்டியலிடவும்.
-3. பழைய Questions / Answers / Quiz-க்கான Archive Mapping தரவும்.
-4. புதிய Questions / Answers / Quiz எந்த ஆதார Branch-ல் இருந்து வர வேண்டும் என்பதை குறிப்பிடவும்.
-5. மாற்றப்பட வேண்டிய கோப்புகள், மாற்றப்படக்கூடாத கோப்புகள் இரண்டையும் பட்டியலிடவும்.
-6. எதிர்பார்க்கப்படும் File Count மற்றும் Destination Path-களைத் தெளிவுபடுத்தவும்.
-7. Draft / Mapping-ஐ பயனரிடம் Review-க்கு கொடுக்கவும்.
+1. **ARCHIVE_POLICY கட்டுப்பாடு:** Master Cross-Verification Index-ல் குறிப்பிட்ட வகுப்பிற்கு வெளிப்படையான `ARCHIVE_APPROVED` முடிவு பதிவு செய்யப்படாமல் பழைய புத்தகங்களை Archive செய்யத் தொடங்கக்கூடாது.
+2. **Viewer / UI Routing முன்கூட்டிய சோதனை:** புதிய கோப்பமைப்பு மற்றும் கோப்புப் பெயரமைப்பை `viewer.html` மற்றும் `index.html` ஆதரிப்பது உறுதி செய்யப்பட வேண்டும்.
+3. **கோப்புப் பிரிப்புத் திட்டம்:**
+   - பழைய Edition எந்த Archive Folder-க்கு (`legacy-2018-2022/...`) செல்ல வேண்டும் என்று பட்டியலிடவும்.
+   - புதிய Edition எந்த Active Folder-ல் (`books/2026-27/...`) இருக்க வேண்டும் என்று பட்டியலிடவும்.
+   - பழைய Questions / Answers / Quiz-க்கான Archive Mapping தரவும் (பழைய கேள்விகள் Archive-க்கு மட்டுமே செல்ல வேண்டும்).
+   - மாற்றப்பட வேண்டிய பழைய பாடநூல் கோப்புகள் (Archive Payload) மற்றும் மாற்றப்படக்கூடாத Infrastructure கோப்புகள் (HTML, JS, Docs, CSV) இரண்டையும் தனித்தனியாகப் பட்டியலிடவும்.
+4. **பயனர் ஒப்புதல்:** Draft Register, Payload எண்ணிக்கை மற்றும் Mapping-ஐ பயனரிடம் சமர்ப்பித்து நேரடி ஒப்புதல் பெற வேண்டும்.
 
-**பயனர் ஒப்புதல் கிடைக்கும் வரை எந்த File Move, Delete, Overwrite, Main Merge-மும் செய்யக்கூடாது.**
+**பயனரின் தெளிவான எழுத்துப்பூர்வ ஒப்புதல் கிடைக்கும் வரை எந்த File Move, Delete, Overwrite, Transfer அல்லது Branch Merge-மும் செய்யக்கூடாது.**
 
 ### STEP 6 — GitHub-only Migration Execution
 
@@ -253,7 +254,10 @@ Draft Register முடிந்த பிறகு:
 
 இதனால் PDF Content-ஐ மீண்டும் Download / Upload செய்ய வேண்டியதில்லை. அதே Repository-க்குள் Path மட்டும் மாறுகிறது.
 
-#### B. ஒரு Repository-லிருந்து மற்றொரு Repository-க்கு Archive Transfer
+#### B. ஒரு Repository-லிருந்து மற்றொரு Repository-க்கு Archive Transfer மற்றும் மூலக் கோப்புகள் நீக்குதல் விதி
+
+1. **Archive Ingestion:** Source Repository-யின் `main` கிளையிலிருந்து பழைய பாடநூல் கோப்புகளை (PDFs, questions.md, pages.json) மட்டும் Archive Repository-யின் `migration/class-XX-legacy-import` கிளைக்கு `legacy-2018-2022/` கீழ் நகலெடுக்கவும்.
+2. **பாதுகாப்பு விதி (Source Delete Gate):** Active Repository-ல் உள்ள பழைய பாடக் கோப்பகங்களை (`tamil/`, `english/` போன்றவை) நீக்குவதற்கு முன்பாக, Archive-க்கு சென்ற அனைத்துக் கோப்புகளும் 100% Git Blob SHA பொருத்தத்துடன் பாதுகாக்கப்பட்டுவிட்டன என்பதைத் தணிக்கை செய்து உறுதிப்படுத்த வேண்டும். தணிக்கை வெற்றி பெறாமல் Active-ல் மூலக் கோப்புகளை நீக்கக்கூடாது.
 
 1. Source Repository-யின் குறிப்பிட்ட Branch Tree-ஐ வாசிக்கவும்.
 2. தேவையான Legacy Folder-கள் மற்றும் Blob SHA-களை மட்டும் பட்டியலிடவும்.
