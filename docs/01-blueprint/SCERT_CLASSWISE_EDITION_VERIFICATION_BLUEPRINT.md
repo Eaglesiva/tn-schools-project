@@ -3,7 +3,9 @@
 **Last updated:** 2026-11-04  
 **Canonical home:** `Eaglesiva/tn-class-10/docs/SCERT_CLASSWISE_EDITION_VERIFICATION_BLUEPRINT.md`
 
-> This document is the operating contract for ChatGPT, Antigravity and any future operator. Follow it before auditing, downloading, splitting, committing or changing a textbook. This process is class-by-class and one official book/volume at a time.
+> This document governs official edition evidence and book-level verification. This process is class-by-class and one official book/volume at a time.
+
+> **Class 01–12 Migration Execution Policy (2026-11-07):** Edition verification evidence and source-validation rules in this blueprint remain applicable. For the actual file-movement, archive-transfer, branch, merge, Local Storage and final-link workflow, the mandatory execution document is [SCERT Edition Verification & Migration Workflow — Tamil](../02-workflow/scert-edition-migration/SCERT_EDITION_MIGRATION_WORKFLOW_TA.md). It supersedes any older example or instruction that would clone / fetch / pull / download repository contents onto the user's local computer. Use GitHub APIs directly; if API limitations require cloud processing, stop and obtain approval. Never fall back to a user-device clone.
 
 ## 1. Non-negotiable rules
 
