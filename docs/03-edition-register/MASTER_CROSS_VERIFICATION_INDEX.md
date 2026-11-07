@@ -1,15 +1,15 @@
 # MASTER CROSS-VERIFICATION INDEX — SCERT Classes 1–12
 
 **Repository:** [Eaglesiva/tn-schools-project](https://github.com/Eaglesiva/tn-schools-project)  
-**Updated:** 2026-11-07  
+**Updated:** 2026-11-08  
 **Purpose:** One document for cross-checking every registered book/volume/medium, Page-2 imprint, official source PDF, GitHub location, page map and comparison status. Direct Page-2 links are embedded in each class section below.
 
 ## Quick navigation
 
 | Class | Registered book entries | Individual register |
 |---:|---:|---|
-| 1 | 6 | [Open Class 1 register](class-01/edition-register.md) |
-| 2 | 6 | [Open Class 2 register](class-02/edition-register.md) |
+| 1 | 6 | [Open Class 1 register](class-01/edition-verification-register.md) — ✅ **Merged to Main** |
+| 2 | 6 | [Open Class 2 register](class-02/edition-verification-register.md) — ✅ **Merged to Main** |
 | 3 | 6 | [Open Class 3 register](class-03/edition-register.md) |
 | 4 | 3 | [Open Class 4 register](class-04/edition-register.md) |
 | 5 | 3 | [Open Class 5 register](class-05/edition-register.md) |
@@ -81,6 +81,11 @@ The 2026-11-04 audit record says the three in-scope official Term-III files retu
 
 ## Class 2
 
+**Migration Status:** ✅ **100% PRODUCTION MERGED TO MAIN & VERIFIED** (2026-11-08)  
+- **Active Repository Main:** [`bcf8c7397c4348e6c0dd3a0e629a3ecaae6bd075`](https://github.com/Eaglesiva/tn-class-02/commit/bcf8c7397c4348e6c0dd3a0e629a3ecaae6bd075) (854 files in `books/2026-27/`)  
+- **Archive Repository Main:** [`8c0f7397f6d6e8033d399ed88cb49fa725083401`](https://github.com/Eaglesiva/tn-class-02-archive/commit/8c0f7397f6d6e8033d399ed88cb49fa725083401) (1,176 files in `legacy-2018-2022/`)  
+- **Final Edition Register:** [`docs/03-edition-register/class-02/edition-verification-register.md`](class-02/edition-verification-register.md)  
+- **Final Audit Report:** [`docs/03-edition-register/class-02/edition-migration-audit-report.md`](class-02/edition-migration-audit-report.md)  
 Audit branch: `scert/class-02/audit-2026-27`  
 Audit commit: `d2e168f2b2f646d4f29ff428caefbb599dd8ed28`  
 Main baseline commit: `980977c3c500a7ea7c80a7f763edd8e55818dda7`  
