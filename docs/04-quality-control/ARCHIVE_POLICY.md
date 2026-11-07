@@ -1,6 +1,9 @@
 # Archive Repository Policy — TN Samacheer Kalvi Classes 1–12
 
-**Status:** Policy established; archive repositories are currently empty except for their README files.  
+**Status:** Active Implementation in Progress (Class-by-Class Sequential Execution).  
+- **Class 01 Archive (`tn-class-01-archive`):** ✅ **100% PRODUCTION ARCHIVED & LOCKED** on `main` branch (SHA: [`1a38a4c6d8dcaba7b4e1b511a089656fca4260d7`](https://github.com/Eaglesiva/tn-class-01-archive/commit/1a38a4c6d8dcaba7b4e1b511a089656fca4260d7)) — 1,189 legacy files preserved under `legacy-2018-2022/`.  
+- **Class 02 Archive (`tn-class-02-archive`):** ✅ **100% PRODUCTION ARCHIVED & LOCKED** on `main` branch (SHA: [`8c0f7397f6d6e8033d399ed88cb49fa725083401`](https://github.com/Eaglesiva/tn-class-02-archive/commit/8c0f7397f6d6e8033d399ed88cb49fa725083401)) — 1,176 legacy files preserved under `legacy-2018-2022/`.  
+- **Classes 03–12 Archives (`tn-class-03-archive` to `tn-class-12-archive`):** Maintained in clean baseline state; strictly gated under sequential Step 0–8 migration approval protocol.  
 **Scope:** `Eaglesiva/tn-class-01-archive` through `tn-class-12-archive`.
 
 ## Purpose
