@@ -39,6 +39,16 @@
 
 Page count / imprint / filename மட்டும் பொருந்தினால் exact match status கொடுக்க வேண்டாம்.
 
+### 3.1 ஒரே புத்தகத்தின் இரண்டு பிரதிகள் இருந்தால்
+
+1. முதலில் இரண்டும் ஒரே Class + Subject + Medium + Term + Volume + exact title தானா என்று உறுதி செய்யவும்.
+2. இரண்டின் PDF Page 2-ஐத் திறந்து First Edition / Revised Edition / Reprint / Correction imprint மற்றும் அச்சிடப்பட்ட ஆண்டை பதிவு செய்யவும். Page 2 என்பது edition அடையாளத்திற்கான ஆரம்ப ஆதாரம்; முழு புத்தக ஒற்றுமைக்கான தனி proof அல்ல.
+3. Imprint / year வேறுபட்டால் official listing மற்றும் all-pages / content evidence மூலம் பழையது, புதியது என்று வகைப்படுத்தவும்.
+4. Imprint / year ஒன்றாக இருந்தால் இரண்டையும் 100% identical என்று கருதக்கூடாது. முழு master SHA-256 அல்லது ஒவ்வொரு page-ன் Blob SHA / bytes-ஐ ஒப்பிட்டு, manifests, page order, TOC மற்றும் book-back பகுதிகளும் பொருந்துகிறதா என்று சரிபார்க்கவும்.
+5. எல்லா உள்ளடக்கமும் 100% identical என்றால் ஒரே canonical latest/official copy மட்டும் Active-ல் வைத்திருக்கவும். இரண்டாவது duplicate-ஐ Archive-ல் வைக்கக்கூடாது. Register: IDENTICAL_DUPLICATE_NO_ARCHIVE; Archive Required: NO.
+6. Same imprint/year இருந்தும் content mismatch இருந்தால் SAME_EDITION_CONTENT_MISMATCH_REVIEW. Manual review முடியும் வரை எந்த copy-யையும் அழிக்கவோ Archive-க்கு நகர்த்தவோ கூடாது.
+7. ஒரே copy மட்டுமே இருந்தால் SINGLE_EDITION_ONLY என்று பதிவு செய்து official current status உறுதியானால் Active-ல் வைத்திருக்கவும். பழையது மட்டும் உள்ளது, புதிய term இன்னும் வெளியிடப்படவில்லை என்றால் legacy content-ஐ புதியதாகக் காட்டாமல் RELEASE_PENDING / Archive link policy-ஐப் பின்பற்றவும்.
+
 ## 4. மாற்று Edition கண்டறியப்பட்டால்
 
 1. புதிய Edition உண்மையில் வேறுபடுகிறது என்பதை official record அல்லது school-issued book மூலம் உறுதிப்படுத்தவும்.
