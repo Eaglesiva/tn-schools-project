@@ -1,6 +1,6 @@
 # Edition Register — Classes 1–12
 
-<escape>**One-click master document:** [MASTER CROSS-VERIFICATION INDEX](MASTER_CROSS_VERIFICATION_INDEX.md) — all 12 class registers and their direct Page-2 / official-source links in one file.</escape>
+**One-click master document:** [MASTER CROSS-VERIFICATION INDEX](MASTER_CROSS_VERIFICATION_INDEX.md) — all 12 class registers and their direct Page-2 / official-source links in one file.
 
 Each class has its own register file. The register is the single place to answer:
 
