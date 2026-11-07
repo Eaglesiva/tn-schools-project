@@ -84,3 +84,5 @@
 - Finalized and refreshed the single [MASTER CROSS-VERIFICATION INDEX](../03-edition-register/MASTER_CROSS_VERIFICATION_INDEX.md) after correcting the Class 11 volume-specific links and normalizing Class 7–9 register paths. Current index commit: `fac63c446a3413f905b175f18055defccae481f6`.
 - Corrected the live branch count in [branch inventory](../06-migration-control/branch-inventory.md): 12 main + 22 non-main = 34 current-class branches. No branch deletion or merge was performed.
 - Added a link from each Class 1–12 repository's local audit README back to its section in the Common master index.
+
+- Extended workflow inspection to Classes 1–8 audit branches: each `scert-audit-classN.yml` stages audit manifests/snapshots/summaries and official-edition page assets, then pushes only to its triggering audit branch. No direct Cloudflare deploy step was found; branch Preview deployments remain a Cloudflare dashboard question.
