@@ -380,3 +380,17 @@ Environmental Science Contents — [PDF split page 74](https://github.com/Eagles
 - **Git safety:** no main-branch textbook PDF/page assets, `pages.json`, viewer, quiz, or answer files were changed. No archive move, branch merge, or active-edition change was made.
 
 This final extraction supersedes the earlier partial-TOC note in this report.
+
+
+## Original official filenames and local split paths
+
+| Book | Original official PDF filename | Existing split folder |
+|---|---|---|
+| Term-I VOL-I Tamil & English | `1st_Tamil & English Term 1_Text.pdf` | `official_editions/2026-27/term1/vol1_tamil_english/pages/` |
+| Term-I VOL-II Maths & EVS — Tamil | `1st_Maths & EVS_TM_Term 1_Text.pdf` | `official_editions/2026-27/term1/vol2_maths_evs_tm/pages/` |
+| Term-I VOL-II Maths & EVS — English | `1st_Maths & EVS_EM_Term 1_Text.pdf` | `official_editions/2026-27/term1/vol2_maths_evs_em/pages/` |
+| Term-II VOL-I Tamil & English | `TAMIL & ENGLISH_1_II_VOL-I.pdf` | `official_editions/2026-27/term2/vol1_tamil_english/pages/` |
+| Term-II VOL-II Maths & EVS — Tamil | `MATHS & EVS_1_II_VOL-II_TM.pdf` | `official_editions/2026-27/term2/vol2_maths_evs_tm/pages/` |
+| Term-II VOL-II Maths & EVS — English | `MATHS & EVS_1_II_VOL-II_EM.pdf` | `official_editions/2026-27/term2/vol2_maths_evs_em/pages/` |
+
+For all six folders, the existing one-page proof filename is `pages/page-002.pdf`. The complete split folders contain 176, 144, 144, 144, 120, and 120 pages respectively.
