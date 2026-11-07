@@ -17,11 +17,20 @@
 
 All Git Commit SHAs, branch heads, and blob inventories verified live directly via GitHub REST / Git Database API:
 
-| Repository | Branch | Git Commit SHA | Total Blobs | Content Classification & Breakdown |
+| Repository | Branch | Git Commit SHA | Total Blobs | Content Classification & Tree Composition |
 |:---|:---|:---|:---:|:---|
-| **`Eaglesiva/tn-class-03`** | `main` | [`a7206fe321a8c93463056a65fbc73f8a5cee907a`](https://github.com/Eaglesiva/tn-class-03/commit/a7206fe321a8c93463056a65fbc73f8a5cee907a) | **1,473** | **Full Main Inventory (1,462 Archive Payload + 11 Infrastructure):**<br>• **1,299** Single-page PDFs (`tamil/`, `english/`, `maths_tm/`, `maths_em/`, `science_tm/`, `science_em/`, `social_science_tm/`, `social_science_em/`)<br>• **139** Legacy `book_back_questions/questions.md` files<br>• **24** Legacy `pages.json` manifests<br>• **6** Repository Documentation files (`README.md`, `docs/`)<br>• **1** Audit manifest CSV (`docs/edition-audit/2026-27/class_03_2026_27_audit_manifest.csv`)<br>• **2** Web UI HTML assets (`index.html`, `viewer.html`)<br>• **2** JavaScript assets (`vendor/pdfjs/pdf.min.js`, `vendor/pdfjs/pdf.worker.min.js`) |
-| **`Eaglesiva/tn-class-03`** | `scert/class-03/audit-2026-27` | [`6acadd30bd7b71c61e3a2de3bbec7bcf4db9c668`](https://github.com/Eaglesiva/tn-class-03/commit/6acadd30bd7b71c61e3a2de3bbec7bcf4db9c668) | **2,518** | **Existing 2026 Pre-Audited Staging Branch:**<br>• **1,046** Official 2026 First Edition blobs under `official_editions/2026-27/` (**1,016** single-page PDFs + **30** JSON manifests across 6 books)<br>• 1,472 baseline legacy blobs |
+| **`Eaglesiva/tn-class-03`** | `main` | [`a7206fe321a8c93463056a65fbc73f8a5cee907a`](https://github.com/Eaglesiva/tn-class-03/commit/a7206fe321a8c93463056a65fbc73f8a5cee907a) | **1,473** | **Full Main Inventory (1,462 Archive Payload + 11 Infrastructure Assets):**<br>• **1,299** Single-page PDFs (`tamil/`, `english/`, `maths_tm/`, `maths_em/`, `science_tm/`, `science_em/`, `social_science_tm/`, `social_science_em/`)<br>• **139** Legacy `book_back_questions/questions.md` files<br>• **24** Legacy `pages.json` manifests<br>• **6** Repository Documentation files (`README.md`, `docs/`)<br>• **1** Audit manifest CSV (`docs/edition-audit/2026-27/class_03_2026_27_audit_manifest.csv`)<br>• **2** Web UI HTML assets (`index.html`, `viewer.html`)<br>• **2** JavaScript assets (`vendor/pdfjs/pdf.min.js`, `vendor/pdfjs/pdf.worker.min.js`) |
+| **`Eaglesiva/tn-class-03`** | `scert/class-03/audit-2026-27` | [`6acadd30bd7b71c61e3a2de3bbec7bcf4db9c668`](https://github.com/Eaglesiva/tn-class-03/commit/6acadd30bd7b71c61e3a2de3bbec7bcf4db9c668) | **2,518** | **Existing 2026 Pre-Audited Staging Branch Composition:**<br>• **1,467** blobs sharing identical paths with `main`<br>• **1,046** new Official 2026 First Edition blobs under `official_editions/2026-27/` (**1,016** single-page PDFs + **30** JSON manifests across 6 books)<br>• **5** audit-only blobs (`.github/workflows/scert-audit-class3.yml`, `.github/scripts/audit_class3_comprehensive.py`, `class_03_audit_summary.md`, `class_03_official_api_snapshot.json`, `class_03_2026_27_audit_manifest.csv`) |
 | **`Eaglesiva/tn-class-03-archive`** | `main` | [`babaf6b590ab0918ed668f2904007e124ec4343b`](https://github.com/Eaglesiva/tn-class-03-archive/commit/babaf6b590ab0918ed668f2904007e124ec4343b) | **1** | **Initial Clean Archive Repository:** Holds initial `README.md` only; ready to ingest all 1,462 legacy textbook files into `legacy-2018-2022/`. |
+
+### Main Branch Documentation Integrity Protection
+The following **6 documentation files** on `tn-class-03/main` are active repository governance assets. They must be strictly preserved during active edition promotion and must NEVER be archived or deleted:
+1. `docs/README.md`
+2. `docs/BOOK_EDITION_VERIFICATION_RULES_TA.md`
+3. `docs/PROJECT_BLUEPRINT_COMMON_TA.md`
+4. `docs/edition-audit/2026-27/README.md`
+5. `docs/edition-audit/2026-27/class_03_audit_summary.md`
+6. `docs/edition-audit/2026-27/class_03_2026_27_audit_manifest.csv`
 
 ---
 
@@ -52,9 +61,9 @@ All Official SHA-256 hashes are extracted directly from the verified `edition.js
 | `c03-t1-vol1-te` | Term-I | **VOL-I (TAMIL & ENGLISH)** | Tamil / Eng | **168** | [Official CDN Book Link](https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/3rd_Tamil%20%26%20English_Term_1_Text.pdf#page=2) | `187b179a18fac459d91fc9e4843bc7be68d8c7344d510b7a822ebc014ebb7101` | `VERIFIED_TEXT`<br>(மாநிலாக் கல்வியியல் ஆராய்ச்சி மற்றும் பயிற்சி நிறுவனம் © SCERT 2026 / தமிழ்நாடு அரசு முதல் பதிப்பு - 2026) | `MANUAL_REVIEW_REQUIRED`<br>(Combined Tamil & English) | `official_editions/2026-27/term1/vol1_tamil_english` |
 | `c03-t1-vol2-tm` | Term-I | **VOL-II (MATHS, SCIENCE & SOCIAL)** | Tamil (TM) | **184** | [Official CDN Book Link](https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/3rd_Maths%2C%20Science%20%26%20Social%20Science_TM_Term%201_Text.pdf#page=2) | `5c04f3a6f609cbfedfc6ac9a97422d4c143533feada7e7f0db4df5215fed18f3` | `VERIFIED_TEXT`<br>(தமிழ்நாடு அரசு முதல் பதிப்பு - 2026) | `MANUAL_REVIEW_REQUIRED`<br>(Combined Maths, Sci & Social TM) | `official_editions/2026-27/term1/vol2_maths_sci_soc_tm` |
 | `c03-t1-vol2-em` | Term-I | **VOL-II (MATHS, SCIENCE & SOCIAL)** | English (EM) | **184** | [Official CDN Book Link](https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/3rd_Maths%2C%20Science%20%26%20Social%20Science_EM_Term%201_Text.pdf#page=2) | `eadbadf1369384796ad927bedc457a5e43fcf894d6816778d371dd067e94c03f` | `VERIFIED_TEXT`<br>(Tamil Nadu Textbook and Educational Services Corporation / First Edition - 2026) | `MANUAL_REVIEW_REQUIRED`<br>(Combined Maths, Sci & Social EM) | `official_editions/2026-27/term1/vol2_maths_sci_soc_em` |
-| `c03-t2-vol1-te` | Term-II | **VOL-I (TAMIL & ENGLISH)** | Tamil / Eng | **144** | [Official CDN Book Link](https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/TAMIL%20%26%20ENGLISH_3_II_VOL-I.pdf#page=2) | `02e03c1415c33ba577195efbd306d14f62cdaac127415a06958a6c75be600ec0` | `VISUAL_REVIEW_PENDING`<br>(OCR: Image-only / No searchable text; requires direct Page 2 PDF visual inspection) | `MANUAL_REVIEW_REQUIRED`<br>(Combined Tamil & English) | `official_editions/2026-27/term2/vol1_tamil_english` |
-| `c03-t2-vol2-tm` | Term-II | **VOL-II (MATHS, SCIENCE & SOCIAL)** | Tamil (TM) | **168** | [Official CDN Book Link](https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/MATHS%2C%20SCIENCE%20%26%20SOCIAL_3_II_VOL-II_TM.pdf#page=2) | `2b9e579566dcffe9ba43afe0fe3fc4ab8ce90366999188a12a5bf0548520e1c8` | `VISUAL_REVIEW_PENDING`<br>(OCR: Partial symbols; requires direct Page 2 PDF visual inspection) | `MANUAL_REVIEW_REQUIRED`<br>(Combined Maths, Sci & Social TM) | `official_editions/2026-27/term2/vol2_maths_sci_soc_tm` |
-| `c03-t2-vol2-em` | Term-II | **VOL-II (MATHS, SCIENCE & SOCIAL)** | English (EM) | **168** | [Official CDN Book Link](https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/MATHS%2C%20SCIENCE%20%26%20SOCIAL_3_II_VOL-II_EM.pdf#page=2) | `d8ac8dd0bf9618feabc314ad6c7fe7a07a04739fdd468df378f3ae8fd04c9e05` | `VISUAL_REVIEW_PENDING`<br>(OCR: Image-only / No searchable text; requires direct Page 2 PDF visual inspection) | `MANUAL_REVIEW_REQUIRED`<br>(Combined Maths, Sci & Social EM) | `official_editions/2026-27/term2/vol2_maths_sci_soc_em` |
+| `c03-t2-vol1-te` | Term-II | **VOL-I (TAMIL & ENGLISH)** | Tamil / Eng | **144** | [Official CDN Book Link](https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/TAMIL%20%26%20ENGLISH_3_II_VOL-I.pdf#page=2) | `02e03c1415c33ba577195efbd306d14f62cdaac127415a06958a6c75be600ec0` | `VISUAL_REVIEW_PENDING`<br>(OCR: Image-only / No searchable text; requires visual PDF inspection) | `MANUAL_REVIEW_REQUIRED`<br>(Combined Tamil & English) | `official_editions/2026-27/term2/vol1_tamil_english` |
+| `c03-t2-vol2-tm` | Term-II | **VOL-II (MATHS, SCIENCE & SOCIAL)** | Tamil (TM) | **168** | [Official CDN Book Link](https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/MATHS%2C%20SCIENCE%20%26%20SOCIAL_3_II_VOL-II_TM.pdf#page=2) | `2b9e579566dcffe9ba43afe0fe3fc4ab8ce90366999188a12a5bf0548520e1c8` | `VISUAL_REVIEW_PENDING`<br>(OCR: Partial symbols; requires visual PDF inspection) | `MANUAL_REVIEW_REQUIRED`<br>(Combined Maths, Sci & Social TM) | `official_editions/2026-27/term2/vol2_maths_sci_soc_tm` |
+| `c03-t2-vol2-em` | Term-II | **VOL-II (MATHS, SCIENCE & SOCIAL)** | English (EM) | **168** | [Official CDN Book Link](https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/MATHS%2C%20SCIENCE%20%26%20SOCIAL_3_II_VOL-II_EM.pdf#page=2) | `d8ac8dd0bf9618feabc314ad6c7fe7a07a04739fdd468df378f3ae8fd04c9e05` | `VISUAL_REVIEW_PENDING`<br>(OCR: Image-only / No searchable text; requires visual PDF inspection) | `MANUAL_REVIEW_REQUIRED`<br>(Combined Maths, Sci & Social EM) | `official_editions/2026-27/term2/vol2_maths_sci_soc_em` |
 
 ### B. Unreleased Books — Term 3 (3 Books / Pending SCERT Distribution)
 
@@ -66,7 +75,20 @@ All Official SHA-256 hashes are extracted directly from the verified `edition.js
 
 ---
 
-## 4. Current Legacy Baseline Content Breakdown (`tn-class-03/main`)
+## 4. Special Audit Case: Term 2 Vol 1 Upstream API Metadata Conflict (`SOURCE_METADATA_CONFLICT`)
+
+During cross-verification of official branch metadata, a discrepancy between the SCERT live API response and the actual official textbook artifact was detected:
+
+* **File Location on Audit Branch:** `official_editions/2026-27/term2/vol1_tamil_english/`
+* **`edition.json` Subject:** `VOL-I (TAMIL & ENGLISH)`
+* **`source_record.json` API Subject:** `VOL-I (MATHS, SCIENCE & SOCIAL)`
+* **Official Filename:** `TAMIL & ENGLISH_3_II_VOL-I.pdf`
+* **Official CDN URL:** `https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/TAMIL & ENGLISH_3_II_VOL-I.pdf`
+* **Audit Finding:** The upstream EMIS/SCERT API database incorrectly populated the `subject` string as `MATHS, SCIENCE & SOCIAL` for index record 22. However, the physical downloaded PDF, filename, and `edition.json` confirm the book is the **Tamil & English Combined Volume I**. Both records are retained as audit evidence; no data was arbitrarily overwritten.
+
+---
+
+## 5. Current Legacy Baseline Content Breakdown (`tn-class-03/main`)
 
 Total files on `main`: **1,473 files**
 
@@ -100,7 +122,7 @@ Total files on `main`: **1,473 files**
 
 ---
 
-## 5. Comprehensive 2026 Combined Volume to Legacy Subject Folder Mapping
+## 6. Comprehensive 2026 Combined Volume to Legacy Subject Folder Mapping
 
 Every 2026 combined textbook is mapped directly to its legacy antecedent subject directories, including verified Page 2 links on `main` and on the 2026 `audit` branch:
 
@@ -160,10 +182,10 @@ Every 2026 combined textbook is mapped directly to its legacy antecedent subject
 
 ---
 
-## 6. Migration Execution Directives & Protocol Safeguards
+## 7. Migration Execution Directives & Protocol Safeguards
 
 1. **Isolation of Legacy Questions:** The 139 legacy `questions.md` files belong strictly to the 2018–2022 curriculum and must be transferred exclusively to `Eaglesiva/tn-class-03-archive` under `legacy-2018-2022/`. They must NEVER be copied or merged into the 2026 book directories.
-2. **Visual Review for Term 2 Page-2 Imprints:** Term 2 volumes (`vol1_tamil_english`, `vol2_maths_sci_soc_tm`, `vol2_maths_sci_soc_em`) have raster/image-only Page 2 imprints. Visual review confirms they are 2026 First Editions, but OCR text cannot be verified automatically.
+2. **Visual Review Pending for Term 2 Page-2 Imprints:** Term 2 volumes (`vol1_tamil_english`, `vol2_maths_sci_soc_tm`, `vol2_maths_sci_soc_em`) have raster/image-only Page 2 imprints without extractable text. They remain strictly classified as `VISUAL_REVIEW_PENDING` until direct visual verification is completed. No speculative confirmation is permitted.
 3. **Combined Books TOC & Subject Boundary Requirement:** All 6 released books are combined multi-subject volumes. Individual subject routing requires manual review of lesson boundaries as recorded in `toc.json`.
 4. **Mandatory UI & Viewer Routing Gate:** Before any merge to `main`, `index.html` and `viewer.html` must be verified on a dedicated fix/migration branch to ensure zero 404 links, automatic detection of `pages.json`, and seamless sequential page navigation for `page-001.pdf`.
 5. **Strict Pre-Execution Boundary:** Steps 2 through 10 remain on HOLD until this Step 0 & Step 1 Draft Register is thoroughly reviewed and approved by the user.
