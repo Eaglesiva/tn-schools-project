@@ -11,6 +11,7 @@ This is the central control repository for the Tamil Nadu SCERT textbook, Book-b
 - [Master cross-verification index — Classes 1–12](docs/03-edition-register/MASTER_CROSS_VERIFICATION_INDEX.md)
 - [Edition register](docs/03-edition-register/README.md)
 - [Audit evidence index — Classes 1–12](docs/07-audit-evidence/README.md)
+- [Archive policy](docs/04-quality-control/ARCHIVE_POLICY.md)
 - [Cloudflare deployment policy](docs/04-quality-control/CLOUDFLARE_DEPLOYMENT_POLICY.md)
 
 Class-specific books and quizzes stay in their respective `tn-class-XX` repositories. Historical editions go to `tn-class-XX-archive`. This repository stores common rules, registers, progress and links to evidence; it is not a production Pages source.
