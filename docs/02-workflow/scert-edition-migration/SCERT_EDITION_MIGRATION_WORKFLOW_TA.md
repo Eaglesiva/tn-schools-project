@@ -254,23 +254,18 @@ Draft Register முடிந்த பிறகு:
 
 இதனால் PDF Content-ஐ மீண்டும் Download / Upload செய்ய வேண்டியதில்லை. அதே Repository-க்குள் Path மட்டும் மாறுகிறது.
 
-#### B. ஒரு Repository-லிருந்து மற்றொரு Repository-க்கு Archive Transfer மற்றும் மூலக் கோப்புகள் நீக்குதல் விதி
+#### B. ஒரு Repository-லிருந்து மற்றொரு Repository-க்கு Archive Transfer மற்றும் பாதுகாப்பான நீக்குதல் நெறிமுறை
 
-1. **Archive Ingestion:** Source Repository-யின் `main` கிளையிலிருந்து பழைய பாடநூல் கோப்புகளை (PDFs, questions.md, pages.json) மட்டும் Archive Repository-யின் `migration/class-XX-legacy-import` கிளைக்கு `legacy-2018-2022/` கீழ் நகலெடுக்கவும்.
-2. **பாதுகாப்பு விதி (Source Delete Gate):** Active Repository-ல் உள்ள பழைய பாடக் கோப்பகங்களை (`tamil/`, `english/` போன்றவை) நீக்குவதற்கு முன்பாக, Archive-க்கு சென்ற அனைத்துக் கோப்புகளும் 100% Git Blob SHA பொருத்தத்துடன் பாதுகாக்கப்பட்டுவிட்டன என்பதைத் தணிக்கை செய்து உறுதிப்படுத்த வேண்டும். தணிக்கை வெற்றி பெறாமல் Active-ல் மூலக் கோப்புகளை நீக்கக்கூடாது.
+இது இரண்டு களஞ்சியங்களுக்கு இடையே பழைய பாடநூல் கோப்புகளைப் பாதுகாப்பாக இடமாற்றம் செய்வதற்கான ஒற்றைத் தொடர் செயல்முறையாகும்:
 
-1. Source Repository-யின் குறிப்பிட்ட Branch Tree-ஐ வாசிக்கவும்.
-2. தேவையான Legacy Folder-கள் மற்றும் Blob SHA-களை மட்டும் பட்டியலிடவும்.
-3. Destination Archive Repository-யில் அதே Content-ஐ Blob-ஆகப் பதிவு செய்யவும்.
-4. முழு Legacy Folder Structure-ஐ Destination Tree-ல் உருவாக்கவும்.
-5. ஒரே Batch Commit உருவாக்கவும்.
-6. Destination Branch-ஐ புதுப்பிக்கவும்.
-7. Source / Destination Path எண்ணிக்கை மற்றும் Blob SHA-களை ஒப்பிடவும்.
-8. எல்லா கோப்புகளும் Destination-ல் சரியாக உள்ளன என்று உறுதிப்படுத்திய பிறகே Source Migration Branch-ல் பழைய Path-களை நீக்கவும்.
-
-Cross-repository transfer-க்கு இரண்டு Repository-களுக்கும் தனித்தனி Git Object Database உள்ளது. எனவே புதிய Repository-யில் Blob பதிவு தேவைப்படலாம். ஆனால் இதற்காக பயனரின் கணினிக்கு கோப்புகளை Download செய்யக்கூடாது.
-
-**API அளவு / Rate Limit / Binary Limit காரணமாக இயலவில்லை என்றால் நிறுத்தவும்.** Local Clone வழியாக மாற்று முயற்சி செய்யக்கூடாது. தேவையானால் GitHub-hosted Cloud Runner வழியை முன்மொழிந்து அனுமதி பெறவும்.
+1. **Source தரவுப் பெறுதல்:** Active Repository-யின் main கிளையிலிருந்து பழைய பாடநூல் கோப்புகளின் (PDFs, questions.md, pages.json) பட்டியல் மற்றும் Blob SHA-கள் GitHub REST API மூலம் படிக்கப்படுகின்றன.
+2. **In-Memory Streaming Transfer:** பயனரின் கணினிக்கு எந்தவொரு கோப்பையும் பதிவிறக்கம் செய்யாமல், GitHub API வழியே Destination Archive Repository-யின் migration/class-XX-legacy-import கிளைக்கு legacy-2018-2022/ கீழ் Blobs மற்றும் Tree நேரடியாக உருவாக்கப்படுகின்றன.
+3. **100% SHA Integrity Audit:** இடமாற்றம் செய்யப்பட்ட அனைத்துக் கோப்புகளும் (1,176 அல்லது 1,462 கோப்புகள்) Source மற்றும் Destination-ல் ஒப்பிடப்பட்டு, 100% Blob SHA சமநிலை, 0 Mismatch, 0 Missing என்பது தணிக்கை செய்யப்படுகிறது.
+4. **மூலக் கோப்புகள் நீக்குதல் கட்டுப்பாடு (Source Deletion Gate):**
+   - **முக்கிய விதி:** Active Repository-யின் main கிளையில் நேரடியாக எந்தவொரு பழைய கோப்பும் நீக்கப்படக்கூடாது.
+   - Archive Copy மற்றும் SHA தணிக்கை 100% வெற்றி பெற்றதாகப் பயனர் ஒப்புதல் அளித்த பிறகே, Active Repository-ன் பிரத்யேக **Active Migration Branch**-ல் (migration/class-XX-edition-upgrade) பழைய பாடக் கோப்பகங்கள் (	amil/, english/, maths_tm/, social_science_tm/ போன்றவை) நீக்கப்பட வேண்டும்.
+   - Active Repository-ன் Infrastructure கோப்புகள் (HTML, JS, Docs, CSV) ஒருபோதும் நீக்கப்படக்கூடாது.
+5. **Two-Step Merge Gate:** Archive Main Merge (Step 8.1) முதலில் நிறைவேற்றப்பட்டு உறுதி செய்யப்பட்ட பிறகே, Active Migration Branch (Step 8.2) Active Main-ல் Merge செய்யப்பட வேண்டும்.
 
 #### C. New Edition Promotion
 
