@@ -10,7 +10,7 @@
 |---:|---:|---|
 | 1 | 6 | [Open Class 1 register](class-01/edition-verification-register.md) — ✅ **Merged to Main** |
 | 2 | 6 | [Open Class 2 register](class-02/edition-verification-register.md) — ✅ **Merged to Main** |
-| 3 | 6 | [Draft Register](class-03/edition-verification-register-draft.md) · [Visual Review & Precheck Report](class-03/visual-review-and-precheck-report.md) — ⏳ **UI Precheck In Progress (Precheck Branch 2ef5c90)** |
+| 3 | 6 | [Draft Register](class-03/edition-verification-register-draft.md) · [Visual Review & Precheck Report](class-03/visual-review-and-precheck-report.md) — ⏳ **UI Precheck Complete (Precheck Branch b1bf4ab)** |
 | 4 | 3 | [Open Class 4 register](class-04/edition-register.md) |
 | 5 | 3 | [Open Class 5 register](class-05/edition-register.md) |
 | 6 | 5 | [Open Class 6 register](class-06/edition-register.md) |
@@ -124,7 +124,7 @@ Audit commit: `6acadd30bd7b71c61e3a2de3bbec7bcf4db9c668`
 Main baseline commit: `a7206fe321a8c93463056a65fbc73f8a5cee907a`  
 Audit date: 2026-11-04
 
-| Book / Term / Medium | Official pages | Main pages | Official Page-2 imprint | Audit comparison | New edition proof | Pre-Migration Baseline Proof (Historical Commit 980977c) |
+| Book / Term / Medium | Official pages | Main pages | Official Page-2 imprint | Audit comparison | New edition proof | Active Repository Baseline (Current Main a7206fe) |
 |---|---:|---:|---|---|---|---|
 | VOL-I (TAMIL & ENGLISH) / Term-I / Tamil | 168 | 138 | மாநிலாக் கல்வியியல் ஆராய்ச்சி மற்றும்  பயிற்சி நிறுைனம் © SCERT 2026 உருவாாக்கமும் பொதாகுப்பும் | DIFFERENT / DIFFERENT | [Page 2](https://github.com/Eaglesiva/tn-class-03/blob/6acadd30bd7b71c61e3a2de3bbec7bcf4db9c668/official_editions/2026-27/term1/vol1_tamil_english/pages/page-002.pdf)<br>[pages.json](https://github.com/Eaglesiva/tn-class-03/blob/6acadd30bd7b71c61e3a2de3bbec7bcf4db9c668/official_editions/2026-27/term1/vol1_tamil_english/pages.json) | [tamil/term1](https://github.com/Eaglesiva/tn-class-03/blob/a7206fe321a8c93463056a65fbc73f8a5cee907a/tamil/term1/00_prelims/page_02.pdf)<br>[english/term1](https://github.com/Eaglesiva/tn-class-03/blob/a7206fe321a8c93463056a65fbc73f8a5cee907a/english/term1/00_prelims/page_02.pdf) |
 | VOL-II (MATHS, SCIENCE & SOCIAL) / Term-I / Tamil | 184 | 180 | II தமிழ்நாடு அரசு முதல் பதிப்பு  - 2026 | DIFFERENT / DIFFERENT | [Page 2](https://github.com/Eaglesiva/tn-class-03/blob/6acadd30bd7b71c61e3a2de3bbec7bcf4db9c668/official_editions/2026-27/term1/vol2_maths_sci_soc_tm/pages/page-002.pdf)<br>[pages.json](https://github.com/Eaglesiva/tn-class-03/blob/6acadd30bd7b71c61e3a2de3bbec7bcf4db9c668/official_editions/2026-27/term1/vol2_maths_sci_soc_tm/pages.json) | [maths_tm/term1](https://github.com/Eaglesiva/tn-class-03/blob/a7206fe321a8c93463056a65fbc73f8a5cee907a/maths_tm/term1/00_prelims/page_02.pdf)<br>[science_tm/term1](https://github.com/Eaglesiva/tn-class-03/blob/a7206fe321a8c93463056a65fbc73f8a5cee907a/science_tm/term1/00_prelims/page_02.pdf)<br>[social_science_tm/term1](https://github.com/Eaglesiva/tn-class-03/blob/a7206fe321a8c93463056a65fbc73f8a5cee907a/social_science_tm/term1/00_prelims/page_02.pdf) |
@@ -138,7 +138,7 @@ The audit branch stores six official 2026 Term-I/II combined books. The manifest
 
 Some Page-2 text is image-only or imperfectly extracted; this is not a reason to guess the imprint. Review the linked PDF directly. Term-III materials recorded as HTTP 403 in the 2026-11-04 audit must remain pending until official sources are refreshed.
 
-Do not archive main files until new edition routes and Book-back links are tested. Preserved evidence: [Visual Review & Precheck Report](class-03/visual-review-and-precheck-report.md) (Commit `2ef5c90`), [audit summary](../../07-audit-evidence/class-03/class-03-audit-summary.md) and [audit manifest](../../07-audit-evidence/class-03/class-03-audit-manifest.csv).
+Do not archive main files until new edition routes and Book-back links are tested. Preserved evidence: [Visual Review & Precheck Report](class-03/visual-review-and-precheck-report.md) (Commit `b1bf4ab`), [audit summary](../../07-audit-evidence/class-03/class-03-audit-summary.md) and [audit manifest](../../07-audit-evidence/class-03/class-03-audit-manifest.csv).
 
 Links point to the exact Page-2 split and page map at the recorded audit commit. The Page-2 imprint text is transcribed from the source manifest, not visually screen-reviewed in this workspace.
 
