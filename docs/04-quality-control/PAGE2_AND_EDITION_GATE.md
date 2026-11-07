@@ -22,6 +22,14 @@
 - Successfully split PDFs do not prove the pages match the previous edition.
 - A 403 on an official PDF is a blocked/unavailable source at the time checked; it does not authorize using an older book as if it were the new edition.
 
+## Two-copy decision rule (mandatory)
+
+- Page 2-ஐ ஒவ்வொரு candidate PDF-க்கும் திறந்து exact imprint / printed year-ஐப் பதிவு செய்யவும். Page 2 வேறுபாடு old/new candidate-ஐ அடையாளம் காட்ட உதவும்.
+- இரண்டும் ஒரே edition/year என்று Page 2 காட்டினால், Archive முடிவுக்கு முன் முழு content identity-ஐ 100% சரிபார்க்கவும்: master SHA-256 அல்லது எல்லா page Blob SHA-கள், page count/order, manifest, TOC மற்றும் book-back பகுதிகள்.
+- 100% identical என்றால் ஒரு canonical copy மட்டும் Active-ல் இருக்கும்; duplicate Archive-க்கு செல்லாது (`IDENTICAL_DUPLICATE_NO_ARCHIVE`).
+- Same imprint இருந்தும் content வேறுபட்டால் `SAME_EDITION_CONTENT_MISMATCH_REVIEW`; automatic old/new split அல்லது deletion தடை.
+- ஒரே புத்தகம் மட்டும் இருந்தால் அதன் official current status-ஐ உறுதி செய்து `SINGLE_CURRENT_EDITION`, `LEGACY_ONLY_RELEASE_PENDING` அல்லது `EDITION_UNVERIFIED` என்று தெளிவாகப் பதிவு செய்யவும்.
+
 ## Page-2 link format
 
 For audit branches, prefer commit links:
