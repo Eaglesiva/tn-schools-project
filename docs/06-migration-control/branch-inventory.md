@@ -1,7 +1,8 @@
 # Branch Inventory — Before Consolidation
 
-**Checked:** 2026-11-07  
-**Policy:** Preserve all listed branches until their unique files have been catalogued, copied and verified.
+**Checked:** 2026-11-07 18:30 IST (live GitHub branch listing)  
+**Scope:** `Eaglesiva/tn-class-01` through `tn-class-12`. The branch search continuation cursors were exhausted for all 12 repositories.  
+**Policy:** Preserve all listed branches until their unique files have been catalogued, copied and verified. The inventory is a snapshot; re-check immediately before any branch mutation.
 
 | Repository | Non-main branches currently found | Initial role / handling |
 |---|---|---|
@@ -17,6 +18,17 @@
 | `tn-class-10` | `content/class10-tamil-iyal1-answer-guide-2026-11-05`; `content/class10-tamil-iyal1-answers-quiz-2026-11-04`; `feature/scert-edition-pilot`; `scert/class-10/audit-2026-27`; `scert/class-10/official-version-updates`; `scert/master-edition-tracking`; `scert/refresh/class-10` | Contains recent Tamil answers/quiz work, edition pilot, audit, official version splits, master tracker and refresh evidence; none may be deleted or bulk-merged |
 | `tn-class-11` | `scert/class-11/audit-2026-27`; `scert/class-11/official-version-updates` | Contains audit and 2026–27 official edition sets; preserve |
 | `tn-class-12` | `scert/class-12/audit-2026-27`; `scert/class-12/official-version-updates`; `scert/refresh/class-12` | Contains audit, official update sets and refresh evidence; preserve |
+
+## Live inventory result
+
+- All 12 current class repositories have a `main` branch.
+- Classes 1–8 each currently show one non-main SCERT audit branch.
+- Class 9 shows two non-main branches.
+- Class 10 shows seven non-main branches, including two active Tamil content branches that must be reconciled separately from edition work.
+- Class 11 shows two non-main branches.
+- Class 12 shows three non-main branches.
+- Common repository `tn-schools-project` currently shows only `main`.
+- Total observed current-class branches: 12 `main` + 20 non-main = 32 branches. This count excludes the 12 archive repositories.
 
 ## Consolidation rule
 
