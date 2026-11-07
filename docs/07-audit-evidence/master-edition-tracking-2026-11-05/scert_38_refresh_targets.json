@@ -1,0 +1,344 @@
+[
+  {
+    "class": "9",
+    "subject": "Mathematics",
+    "medium": "English",
+    "filename": "9th_Maths_EM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/9th_Maths_EM_Text.pdf",
+    "expected_pages": 328,
+    "local_folder": "maths_em"
+  },
+  {
+    "class": "9",
+    "subject": "Science",
+    "medium": "Tamil",
+    "filename": "9th_Science_TM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/9th_Science_TM_Text.pdf",
+    "expected_pages": 336,
+    "local_folder": "science_tm"
+  },
+  {
+    "class": "9",
+    "subject": "Science",
+    "medium": "English",
+    "filename": "9th_Science_EM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/9th_Science_EM_Text.pdf",
+    "expected_pages": 328,
+    "local_folder": "science_em"
+  },
+  {
+    "class": "9",
+    "subject": "Social Science",
+    "medium": "Tamil",
+    "filename": "9th_Social Science_TM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/9th_Social Science_TM_Text.pdf",
+    "expected_pages": 344,
+    "local_folder": "social_science_tm"
+  },
+  {
+    "class": "9",
+    "subject": "Social Science",
+    "medium": "English",
+    "filename": "9th_Social Science_EM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/9th_Social Science_EM_Text.pdf",
+    "expected_pages": 328,
+    "local_folder": "social_science_em"
+  },
+  {
+    "class": "10",
+    "subject": "English",
+    "medium": "English",
+    "filename": "10th_English_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/10th_English_Text.pdf",
+    "expected_pages": 224,
+    "local_folder": "english"
+  },
+  {
+    "class": "12",
+    "subject": "General Tamil",
+    "medium": "Tamil",
+    "filename": "12th_Genreal%20Tamil.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Genreal%20Tamil.pdf",
+    "expected_pages": 240,
+    "local_folder": "tamil"
+  },
+  {
+    "class": "12",
+    "subject": "General English",
+    "medium": "English",
+    "filename": "12th_General%20English_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_General%20English_Text.pdf",
+    "expected_pages": 248,
+    "local_folder": "english"
+  },
+  {
+    "class": "12",
+    "subject": "Mathematics (Vol I)",
+    "medium": "Tamil",
+    "filename": "12th_Maths_Vol-1_Tamil%20Medium_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Maths_Vol-1_Tamil%20Medium_Text.pdf",
+    "expected_pages": 336,
+    "local_folder": "maths_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Mathematics (Vol II)",
+    "medium": "Tamil",
+    "filename": "12th_Maths_Vol-2_Tamil%20Meduim_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Maths_Vol-2_Tamil%20Meduim_Text.pdf",
+    "expected_pages": 288,
+    "local_folder": "maths_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Mathematics (Vol I)",
+    "medium": "English",
+    "filename": "12th_Maths_Vol-1_English%20Meduim_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Maths_Vol-1_English%20Meduim_Text.pdf",
+    "expected_pages": 304,
+    "local_folder": "maths_em"
+  },
+  {
+    "class": "12",
+    "subject": "Mathematics (Vol II)",
+    "medium": "English",
+    "filename": "12th_Maths_Vol-2_English%20Meduim_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Maths_Vol-2_English%20Meduim_Text.pdf",
+    "expected_pages": 272,
+    "local_folder": "maths_em"
+  },
+  {
+    "class": "12",
+    "subject": "Physics (Vol I)",
+    "medium": "Tamil",
+    "filename": "12th_Physics_Vol-1_Tamil%20Medium_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Physics_Vol-1_Tamil%20Medium_Text.pdf",
+    "expected_pages": 352,
+    "local_folder": "physics_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Physics (Vol II)",
+    "medium": "Tamil",
+    "filename": "12th_Physics_Vol-2_Tamil%20Medium_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Physics_Vol-2_Tamil%20Medium_Text.pdf",
+    "expected_pages": 312,
+    "local_folder": "physics_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Physics (Vol II)",
+    "medium": "English",
+    "filename": "12th_Physics_Vol-2_English%20Medium_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Physics_Vol-2_English%20Medium_Text.pdf",
+    "expected_pages": 296,
+    "local_folder": "physics_em"
+  },
+  {
+    "class": "12",
+    "subject": "Chemistry (Vol I)",
+    "medium": "Tamil",
+    "filename": "12th_Chemistry-Vol-1_Tamil%20Medium_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Chemistry-Vol-1_Tamil%20Medium_Text.pdf",
+    "expected_pages": 328,
+    "local_folder": "chemistry_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Chemistry (Vol II)",
+    "medium": "Tamil",
+    "filename": "12th_Chemistry-Vol-2_Tamil%20Medium_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Chemistry-Vol-2_Tamil%20Medium_Text.pdf",
+    "expected_pages": 344,
+    "local_folder": "chemistry_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Chemistry (Vol II)",
+    "medium": "English",
+    "filename": "12th_Chemistry-Vol-2_English%20Medium_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Chemistry-Vol-2_English%20Medium_Text.pdf",
+    "expected_pages": 328,
+    "local_folder": "chemistry_em"
+  },
+  {
+    "class": "12",
+    "subject": "Botany",
+    "medium": "Tamil",
+    "filename": "12th_Botany_TM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Botany_TM_Text.pdf",
+    "expected_pages": 336,
+    "local_folder": "botany_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Botany",
+    "medium": "English",
+    "filename": "12th_Botany_EM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Botany_EM_Text.pdf",
+    "expected_pages": 312,
+    "local_folder": "botany_em"
+  },
+  {
+    "class": "12",
+    "subject": "Zoology",
+    "medium": "Tamil",
+    "filename": "12th_Zoology_TM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Zoology_TM_Text.pdf",
+    "expected_pages": 336,
+    "local_folder": "zoology_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Zoology",
+    "medium": "English",
+    "filename": "12th_Zoology_EM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Zoology_EM_Text.pdf",
+    "expected_pages": 280,
+    "local_folder": "zoology_em"
+  },
+  {
+    "class": "12",
+    "subject": "Bio-Zoology",
+    "medium": "Tamil",
+    "filename": "12th_Bio-Zoology_TM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Bio-Zoology_TM_Text.pdf",
+    "expected_pages": 312,
+    "local_folder": "bio_zoology_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Bio-Zoology",
+    "medium": "English",
+    "filename": "12th_Bio-Zoology_EM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Bio-Zoology_EM_Text.pdf",
+    "expected_pages": 264,
+    "local_folder": "bio_zoology_em"
+  },
+  {
+    "class": "12",
+    "subject": "Computer Science",
+    "medium": "Tamil",
+    "filename": "12th_Computer%20Science_TM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Computer%20Science_TM_Text.pdf",
+    "expected_pages": 360,
+    "local_folder": "computer_science_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Computer Science",
+    "medium": "English",
+    "filename": "12th_Computer%20Science_EM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Computer%20Science_EM_Text.pdf",
+    "expected_pages": 360,
+    "local_folder": "computer_science_em"
+  },
+  {
+    "class": "12",
+    "subject": "Commerce",
+    "medium": "Tamil",
+    "filename": "12th_Commerce_TM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Commerce_TM_Text.pdf",
+    "expected_pages": 288,
+    "local_folder": "commerce_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Commerce",
+    "medium": "English",
+    "filename": "12th_Commerce_EM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Commerce_EM_Text.pdf",
+    "expected_pages": 288,
+    "local_folder": "commerce_em"
+  },
+  {
+    "class": "12",
+    "subject": "Accountancy",
+    "medium": "Tamil",
+    "filename": "12th_Accountancy_TM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Accountancy_TM_Text.pdf",
+    "expected_pages": 368,
+    "local_folder": "accountancy_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Accountancy",
+    "medium": "English",
+    "filename": "12th_Accountancy_EM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Accountancy_EM_Text.pdf",
+    "expected_pages": 368,
+    "local_folder": "accountancy_em"
+  },
+  {
+    "class": "12",
+    "subject": "Economics",
+    "medium": "Tamil",
+    "filename": "12th_Economics_TM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Economics_TM_Text.pdf",
+    "expected_pages": 336,
+    "local_folder": "economics_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Economics",
+    "medium": "English",
+    "filename": "12th_Economics_EM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Economics_EM_Text.pdf",
+    "expected_pages": 296,
+    "local_folder": "economics_em"
+  },
+  {
+    "class": "12",
+    "subject": "History",
+    "medium": "Tamil",
+    "filename": "12th_History_TM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_History_TM_Text.pdf",
+    "expected_pages": 312,
+    "local_folder": "history_tm"
+  },
+  {
+    "class": "12",
+    "subject": "History",
+    "medium": "English",
+    "filename": "12th_History_EM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_History_EM_Text.pdf",
+    "expected_pages": 272,
+    "local_folder": "history_em"
+  },
+  {
+    "class": "12",
+    "subject": "Geography",
+    "medium": "Tamil",
+    "filename": "12th_Geography_TM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Geography_TM_Text.pdf",
+    "expected_pages": 232,
+    "local_folder": "geography_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Geography",
+    "medium": "English",
+    "filename": "12th_Geography_EM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Geography_EM_Text.pdf",
+    "expected_pages": 216,
+    "local_folder": "geography_em"
+  },
+  {
+    "class": "12",
+    "subject": "Political Science",
+    "medium": "Tamil",
+    "filename": "12th_Political%20Science%20TM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Political%20Science%20TM_Text.pdf",
+    "expected_pages": 360,
+    "local_folder": "political_science_tm"
+  },
+  {
+    "class": "12",
+    "subject": "Political Science",
+    "medium": "English",
+    "filename": "12th_Political%20Science%20EM_Text.pdf",
+    "official_url": "https://d21mc000xink7q.cloudfront.net/scert/textbook/syllabuspdf/12th_Political%20Science%20EM_Text.pdf",
+    "expected_pages": 328,
+    "local_folder": "political_science_em"
+  }
+]
