@@ -31,3 +31,32 @@ The 2026-11-04 audit record says the three in-scope official Term-III files retu
 - Retain all evidence in [the copied audit summary](../../07-audit-evidence/class-01/class-01-audit-summary.md) and [the audit manifest](../../07-audit-evidence/class-01/class-01-audit-manifest.csv).
 
 **Page-2 note:** links above point directly to the actual Page-2 split PDFs. The imprint text is copied from the audit manifest; direct visual screenshot review was not available in this workspace.
+
+
+---
+
+## Repository integrity check — 2026-11-07
+
+This check validates the committed Git structure and page-manifest continuity. It does **not** replace the original PDF visual review or the pending TOC / viewer approval.
+
+| Check | Result | Evidence |
+|---|---|---|
+| Production `main` snapshot | 1,441 tree entries; 1,062 PDF assets | [main snapshot](https://github.com/Eaglesiva/tn-class-01/tree/447bb8055069f8b86699c49fa3a019596c154317) |
+| Audit branch snapshot | 2,348 tree entries; 1,910 PDF assets in total | [audit commit](https://github.com/Eaglesiva/tn-class-01/tree/838d5c2f335810ed95753327fe0a0b94ad298a63) |
+| Official 2026–27 edition folders | 6 found | `official_editions/2026-27/` |
+| Page manifests | All 6 `pages.json` files list the expected sequential `page-001.pdf` through final page | Audit commit above |
+| Split page files | 848 expected; 848 present; 0 missing | 176 + 144 + 144 + 144 + 120 + 120 |
+| TOC metadata | All 6 `toc.json` files exist; all remain `MANUAL_REVIEW_REQUIRED` | Per-volume `toc.json` |
+| Branch relationship | Diverged: audit branch is 18 commits ahead and 8 behind `main` | GitHub compare: [main...audit branch](https://github.com/Eaglesiva/tn-class-01/compare/main...scert/class-01/audit-2026-27-term1-vol1) |
+| Archive repository | README only; no archived book/page assets | [tn-class-01-archive](https://github.com/Eaglesiva/tn-class-01-archive) |
+
+### Interpretation
+
+1. The six new 2026–27 Term-I/II edition page sets are structurally present and their page filenames are continuous. This validates repository file presence and manifest order only; it is **not** a new independent renderability or visual comparison test.
+2. Every new combined volume still has unresolved subject/unit boundaries. The stored `toc.json` files explicitly say `MANUAL_REVIEW_REQUIRED`; therefore production viewer routing is not approved.
+3. The audit branch is not a clean fast-forward candidate for `main`. Do not merge it wholesale: it contains 848 new official split pages and audit automation, while the histories have diverged.
+4. No legacy book files have been copied to the archive repository. The archive approval gate remains unmet.
+
+**Current decision remains PENDING.** Next Class 1 work is one volume at a time: visually inspect its official Page 2, verify its TOC and exact subject/page boundaries against the printed book, map Book-back material, then test the proposed viewer route. Recheck the live official API before deciding the three Term-III records; the HTTP 403 entries in the 2026-11-04 audit are historical results, not a fresh 2026-11-07 check.
+
+No production PDF, existing main page manifest, viewer file, quiz or answer file was changed by this integrity check.
