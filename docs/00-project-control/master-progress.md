@@ -1,0 +1,40 @@
+# Master Progress — TN Schools Classes 1–12
+
+**Snapshot:** 2026-11-07  
+**Status:** Inventory and evidence-centralization in progress. No production book has been replaced and no historical branch has been deleted.
+
+## Class-by-class edition position
+
+| Class | What the repository audit currently shows | Safe interim decision |
+|---|---|---|
+| 1 | The audit branch contains 6 official 2026 Term-I/II combined books (Tamil+English and Maths+EVS, Tamil/English) that differ from the old main page sets. Term-III official files returned 403 in the 2026-11-04 audit. | New T1/T2 editions are candidates for current production, but the combined-volume TOC/viewer mapping must be checked first. Keep old T3 until official replacement is verified. |
+| 2 | The audit branch contains 6 official 2026 Term-I/II combined books. One T1 Tamil+English volume has the same Page-2 imprint as the local copy but 46 pages differ; other new volumes differ by imprint/page count/content. Term-III returned 403 in the audit. | Use the official T1/T2 editions after TOC/viewer mapping. Retain T3 old pages for now. |
+| 3 | The audit branch contains official 2026 T1/T2 combined books with different content/page counts from main. T3 distribution was not available in the audit snapshot. | T1/T2 candidates; review combined TOC and viewer paths before production. Retain unreleased T3 material. |
+| 4 | Three official 2026 Term-I books are in the audit branch. T1 Tamil+English has the same Page-2 imprint and page count as main, but the full comparison differs. T2/T3 official PDFs returned 403 in the audit. | T1 candidate only after viewer mapping; keep old T2/T3 until verified replacements are available. |
+| 5 | Three official 2026 Term-I books are in the audit branch; all differ from main despite some similar/same Page-2 imprint text. T2/T3 official PDFs returned 403 in the audit. | T1 candidate only after viewer mapping; retain old T2/T3 for now. |
+| 6 | Five official 2026 Term-I books (Tamil+English, Maths TM/EM, Science+Social TM/EM) are in the audit branch. Several have the same 2018 Page-2 imprint and page count but different complete content. T2/T3 returned 403 in the audit. | T1 candidate only after combined-book TOC/viewer mapping; keep old T2/T3. |
+| 7 | Five official 2026 Term-I books are in the audit branch. Maths T1 books have same Page-2 imprint/page count as main but full content differs; other combined books differ too. T2/T3 returned 403 in the audit. | T1 candidate only after viewer mapping; keep old T2/T3. |
+| 8 | All 8 official 2026–27 full-year books are in the audit branch. Page counts and some Page-2 imprints match main, but whole-book comparisons are recorded as different. | New full-year books are current-edition candidates; verify page links/subject mapping before switching production. |
+| 9 | All 8 books in main match the official 2024 Reprint Page-2 imprint and page counts (2,504 pages total). Full page-by-page content diff is still pending. A separate refresh branch also exists. | Keep main as current for now; do not archive or replace. Complete full-content check before final SAME_VERSION status. |
+| 10 | Main has 8 annual books. Tamil is proven by official master SHA-256/MD5 match. Science/Social official split sets (1,432 pages) are on the official-version-updates branch but not fully compared with main. English and Maths remain pending. Content branches contain recent Tamil answer/quiz work. | Keep main production unchanged. Do not merge edition or content branches wholesale; reconcile unique question/answer work and compare science/social pages first. |
+| 11 | Audit records 4 main books as newer 2025 Revised, 4 as matching 2024 Reprint. 23 official update sets and 1 unresolved Chemistry EM Vol-1 mapping are on the official-version-updates branch (7,832 split pages). Full page-by-page diff against main is pending. | Keep main and update branch intact. Do not treat split validation as full content equivalence; resolve Chemistry EM Vol-1 API ambiguity. |
+| 12 | Audit records 32 books on main as matching 2024 Reprint imprint/page count. Physics EM Vol-1 and Chemistry EM Vol-1 differ from main and are stored as 648 official split pages on the update branch. Full page-by-page diff against main is pending. | Keep main and update branch intact until full page comparison and viewer mapping are complete. |
+
+## Evidence and verification limits
+
+- Existing audit manifests contain Page-2 imprint text, official URL, local Page-2 text, page counts, split paths, and comparison statuses for many classes.
+- Page-2 PDF links will be recorded per book in the class edition registers. The PDF viewer/screenshot interface was not available for direct visual screenshots in this workspace, so the Page-2 text currently cited here is the extracted audit-manifest evidence, not a claim that each PDF was visually opened during this consolidation.
+- Page-2 imprint alone is not an edition identity check. Some books have matching imprint/page count but different content. Full-page comparison, TOC and book-back mapping remain mandatory.
+- The audit manifests largely reflect evidence snapshots from 2026-11-04 to 2026-11-05. Current official API status should be refreshed before final sign-off, especially for books previously returning HTTP 403.
+
+## What has been done in the common repository
+
+- Central README and repository map added.
+- Common blueprint, Step 1–3 Book-back workflow and edition verification rules copied from class repositories.
+- Branch inventory recorded; no branches removed.
+- Cloudflare safe deployment policy documented; Cloudflare dashboard settings have not been changed.
+- Individual class audit summaries/manifests and precise Page-2 link registers are being copied and indexed.
+
+## Production safety state
+
+**No class main branch book files were changed by this consolidation. No Archive repository content was overwritten. No branch was merged or deleted.**
