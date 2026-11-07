@@ -60,3 +60,24 @@ This check validates the committed Git structure and page-manifest continuity. I
 **Current decision remains PENDING.** Next Class 1 work is one volume at a time: visually inspect its official Page 2, verify its TOC and exact subject/page boundaries against the printed book, map Book-back material, then test the proposed viewer route. Recheck the live official API before deciding the three Term-III records; the HTTP 403 entries in the 2026-11-04 audit are historical results, not a fresh 2026-11-07 check.
 
 No production PDF, existing main page manifest, viewer file, quiz or answer file was changed by this integrity check.
+
+
+---
+
+## Page-2 / TOC extraction update — 2026-11-07
+
+**Evidence report:** [Class 01 Page-2 and TOC extraction report](../../07-audit-evidence/class-01/class-01-page2-toc-extraction-2026-11-07.md)  
+**Source audit commit:** `838d5c2f335810ed95753327fe0a0b94ad298a63`
+
+All six split Page-2 files were confirmed as one-page PDFs. Text extraction or direct rendered-page inspection confirms **First Edition 2026** in all six books.
+
+| Volume | Page-2 imprint | TOC pages located | Remaining TOC work |
+|---|---|---|---|
+| Term-I VOL-I Tamil & English | First Edition 2026 | Tamil PDF p.10; English PDF p.98 | Confirm exact language boundary and page map |
+| Term-I VOL-II Tamil | First Edition 2026 | PDF p.7 | Locate/confirm separate EVS TOC |
+| Term-I VOL-II English | First Edition 2026 | Maths PDF p.7; EVS PDF p.86 | Verify printed page numbering and section boundaries |
+| Term-II VOL-I Tamil & English | First Edition 2026 | Tamil PDF p.10 | Locate English TOC |
+| Term-II VOL-II Tamil | First Edition 2026 | Maths PDF p.6 | Locate EVS TOC |
+| Term-II VOL-II English | First Edition 2026 | Maths PDF p.6 | Locate EVS TOC |
+
+**Current status:** Page-2 edition evidence is confirmed for all six books. TOC / subject-boundary evidence is partial. Keep production routing, active edition, and archive decisions **PENDING** until every combined subject section has a confirmed TOC and page-range map.
