@@ -85,6 +85,14 @@ API Limit, Binary Size Limit அல்லது Permission பிரச்சி
 
 ---
 
+### 2.6 Production Viewer & UI Routing கட்டாய விதி (Zero-Broken-Links Gate)
+
+- **Git Blob SHA Match மட்டும் ஒரு Migration-ஐ COMPLETE ஆக்காது.** PDF கோப்புகள் சரியாக இருந்தும் இணையதளத்தில் (index.html / viewer.html) அவற்றைத் திறக்க முடியவில்லை என்றால் அது தோல்வியடைந்த மைக்ரேஷன் ஆகும்.
+- `index.html`, `viewer.html`, `pages.json`, `toc.json` மற்றும் நேரடி PDF இணைப்புகள் அனைத்தும் **Production Routing Test**-ல் 100% PASS ஆக வேண்டும்.
+- புதிய கோப்பகப் பாதைகளையும் (`books/2026-27/...`), புதிய கோப்புப் பெயரிடும் முறையையும் (`page-001.pdf`) Viewer ஆதரிப்பது கட்டாயம்.
+- பழைய நீக்கப்பட்ட பாதைகள் (`./tamil/`, `./english/`, `./maths_tm/` போன்றவை) எங்கும் சுட்டப்படக்கூடாது. Default PDF ஒருபோதும் நீக்கப்பட்ட பாதையைக் கொண்டிருக்கக்கூடாது.
+- **எந்தவொரு முக்கிய UI Link-ம் 404 கொடுத்தால் Step 8 Main Merge-க்கு அனுமதி கிடையாது.**
+
 ## 3. Repository பொறுப்புகள்
 
 | Repository | பயன்பாடு |
@@ -295,6 +303,17 @@ Archive Branch மற்றும் Active Branch ஆகியவற்றை�
 - File Size / Page Count சமம் என்பதைக் Checksum Match என்று கூறக்கூடாது.
 - Audit-ல் பயன்படுத்திய Algorithm-ஐத் தெளிவாக எழுதவும்.
 
+
+#### D. Production UI & Viewer Routing Audit (கட்டாய Gate)
+1. **index.html Link Audit:** இணையதள முகப்பில் உள்ள அனைத்து `href` இணைப்புகளும் புதிய `books/2026-27/...` பாதைகளைச் சுட்டுகின்றனவா, அவற்றில் 404 கொடுக்கும் பழைய பாதைகள் ஏதேனும் உள்ளனவா என்று சோதிக்க வேண்டும்.
+2. **viewer.html Compatibility Audit:**
+   - Default PDF சரியான 2026 புத்தகத்தின் முதல் பக்கத்தைக் காட்டுகிறதா?
+   - `pages.json` சரியாகத் தானாகவே கண்டறியப்பட்டு (auto-detect) பக்க வரிசை இயங்குகிறதா?
+   - `page-001.pdf` போன்ற 3-இலக்க பெயர்களை regex சரியாக ஏற்கிறதா?
+   - முந்தைய / அடுத்த பக்கம் (Previous / Next) மற்றும் விசைப்பலகை அம்புக்குறிகள் (Arrow keys) சரியாக இயங்குகின்றனவா?
+   - அனைத்துப் புதிய புத்தகங்களிலும் பக்கம் 1, பக்கம் 2 (Imprint), கடைசிப் பக்கம் ஆகியவை திறக்கின்றனவா என்று சரிபார்க்கப்பட வேண்டும்.
+3. UI Audit 100% வெற்றி பெற்றதாக அறிக்கை சமர்ப்பிக்கப்படாமல் Step 8-க்குச் செல்லக்கூடாது.
+
 ### STEP 8 — பயனர் Approval மற்றும் Main Merge
 
 Main Merge-க்கு முன்:
@@ -310,31 +329,15 @@ Main Merge-க்கு முன்:
 
 Merge Commit SHA, Parent Commit SHA, Branch Name, Date, Merge Result ஆகியவற்றைச் சேமிக்கவும்.
 
-### STEP 9 — Central Register மற்றும் Link Update
+### STEP 9 — Central Register மற்றும் Documentation ஒத்திசைவு (Post-Merge Sync)
 
-Migration Merge முடிந்த பிறகு மட்டுமே Final Links புதுப்பிக்க வேண்டும்.
-
-ஒவ்வொரு புத்தகத்திற்கும்:
-
-- Official CDN PDF Link
-- Official CDN PDF + #page=2
-- புதிய Active GitHub PDF Link
-- புதிய Active GitHub Page 2 Link
-- புதிய Questions / Answers / Quiz Link
-- பழைய Archive GitHub PDF Link
-- பழைய Archive GitHub Page 2 Link
-- பழைய Questions / Answers / Quiz Archive Link
-- Final Repository / Main Branch / Folder Path
-- Migration Commit SHA
-
-**Links உருவாக்கும் விதி:**
-
-1. GitHub Tree / Contents API-ல் உண்மையாக உள்ள Path-ஐப் பெறு.
-2. அந்த Path-ஐப் பயன்படுத்தி Link உருவாக்கு.
-3. Link உண்மையாக திறக்கிறதா என்று Test செய்.
-4. /questions.md என்று ஊகிக்காதே. உண்மையான Path book_back_questions/questions.md என்றால் அதையே பயன்படுத்து.
-5. Link 404 கொடுத்தால் Register-ல் வெளியிடாதே.
-6. #page=2 Link-ன் அடிப்படை PDF சரியான புத்தகத்திற்குரியது என்பதை உறுதிசெய்.
+Main Merge முடிந்தவுடன் கீழ்கண்ட அனைத்து ஆவணங்களும் **ஒரே நேரத்தில் புதுப்பிக்கப்பட்டு உறுதிப்படுத்தப்பட வேண்டும்:**
+1. **Active Repo README (`tn-class-XX/README.md`):** பழைய பக்க எண்ணிக்கையை நீக்கி, 2026 First Edition புதிய புத்தகங்கள், பக்கங்கள் (824 verified pages போன்றவை) மற்றும் JSON மேனிஃபெஸ்ட்டுகளைப் பதிவு செய்ய வேண்டும்.
+2. **Archive Repo README (`tn-class-XX-archive/README.md`):** Pending தகவல்களை நீக்கி, Archive Main Merge Commit SHA மற்றும் பழைய கோப்புகளின் எண்ணிக்கையை (1,176 / 1,189) உறுதி செய்ய வேண்டும்.
+3. **Central Final Register (`tn-schools-project/.../edition-verification-register.md`):** Final Register-ஐ வெளியிட வேண்டும்.
+4. **Central Migration Audit Report (`.../edition-migration-audit-report.md`):** Main Merge Commit SHA-கள் (`bcf8c73`, `8c0f739` போன்றவை) மற்றும் Main Blob எண்ணிக்கையைச் சேர்க்க வேண்டும்.
+5. **Master Cross-Verification Index (`MASTER_CROSS_VERIFICATION_INDEX.md`):** வகுப்புப் பதிவேட்டின் இணைப்பையும், Updated Date மற்றும் Final Merged நிலையை மாற்ற வேண்டும்.
+6. **Archive Policy (`ARCHIVE_POLICY.md`):** முந்தைய காலி நிலையை நீக்கி, அந்தந்த வகுப்பின் உண்மையான Archive நிலையைப் பதிவு செய்ய வேண்டும்.
 
 ### STEP 10 — இறுதி Report மற்றும் Class Closure
 
@@ -415,7 +418,17 @@ Migration Merge முடிந்த பிறகு மட்டுமே Fina
 
 ---
 
-## 7. Class 01 Pilot-ல் கற்றுக்கொண்ட பாடங்கள்
+## 7. Pilot-ல் கற்றுக்கொண்ட பாடங்கள் (Class 01 & Class 02)
+
+### Class 02 Pilot-ல் கற்றுக்கொண்ட முக்கியமான பாடம் — Production Viewer & UI Routing பிழை
+- **பிரச்சினை:** Class 02-ல் கோப்புகள் அனைத்தும் Archive மற்றும் Active Repository-களில் 100% Git Blob SHA பொருத்தத்துடன் Merge செய்யப்பட்டன. ஆனால், `index.html`-ல் இருந்த 222 இணைப்புகள் நீக்கப்பட்ட பழைய `./tamil/...` போன்ற Subject Folder-களைச் சுட்டின (404 பிழை). மேலும், `viewer.html`-ல் Default PDF பழைய பாதையைச் சுட்டியதுடன், `page-001.pdf` என்ற புதிய 3-இலக்கப் பெயரமைப்பை ஆதரிக்காமல் முந்தைய/அடுத்த பக்க நகர்வு தடைபட்டது.
+- **கற்றுக்கொண்ட பாடம்:** 
+  1. PDF கோப்புகள் Branch-ல் சரியாக இருப்பது மட்டும் ஒரு பாடநூல் போர்ட்டலின் வெற்றியாகாது.
+  2. Main Merge செய்வதற்கு முன்பாக, இணையதள UI மற்றும் Viewer புதிய பாதைகளையும், புதிய கோப்புப் பெயரமைப்பையும் சரியாகக் கையாள்கிறதா என்பதை ஒரு தனி `fix/` கிளையில் வைத்து முழுமையாகச் சோதிக்க வேண்டும்.
+  3. எந்தவொரு இணைப்பு 404 கொடுத்தாலும் Step 8 Main Merge தடை செய்யப்பட வேண்டும்.
+  4. Merge முடிந்த பிறகு README, Audit Report, Master Index, Archive Policy ஆகிய ஐந்து ஆவணங்களும் தற்போதைய Main நிலைக்கு உடனடியாக ஒத்திசைக்கப்பட வேண்டும்.
+
+### Class 01 Pilot-ல் கற்றுக்கொண்ட பாடங்கள்
 
 Class 01-ன் 2026-11-07 Migration-ல் கிடைத்த சரிபார்க்கப்பட்ட குறிப்புகள்:
 
