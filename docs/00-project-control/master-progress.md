@@ -95,3 +95,11 @@
 - Copied Class 9 refresh evidence, Class 10 maths verification/visual evidence and English refresh evidence, Class 11 batch reports, and Class 12 aggregate refresh / official-update reports into their matching repositories' `main/docs/edition-audit/2026-27/`.
 - Added a branch-by-branch document migration map and explicit branch-retirement gate to [branch inventory](../06-migration-control/branch-inventory.md).
 - The Class 10 Tamil answer/quiz content branches remain separate because their actual question/answer changes need QA; only their shared documentation was centralized.
+
+
+### Archive repository inspection
+
+- Inspected all 12 archive repositories (`tn-class-01-archive` through `tn-class-12-archive`). Each has only a `main` branch and a README; no textbook PDFs, page assets or audit files are present.
+- Replaced the placeholder README in each archive repository with its intended role, a link to the matching class section in the Common master index, and a link to the new [Archive Policy](../04-quality-control/ARCHIVE_POLICY.md).
+- Created a common archive gate: only editions explicitly marked `ARCHIVE_APPROVED` after replacement, Page-2, full-book, TOC, Book-back and viewer checks may be copied into archive repositories.
+- No books were moved to archives. The archive repositories remain intentionally empty.
