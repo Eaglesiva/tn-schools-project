@@ -1,0 +1,4238 @@
+[
+  {
+    "book_index": 1,
+    "class": "9",
+    "subject": "Mathematics",
+    "medium": "English",
+    "official_filename": "9th_Maths_EM_Text.pdf",
+    "expected_page_count": 328,
+    "tree_page_count": 328,
+    "directory_count": 11,
+    "first_page": 1,
+    "last_page": 328,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "maths_em/00_prelims",
+    "last_directory": "maths_em/99_answers",
+    "directory_ranges": [
+      {
+        "directory": "maths_em/00_prelims",
+        "start_page": 1,
+        "end_page": 6,
+        "page_count": 6
+      },
+      {
+        "directory": "maths_em/01_set_language",
+        "start_page": 7,
+        "end_page": 46,
+        "page_count": 40
+      },
+      {
+        "directory": "maths_em/02_real_numbers",
+        "start_page": 47,
+        "end_page": 83,
+        "page_count": 37
+      },
+      {
+        "directory": "maths_em/03_algebra",
+        "start_page": 84,
+        "end_page": 143,
+        "page_count": 60
+      },
+      {
+        "directory": "maths_em/04_geometry",
+        "start_page": 144,
+        "end_page": 190,
+        "page_count": 47
+      },
+      {
+        "directory": "maths_em/05_coordinate_geometry",
+        "start_page": 191,
+        "end_page": 227,
+        "page_count": 37
+      },
+      {
+        "directory": "maths_em/06_trigonometry",
+        "start_page": 228,
+        "end_page": 253,
+        "page_count": 26
+      },
+      {
+        "directory": "maths_em/07_mensuration",
+        "start_page": 254,
+        "end_page": 271,
+        "page_count": 18
+      },
+      {
+        "directory": "maths_em/08_statistics",
+        "start_page": 272,
+        "end_page": 296,
+        "page_count": 25
+      },
+      {
+        "directory": "maths_em/09_probability",
+        "start_page": 297,
+        "end_page": 310,
+        "page_count": 14
+      },
+      {
+        "directory": "maths_em/99_answers",
+        "start_page": 311,
+        "end_page": 328,
+        "page_count": 18
+      }
+    ]
+  },
+  {
+    "book_index": 2,
+    "class": "9",
+    "subject": "Science",
+    "medium": "Tamil",
+    "official_filename": "9th_Science_TM_Text.pdf",
+    "expected_page_count": 336,
+    "tree_page_count": 336,
+    "directory_count": 26,
+    "first_page": 1,
+    "last_page": 336,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "science_tm/00_prelims",
+    "last_directory": "science_tm/25_libreoffice_impress",
+    "directory_ranges": [
+      {
+        "directory": "science_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 4,
+        "page_count": 4
+      },
+      {
+        "directory": "science_tm/01_measurement",
+        "start_page": 5,
+        "end_page": 17,
+        "page_count": 13
+      },
+      {
+        "directory": "science_tm/02_motion",
+        "start_page": 18,
+        "end_page": 29,
+        "page_count": 12
+      },
+      {
+        "directory": "science_tm/03_fluids",
+        "start_page": 30,
+        "end_page": 42,
+        "page_count": 13
+      },
+      {
+        "directory": "science_tm/04_electric_charge_and_current",
+        "start_page": 43,
+        "end_page": 55,
+        "page_count": 13
+      },
+      {
+        "directory": "science_tm/05_magnetism_and_electromagnetism",
+        "start_page": 56,
+        "end_page": 69,
+        "page_count": 14
+      },
+      {
+        "directory": "science_tm/06_light",
+        "start_page": 70,
+        "end_page": 83,
+        "page_count": 14
+      },
+      {
+        "directory": "science_tm/07_heat",
+        "start_page": 84,
+        "end_page": 95,
+        "page_count": 12
+      },
+      {
+        "directory": "science_tm/08_sound",
+        "start_page": 96,
+        "end_page": 106,
+        "page_count": 11
+      },
+      {
+        "directory": "science_tm/09_universe",
+        "start_page": 107,
+        "end_page": 117,
+        "page_count": 11
+      },
+      {
+        "directory": "science_tm/10_matter_around_us",
+        "start_page": 118,
+        "end_page": 129,
+        "page_count": 12
+      },
+      {
+        "directory": "science_tm/11_atomic_structure",
+        "start_page": 130,
+        "end_page": 142,
+        "page_count": 13
+      },
+      {
+        "directory": "science_tm/12_periodic_classification_of_elements",
+        "start_page": 143,
+        "end_page": 152,
+        "page_count": 10
+      },
+      {
+        "directory": "science_tm/13_chemical_bonding",
+        "start_page": 153,
+        "end_page": 166,
+        "page_count": 14
+      },
+      {
+        "directory": "science_tm/14_acids_bases_and_salts",
+        "start_page": 167,
+        "end_page": 176,
+        "page_count": 10
+      },
+      {
+        "directory": "science_tm/15_carbon_and_its_compounds",
+        "start_page": 177,
+        "end_page": 190,
+        "page_count": 14
+      },
+      {
+        "directory": "science_tm/16_applied_chemistry",
+        "start_page": 191,
+        "end_page": 205,
+        "page_count": 15
+      },
+      {
+        "directory": "science_tm/17_animal_kingdom",
+        "start_page": 206,
+        "end_page": 216,
+        "page_count": 11
+      },
+      {
+        "directory": "science_tm/18_organisation_of_tissues",
+        "start_page": 217,
+        "end_page": 233,
+        "page_count": 17
+      },
+      {
+        "directory": "science_tm/19_plant_physiology",
+        "start_page": 234,
+        "end_page": 240,
+        "page_count": 7
+      },
+      {
+        "directory": "science_tm/20_organ_systems_in_animals",
+        "start_page": 241,
+        "end_page": 255,
+        "page_count": 15
+      },
+      {
+        "directory": "science_tm/21_nutrition_and_health",
+        "start_page": 256,
+        "end_page": 267,
+        "page_count": 12
+      },
+      {
+        "directory": "science_tm/22_world_of_microbes",
+        "start_page": 268,
+        "end_page": 285,
+        "page_count": 18
+      },
+      {
+        "directory": "science_tm/23_economic_biology",
+        "start_page": 286,
+        "end_page": 302,
+        "page_count": 17
+      },
+      {
+        "directory": "science_tm/24_environmental_science",
+        "start_page": 303,
+        "end_page": 316,
+        "page_count": 14
+      },
+      {
+        "directory": "science_tm/25_libreoffice_impress",
+        "start_page": 317,
+        "end_page": 336,
+        "page_count": 20
+      }
+    ]
+  },
+  {
+    "book_index": 3,
+    "class": "9",
+    "subject": "Science",
+    "medium": "English",
+    "official_filename": "9th_Science_EM_Text.pdf",
+    "expected_page_count": 328,
+    "tree_page_count": 328,
+    "directory_count": 26,
+    "first_page": 1,
+    "last_page": 328,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "science_em/00_prelims",
+    "last_directory": "science_em/25_libreoffice_impress",
+    "directory_ranges": [
+      {
+        "directory": "science_em/00_prelims",
+        "start_page": 1,
+        "end_page": 4,
+        "page_count": 4
+      },
+      {
+        "directory": "science_em/01_measurement",
+        "start_page": 5,
+        "end_page": 17,
+        "page_count": 13
+      },
+      {
+        "directory": "science_em/02_motion",
+        "start_page": 18,
+        "end_page": 29,
+        "page_count": 12
+      },
+      {
+        "directory": "science_em/03_fluids",
+        "start_page": 30,
+        "end_page": 42,
+        "page_count": 13
+      },
+      {
+        "directory": "science_em/04_electric_charge_and_current",
+        "start_page": 43,
+        "end_page": 55,
+        "page_count": 13
+      },
+      {
+        "directory": "science_em/05_magnetism_and_electromagnetism",
+        "start_page": 56,
+        "end_page": 69,
+        "page_count": 14
+      },
+      {
+        "directory": "science_em/06_light",
+        "start_page": 70,
+        "end_page": 83,
+        "page_count": 14
+      },
+      {
+        "directory": "science_em/07_heat",
+        "start_page": 84,
+        "end_page": 94,
+        "page_count": 11
+      },
+      {
+        "directory": "science_em/08_sound",
+        "start_page": 95,
+        "end_page": 105,
+        "page_count": 11
+      },
+      {
+        "directory": "science_em/09_universe",
+        "start_page": 106,
+        "end_page": 116,
+        "page_count": 11
+      },
+      {
+        "directory": "science_em/10_matter_around_us",
+        "start_page": 117,
+        "end_page": 128,
+        "page_count": 12
+      },
+      {
+        "directory": "science_em/11_atomic_structure",
+        "start_page": 129,
+        "end_page": 141,
+        "page_count": 13
+      },
+      {
+        "directory": "science_em/12_periodic_classification_of_elements",
+        "start_page": 142,
+        "end_page": 151,
+        "page_count": 10
+      },
+      {
+        "directory": "science_em/13_chemical_bonding",
+        "start_page": 152,
+        "end_page": 165,
+        "page_count": 14
+      },
+      {
+        "directory": "science_em/14_acids_bases_and_salts",
+        "start_page": 166,
+        "end_page": 175,
+        "page_count": 10
+      },
+      {
+        "directory": "science_em/15_carbon_and_its_compounds",
+        "start_page": 176,
+        "end_page": 188,
+        "page_count": 13
+      },
+      {
+        "directory": "science_em/16_applied_chemistry",
+        "start_page": 189,
+        "end_page": 202,
+        "page_count": 14
+      },
+      {
+        "directory": "science_em/17_animal_kingdom",
+        "start_page": 203,
+        "end_page": 213,
+        "page_count": 11
+      },
+      {
+        "directory": "science_em/18_organisation_of_tissues",
+        "start_page": 214,
+        "end_page": 229,
+        "page_count": 16
+      },
+      {
+        "directory": "science_em/19_plant_physiology",
+        "start_page": 230,
+        "end_page": 236,
+        "page_count": 7
+      },
+      {
+        "directory": "science_em/20_organ_systems_in_animals",
+        "start_page": 237,
+        "end_page": 250,
+        "page_count": 14
+      },
+      {
+        "directory": "science_em/21_nutrition_and_health",
+        "start_page": 251,
+        "end_page": 261,
+        "page_count": 11
+      },
+      {
+        "directory": "science_em/22_world_of_microbes",
+        "start_page": 262,
+        "end_page": 276,
+        "page_count": 15
+      },
+      {
+        "directory": "science_em/23_economic_biology",
+        "start_page": 277,
+        "end_page": 293,
+        "page_count": 17
+      },
+      {
+        "directory": "science_em/24_environmental_science",
+        "start_page": 294,
+        "end_page": 305,
+        "page_count": 12
+      },
+      {
+        "directory": "science_em/25_libreoffice_impress",
+        "start_page": 306,
+        "end_page": 328,
+        "page_count": 23
+      }
+    ]
+  },
+  {
+    "book_index": 4,
+    "class": "9",
+    "subject": "Social Science",
+    "medium": "Tamil",
+    "official_filename": "9th_Social Science_TM_Text.pdf",
+    "expected_page_count": 344,
+    "tree_page_count": 344,
+    "directory_count": 31,
+    "first_page": 1,
+    "last_page": 344,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "social_science_tm/00_prelims",
+    "last_directory": "social_science_tm/30_economics_migration",
+    "directory_ranges": [
+      {
+        "directory": "social_science_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 6,
+        "page_count": 6
+      },
+      {
+        "directory": "social_science_tm/01_history_evolution_of_humans_prehistoric",
+        "start_page": 7,
+        "end_page": 22,
+        "page_count": 16
+      },
+      {
+        "directory": "social_science_tm/02_history_ancient_civilisations",
+        "start_page": 23,
+        "end_page": 40,
+        "page_count": 18
+      },
+      {
+        "directory": "social_science_tm/03_history_early_tamil_society_culture",
+        "start_page": 41,
+        "end_page": 61,
+        "page_count": 21
+      },
+      {
+        "directory": "social_science_tm/04_history_intellectual_awakening",
+        "start_page": 62,
+        "end_page": 75,
+        "page_count": 14
+      },
+      {
+        "directory": "social_science_tm/05_history_classical_world",
+        "start_page": 76,
+        "end_page": 87,
+        "page_count": 12
+      },
+      {
+        "directory": "social_science_tm/06_history_middle_ages",
+        "start_page": 88,
+        "end_page": 98,
+        "page_count": 11
+      },
+      {
+        "directory": "social_science_tm/07_history_state_society_medieval_india",
+        "start_page": 99,
+        "end_page": 112,
+        "page_count": 14
+      },
+      {
+        "directory": "social_science_tm/08_history_beginning_modern_age",
+        "start_page": 113,
+        "end_page": 126,
+        "page_count": 14
+      },
+      {
+        "directory": "social_science_tm/09_history_age_of_revolutions",
+        "start_page": 127,
+        "end_page": 145,
+        "page_count": 19
+      },
+      {
+        "directory": "social_science_tm/10_history_industrial_revolution",
+        "start_page": 146,
+        "end_page": 158,
+        "page_count": 13
+      },
+      {
+        "directory": "social_science_tm/11_history_colonialism_asia_africa",
+        "start_page": 159,
+        "end_page": 175,
+        "page_count": 17
+      },
+      {
+        "directory": "social_science_tm/12_geography_lithosphere_1_endogenetic",
+        "start_page": 176,
+        "end_page": 185,
+        "page_count": 10
+      },
+      {
+        "directory": "social_science_tm/13_geography_lithosphere_2_exogenetic",
+        "start_page": 186,
+        "end_page": 198,
+        "page_count": 13
+      },
+      {
+        "directory": "social_science_tm/14_geography_atmosphere",
+        "start_page": 199,
+        "end_page": 211,
+        "page_count": 13
+      },
+      {
+        "directory": "social_science_tm/15_geography_hydrosphere",
+        "start_page": 212,
+        "end_page": 222,
+        "page_count": 11
+      },
+      {
+        "directory": "social_science_tm/16_geography_biosphere",
+        "start_page": 223,
+        "end_page": 231,
+        "page_count": 9
+      },
+      {
+        "directory": "social_science_tm/17_geography_man_and_environment",
+        "start_page": 232,
+        "end_page": 241,
+        "page_count": 10
+      },
+      {
+        "directory": "social_science_tm/18_geography_mapping_skills",
+        "start_page": 242,
+        "end_page": 251,
+        "page_count": 10
+      },
+      {
+        "directory": "social_science_tm/19_geography_disaster_management",
+        "start_page": 252,
+        "end_page": 259,
+        "page_count": 8
+      },
+      {
+        "directory": "social_science_tm/20_civics_forms_government_democracy",
+        "start_page": 260,
+        "end_page": 267,
+        "page_count": 8
+      },
+      {
+        "directory": "social_science_tm/21_civics_election_political_parties",
+        "start_page": 268,
+        "end_page": 274,
+        "page_count": 7
+      },
+      {
+        "directory": "social_science_tm/22_civics_human_rights",
+        "start_page": 275,
+        "end_page": 287,
+        "page_count": 13
+      },
+      {
+        "directory": "social_science_tm/23_civics_forms_of_government",
+        "start_page": 288,
+        "end_page": 293,
+        "page_count": 6
+      },
+      {
+        "directory": "social_science_tm/24_civics_local_self_government",
+        "start_page": 294,
+        "end_page": 301,
+        "page_count": 8
+      },
+      {
+        "directory": "social_science_tm/25_civics_road_safety",
+        "start_page": 302,
+        "end_page": 307,
+        "page_count": 6
+      },
+      {
+        "directory": "social_science_tm/26_economics_understanding_development",
+        "start_page": 308,
+        "end_page": 315,
+        "page_count": 8
+      },
+      {
+        "directory": "social_science_tm/27_economics_employment",
+        "start_page": 316,
+        "end_page": 322,
+        "page_count": 7
+      },
+      {
+        "directory": "social_science_tm/28_economics_money_and_credit",
+        "start_page": 323,
+        "end_page": 330,
+        "page_count": 8
+      },
+      {
+        "directory": "social_science_tm/29_economics_agriculture_tamil_nadu",
+        "start_page": 331,
+        "end_page": 336,
+        "page_count": 6
+      },
+      {
+        "directory": "social_science_tm/30_economics_migration",
+        "start_page": 337,
+        "end_page": 344,
+        "page_count": 8
+      }
+    ]
+  },
+  {
+    "book_index": 5,
+    "class": "9",
+    "subject": "Social Science",
+    "medium": "English",
+    "official_filename": "9th_Social Science_EM_Text.pdf",
+    "expected_page_count": 328,
+    "tree_page_count": 328,
+    "directory_count": 31,
+    "first_page": 1,
+    "last_page": 328,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "social_science_em/00_prelims",
+    "last_directory": "social_science_em/30_economics_migration",
+    "directory_ranges": [
+      {
+        "directory": "social_science_em/00_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "social_science_em/01_history_evolution_of_humans_prehistoric",
+        "start_page": 9,
+        "end_page": 23,
+        "page_count": 15
+      },
+      {
+        "directory": "social_science_em/02_history_ancient_civilisations",
+        "start_page": 24,
+        "end_page": 40,
+        "page_count": 17
+      },
+      {
+        "directory": "social_science_em/03_history_early_tamil_society_culture",
+        "start_page": 41,
+        "end_page": 60,
+        "page_count": 20
+      },
+      {
+        "directory": "social_science_em/04_history_intellectual_awakening",
+        "start_page": 61,
+        "end_page": 73,
+        "page_count": 13
+      },
+      {
+        "directory": "social_science_em/05_history_classical_world",
+        "start_page": 74,
+        "end_page": 84,
+        "page_count": 11
+      },
+      {
+        "directory": "social_science_em/06_history_middle_ages",
+        "start_page": 85,
+        "end_page": 95,
+        "page_count": 11
+      },
+      {
+        "directory": "social_science_em/07_history_state_society_medieval_india",
+        "start_page": 96,
+        "end_page": 108,
+        "page_count": 13
+      },
+      {
+        "directory": "social_science_em/08_history_beginning_modern_age",
+        "start_page": 109,
+        "end_page": 120,
+        "page_count": 12
+      },
+      {
+        "directory": "social_science_em/09_history_age_of_revolutions",
+        "start_page": 121,
+        "end_page": 137,
+        "page_count": 17
+      },
+      {
+        "directory": "social_science_em/10_history_industrial_revolution",
+        "start_page": 138,
+        "end_page": 149,
+        "page_count": 12
+      },
+      {
+        "directory": "social_science_em/11_history_colonialism_asia_africa",
+        "start_page": 150,
+        "end_page": 164,
+        "page_count": 15
+      },
+      {
+        "directory": "social_science_em/12_geography_lithosphere_1_endogenetic",
+        "start_page": 165,
+        "end_page": 174,
+        "page_count": 10
+      },
+      {
+        "directory": "social_science_em/13_geography_lithosphere_2_exogenetic",
+        "start_page": 175,
+        "end_page": 187,
+        "page_count": 13
+      },
+      {
+        "directory": "social_science_em/14_geography_atmosphere",
+        "start_page": 188,
+        "end_page": 199,
+        "page_count": 12
+      },
+      {
+        "directory": "social_science_em/15_geography_hydrosphere",
+        "start_page": 200,
+        "end_page": 209,
+        "page_count": 10
+      },
+      {
+        "directory": "social_science_em/16_geography_biosphere",
+        "start_page": 210,
+        "end_page": 217,
+        "page_count": 8
+      },
+      {
+        "directory": "social_science_em/17_geography_man_and_environment",
+        "start_page": 218,
+        "end_page": 227,
+        "page_count": 10
+      },
+      {
+        "directory": "social_science_em/18_geography_mapping_skills",
+        "start_page": 228,
+        "end_page": 237,
+        "page_count": 10
+      },
+      {
+        "directory": "social_science_em/19_geography_disaster_management",
+        "start_page": 238,
+        "end_page": 245,
+        "page_count": 8
+      },
+      {
+        "directory": "social_science_em/20_civics_forms_government_democracy",
+        "start_page": 246,
+        "end_page": 253,
+        "page_count": 8
+      },
+      {
+        "directory": "social_science_em/21_civics_election_political_parties",
+        "start_page": 254,
+        "end_page": 260,
+        "page_count": 7
+      },
+      {
+        "directory": "social_science_em/22_civics_human_rights",
+        "start_page": 261,
+        "end_page": 272,
+        "page_count": 12
+      },
+      {
+        "directory": "social_science_em/23_civics_forms_of_government",
+        "start_page": 273,
+        "end_page": 278,
+        "page_count": 6
+      },
+      {
+        "directory": "social_science_em/24_civics_local_self_government",
+        "start_page": 279,
+        "end_page": 286,
+        "page_count": 8
+      },
+      {
+        "directory": "social_science_em/25_civics_road_safety",
+        "start_page": 287,
+        "end_page": 292,
+        "page_count": 6
+      },
+      {
+        "directory": "social_science_em/26_economics_understanding_development",
+        "start_page": 293,
+        "end_page": 300,
+        "page_count": 8
+      },
+      {
+        "directory": "social_science_em/27_economics_employment",
+        "start_page": 301,
+        "end_page": 307,
+        "page_count": 7
+      },
+      {
+        "directory": "social_science_em/28_economics_money_and_credit",
+        "start_page": 308,
+        "end_page": 314,
+        "page_count": 7
+      },
+      {
+        "directory": "social_science_em/29_economics_agriculture_tamil_nadu",
+        "start_page": 315,
+        "end_page": 320,
+        "page_count": 6
+      },
+      {
+        "directory": "social_science_em/30_economics_migration",
+        "start_page": 321,
+        "end_page": 328,
+        "page_count": 8
+      }
+    ]
+  },
+  {
+    "book_index": 6,
+    "class": "10",
+    "subject": "English",
+    "medium": "English",
+    "official_filename": "10th_English_Text.pdf",
+    "expected_page_count": 224,
+    "tree_page_count": 224,
+    "directory_count": 22,
+    "first_page": 1,
+    "last_page": 224,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "english/00_prelims",
+    "last_directory": "english/21_a_dilemma",
+    "directory_ranges": [
+      {
+        "directory": "english/00_prelims",
+        "start_page": 1,
+        "end_page": 4,
+        "page_count": 4
+      },
+      {
+        "directory": "english/01_his_first_flight",
+        "start_page": 5,
+        "end_page": 20,
+        "page_count": 16
+      },
+      {
+        "directory": "english/02_life",
+        "start_page": 21,
+        "end_page": 24,
+        "page_count": 4
+      },
+      {
+        "directory": "english/03_the_tempest",
+        "start_page": 25,
+        "end_page": 33,
+        "page_count": 9
+      },
+      {
+        "directory": "english/04_night_ghost_got_in",
+        "start_page": 34,
+        "end_page": 48,
+        "page_count": 15
+      },
+      {
+        "directory": "english/05_grumble_family",
+        "start_page": 49,
+        "end_page": 53,
+        "page_count": 5
+      },
+      {
+        "directory": "english/06_zigzag",
+        "start_page": 54,
+        "end_page": 63,
+        "page_count": 10
+      },
+      {
+        "directory": "english/07_empowered_women",
+        "start_page": 64,
+        "end_page": 87,
+        "page_count": 24
+      },
+      {
+        "directory": "english/08_every_woman",
+        "start_page": 88,
+        "end_page": 91,
+        "page_count": 4
+      },
+      {
+        "directory": "english/09_story_of_mulan",
+        "start_page": 92,
+        "end_page": 97,
+        "page_count": 6
+      },
+      {
+        "directory": "english/10_the_attic",
+        "start_page": 98,
+        "end_page": 118,
+        "page_count": 21
+      },
+      {
+        "directory": "english/11_ant_and_cricket",
+        "start_page": 119,
+        "end_page": 123,
+        "page_count": 5
+      },
+      {
+        "directory": "english/12_aged_mother",
+        "start_page": 124,
+        "end_page": 129,
+        "page_count": 6
+      },
+      {
+        "directory": "english/13_tech_bloomers",
+        "start_page": 130,
+        "end_page": 151,
+        "page_count": 22
+      },
+      {
+        "directory": "english/14_secret_of_machines",
+        "start_page": 152,
+        "end_page": 156,
+        "page_count": 5
+      },
+      {
+        "directory": "english/15_american_journalist_2889",
+        "start_page": 157,
+        "end_page": 165,
+        "page_count": 9
+      },
+      {
+        "directory": "english/16_the_last_lesson",
+        "start_page": 166,
+        "end_page": 182,
+        "page_count": 17
+      },
+      {
+        "directory": "english/17_no_men_are_foreign",
+        "start_page": 183,
+        "end_page": 186,
+        "page_count": 4
+      },
+      {
+        "directory": "english/18_little_hero_of_holland",
+        "start_page": 187,
+        "end_page": 192,
+        "page_count": 6
+      },
+      {
+        "directory": "english/19_dying_detective",
+        "start_page": 193,
+        "end_page": 205,
+        "page_count": 13
+      },
+      {
+        "directory": "english/20_house_on_elm_street",
+        "start_page": 206,
+        "end_page": 208,
+        "page_count": 3
+      },
+      {
+        "directory": "english/21_a_dilemma",
+        "start_page": 209,
+        "end_page": 224,
+        "page_count": 16
+      }
+    ]
+  },
+  {
+    "book_index": 7,
+    "class": "12",
+    "subject": "General Tamil",
+    "medium": "Tamil",
+    "official_filename": "12th_Genreal%20Tamil.pdf",
+    "expected_page_count": 240,
+    "tree_page_count": 240,
+    "directory_count": 9,
+    "first_page": 1,
+    "last_page": 240,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "tamil/00_prelims",
+    "last_directory": "tamil/08_chapter8",
+    "directory_ranges": [
+      {
+        "directory": "tamil/00_prelims",
+        "start_page": 1,
+        "end_page": 12,
+        "page_count": 12
+      },
+      {
+        "directory": "tamil/01_chapter1",
+        "start_page": 13,
+        "end_page": 34,
+        "page_count": 22
+      },
+      {
+        "directory": "tamil/02_chapter2",
+        "start_page": 35,
+        "end_page": 58,
+        "page_count": 24
+      },
+      {
+        "directory": "tamil/03_chapter3",
+        "start_page": 59,
+        "end_page": 90,
+        "page_count": 32
+      },
+      {
+        "directory": "tamil/04_chapter4",
+        "start_page": 91,
+        "end_page": 116,
+        "page_count": 26
+      },
+      {
+        "directory": "tamil/05_chapter5",
+        "start_page": 117,
+        "end_page": 140,
+        "page_count": 24
+      },
+      {
+        "directory": "tamil/06_chapter6",
+        "start_page": 141,
+        "end_page": 174,
+        "page_count": 34
+      },
+      {
+        "directory": "tamil/07_chapter7",
+        "start_page": 175,
+        "end_page": 200,
+        "page_count": 26
+      },
+      {
+        "directory": "tamil/08_chapter8",
+        "start_page": 201,
+        "end_page": 240,
+        "page_count": 40
+      }
+    ]
+  },
+  {
+    "book_index": 8,
+    "class": "12",
+    "subject": "General English",
+    "medium": "English",
+    "official_filename": "12th_General%20English_Text.pdf",
+    "expected_page_count": 248,
+    "tree_page_count": 248,
+    "directory_count": 23,
+    "first_page": 1,
+    "last_page": 248,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "english/00_prelims",
+    "last_directory": "english/22_acknowledgement",
+    "directory_ranges": [
+      {
+        "directory": "english/00_prelims",
+        "start_page": 1,
+        "end_page": 6,
+        "page_count": 6
+      },
+      {
+        "directory": "english/01_unit1_prose",
+        "start_page": 7,
+        "end_page": 24,
+        "page_count": 18
+      },
+      {
+        "directory": "english/02_unit1_poem",
+        "start_page": 25,
+        "end_page": 29,
+        "page_count": 5
+      },
+      {
+        "directory": "english/03_unit1_supp",
+        "start_page": 30,
+        "end_page": 39,
+        "page_count": 10
+      },
+      {
+        "directory": "english/04_unit2_prose",
+        "start_page": 40,
+        "end_page": 57,
+        "page_count": 18
+      },
+      {
+        "directory": "english/05_unit2_poem",
+        "start_page": 58,
+        "end_page": 63,
+        "page_count": 6
+      },
+      {
+        "directory": "english/06_unit2_supp",
+        "start_page": 64,
+        "end_page": 72,
+        "page_count": 9
+      },
+      {
+        "directory": "english/07_unit3_prose",
+        "start_page": 73,
+        "end_page": 93,
+        "page_count": 21
+      },
+      {
+        "directory": "english/08_unit3_poem",
+        "start_page": 94,
+        "end_page": 100,
+        "page_count": 7
+      },
+      {
+        "directory": "english/09_unit3_supp",
+        "start_page": 101,
+        "end_page": 116,
+        "page_count": 16
+      },
+      {
+        "directory": "english/10_unit4_prose",
+        "start_page": 117,
+        "end_page": 132,
+        "page_count": 16
+      },
+      {
+        "directory": "english/11_unit4_poem",
+        "start_page": 133,
+        "end_page": 140,
+        "page_count": 8
+      },
+      {
+        "directory": "english/12_unit4_supp",
+        "start_page": 141,
+        "end_page": 147,
+        "page_count": 7
+      },
+      {
+        "directory": "english/13_unit5_prose",
+        "start_page": 148,
+        "end_page": 167,
+        "page_count": 20
+      },
+      {
+        "directory": "english/14_unit5_poem",
+        "start_page": 168,
+        "end_page": 174,
+        "page_count": 7
+      },
+      {
+        "directory": "english/15_unit5_supp",
+        "start_page": 175,
+        "end_page": 183,
+        "page_count": 9
+      },
+      {
+        "directory": "english/16_unit6_prose",
+        "start_page": 184,
+        "end_page": 195,
+        "page_count": 12
+      },
+      {
+        "directory": "english/17_unit6_poem",
+        "start_page": 196,
+        "end_page": 201,
+        "page_count": 6
+      },
+      {
+        "directory": "english/18_unit6_supp",
+        "start_page": 202,
+        "end_page": 214,
+        "page_count": 13
+      },
+      {
+        "directory": "english/19_unit6_listening",
+        "start_page": 215,
+        "end_page": 221,
+        "page_count": 7
+      },
+      {
+        "directory": "english/20_unit6_grammar",
+        "start_page": 222,
+        "end_page": 230,
+        "page_count": 9
+      },
+      {
+        "directory": "english/21_appendix",
+        "start_page": 231,
+        "end_page": 237,
+        "page_count": 7
+      },
+      {
+        "directory": "english/22_acknowledgement",
+        "start_page": 238,
+        "end_page": 248,
+        "page_count": 11
+      }
+    ]
+  },
+  {
+    "book_index": 9,
+    "class": "12",
+    "subject": "Mathematics (Vol I)",
+    "medium": "Tamil",
+    "official_filename": "12th_Maths_Vol-1_Tamil%20Medium_Text.pdf",
+    "expected_page_count": 336,
+    "tree_page_count": 336,
+    "directory_count": 11,
+    "first_page": 1,
+    "last_page": 336,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "maths_tm/vol1/00_prelims",
+    "last_directory": "maths_tm/vol1/10_dev_team",
+    "directory_ranges": [
+      {
+        "directory": "maths_tm/vol1/00_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "maths_tm/vol1/01_ch1_matrices",
+        "start_page": 9,
+        "end_page": 65,
+        "page_count": 57
+      },
+      {
+        "directory": "maths_tm/vol1/02_ch2_complex_numbers",
+        "start_page": 66,
+        "end_page": 110,
+        "page_count": 45
+      },
+      {
+        "directory": "maths_tm/vol1/03_ch3_theory_of_eqn",
+        "start_page": 111,
+        "end_page": 149,
+        "page_count": 39
+      },
+      {
+        "directory": "maths_tm/vol1/04_ch4_inverse_trig",
+        "start_page": 150,
+        "end_page": 196,
+        "page_count": 47
+      },
+      {
+        "directory": "maths_tm/vol1/05_ch5_analytical_geometry",
+        "start_page": 197,
+        "end_page": 248,
+        "page_count": 52
+      },
+      {
+        "directory": "maths_tm/vol1/06_ch6_vector_algebra",
+        "start_page": 249,
+        "end_page": 317,
+        "page_count": 69
+      },
+      {
+        "directory": "maths_tm/vol1/07_answers",
+        "start_page": 318,
+        "end_page": 327,
+        "page_count": 10
+      },
+      {
+        "directory": "maths_tm/vol1/08_glossary",
+        "start_page": 328,
+        "end_page": 332,
+        "page_count": 5
+      },
+      {
+        "directory": "maths_tm/vol1/09_references",
+        "start_page": 333,
+        "end_page": 333,
+        "page_count": 1
+      },
+      {
+        "directory": "maths_tm/vol1/10_dev_team",
+        "start_page": 334,
+        "end_page": 336,
+        "page_count": 3
+      }
+    ]
+  },
+  {
+    "book_index": 10,
+    "class": "12",
+    "subject": "Mathematics (Vol II)",
+    "medium": "Tamil",
+    "official_filename": "12th_Maths_Vol-2_Tamil%20Meduim_Text.pdf",
+    "expected_page_count": 288,
+    "tree_page_count": 288,
+    "directory_count": 11,
+    "first_page": 1,
+    "last_page": 288,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "maths_tm/vol2/00_prelims",
+    "last_directory": "maths_tm/vol2/10_dev_team",
+    "directory_ranges": [
+      {
+        "directory": "maths_tm/vol2/00_prelims",
+        "start_page": 1,
+        "end_page": 4,
+        "page_count": 4
+      },
+      {
+        "directory": "maths_tm/vol2/01_ch7_app_diff_calculus",
+        "start_page": 5,
+        "end_page": 64,
+        "page_count": 60
+      },
+      {
+        "directory": "maths_tm/vol2/02_ch8_differentials_derivatives",
+        "start_page": 65,
+        "end_page": 97,
+        "page_count": 33
+      },
+      {
+        "directory": "maths_tm/vol2/03_ch9_app_integration",
+        "start_page": 98,
+        "end_page": 154,
+        "page_count": 57
+      },
+      {
+        "directory": "maths_tm/vol2/04_ch10_differential_equations",
+        "start_page": 155,
+        "end_page": 193,
+        "page_count": 39
+      },
+      {
+        "directory": "maths_tm/vol2/05_ch11_probability",
+        "start_page": 194,
+        "end_page": 240,
+        "page_count": 47
+      },
+      {
+        "directory": "maths_tm/vol2/06_ch12_discrete_mathematics",
+        "start_page": 241,
+        "end_page": 274,
+        "page_count": 34
+      },
+      {
+        "directory": "maths_tm/vol2/07_answers",
+        "start_page": 275,
+        "end_page": 284,
+        "page_count": 10
+      },
+      {
+        "directory": "maths_tm/vol2/08_glossary",
+        "start_page": 285,
+        "end_page": 286,
+        "page_count": 2
+      },
+      {
+        "directory": "maths_tm/vol2/09_references",
+        "start_page": 287,
+        "end_page": 287,
+        "page_count": 1
+      },
+      {
+        "directory": "maths_tm/vol2/10_dev_team",
+        "start_page": 288,
+        "end_page": 288,
+        "page_count": 1
+      }
+    ]
+  },
+  {
+    "book_index": 11,
+    "class": "12",
+    "subject": "Mathematics (Vol I)",
+    "medium": "English",
+    "official_filename": "12th_Maths_Vol-1_English%20Meduim_Text.pdf",
+    "expected_page_count": 304,
+    "tree_page_count": 304,
+    "directory_count": 11,
+    "first_page": 1,
+    "last_page": 304,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "maths_em/vol1/00_prelims",
+    "last_directory": "maths_em/vol1/10_dev_team",
+    "directory_ranges": [
+      {
+        "directory": "maths_em/vol1/00_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "maths_em/vol1/01_ch1_matrices",
+        "start_page": 9,
+        "end_page": 59,
+        "page_count": 51
+      },
+      {
+        "directory": "maths_em/vol1/02_ch2_complex_numbers",
+        "start_page": 60,
+        "end_page": 104,
+        "page_count": 45
+      },
+      {
+        "directory": "maths_em/vol1/03_ch3_theory_of_eqn",
+        "start_page": 105,
+        "end_page": 136,
+        "page_count": 32
+      },
+      {
+        "directory": "maths_em/vol1/04_ch4_inverse_trig",
+        "start_page": 137,
+        "end_page": 179,
+        "page_count": 43
+      },
+      {
+        "directory": "maths_em/vol1/05_ch5_analytical_geometry",
+        "start_page": 180,
+        "end_page": 228,
+        "page_count": 49
+      },
+      {
+        "directory": "maths_em/vol1/06_ch6_vector_algebra",
+        "start_page": 229,
+        "end_page": 289,
+        "page_count": 61
+      },
+      {
+        "directory": "maths_em/vol1/07_answers",
+        "start_page": 290,
+        "end_page": 299,
+        "page_count": 10
+      },
+      {
+        "directory": "maths_em/vol1/08_glossary",
+        "start_page": 300,
+        "end_page": 302,
+        "page_count": 3
+      },
+      {
+        "directory": "maths_em/vol1/09_references",
+        "start_page": 303,
+        "end_page": 303,
+        "page_count": 1
+      },
+      {
+        "directory": "maths_em/vol1/10_dev_team",
+        "start_page": 304,
+        "end_page": 304,
+        "page_count": 1
+      }
+    ]
+  },
+  {
+    "book_index": 12,
+    "class": "12",
+    "subject": "Mathematics (Vol II)",
+    "medium": "English",
+    "official_filename": "12th_Maths_Vol-2_English%20Meduim_Text.pdf",
+    "expected_page_count": 272,
+    "tree_page_count": 272,
+    "directory_count": 11,
+    "first_page": 1,
+    "last_page": 272,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "maths_em/vol2/00_prelims",
+    "last_directory": "maths_em/vol2/10_dev_team",
+    "directory_ranges": [
+      {
+        "directory": "maths_em/vol2/00_prelims",
+        "start_page": 1,
+        "end_page": 4,
+        "page_count": 4
+      },
+      {
+        "directory": "maths_em/vol2/01_ch7_differential_calculus",
+        "start_page": 5,
+        "end_page": 61,
+        "page_count": 57
+      },
+      {
+        "directory": "maths_em/vol2/02_ch8_differentials_partial",
+        "start_page": 62,
+        "end_page": 93,
+        "page_count": 32
+      },
+      {
+        "directory": "maths_em/vol2/03_ch9_app_integration",
+        "start_page": 94,
+        "end_page": 147,
+        "page_count": 54
+      },
+      {
+        "directory": "maths_em/vol2/04_ch10_differential_equations",
+        "start_page": 148,
+        "end_page": 182,
+        "page_count": 35
+      },
+      {
+        "directory": "maths_em/vol2/05_ch11_probability",
+        "start_page": 183,
+        "end_page": 227,
+        "page_count": 45
+      },
+      {
+        "directory": "maths_em/vol2/06_ch12_discrete_mathematics",
+        "start_page": 228,
+        "end_page": 257,
+        "page_count": 30
+      },
+      {
+        "directory": "maths_em/vol2/07_answers",
+        "start_page": 258,
+        "end_page": 268,
+        "page_count": 11
+      },
+      {
+        "directory": "maths_em/vol2/08_glossary",
+        "start_page": 269,
+        "end_page": 270,
+        "page_count": 2
+      },
+      {
+        "directory": "maths_em/vol2/09_references",
+        "start_page": 271,
+        "end_page": 271,
+        "page_count": 1
+      },
+      {
+        "directory": "maths_em/vol2/10_dev_team",
+        "start_page": 272,
+        "end_page": 272,
+        "page_count": 1
+      }
+    ]
+  },
+  {
+    "book_index": 13,
+    "class": "12",
+    "subject": "Physics (Vol I)",
+    "medium": "Tamil",
+    "official_filename": "12th_Physics_Vol-1_Tamil%20Medium_Text.pdf",
+    "expected_page_count": 352,
+    "tree_page_count": 352,
+    "directory_count": 9,
+    "first_page": 1,
+    "last_page": 352,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "physics_tm/00_prelims",
+    "last_directory": "physics_tm/08_glossary",
+    "directory_ranges": [
+      {
+        "directory": "physics_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "physics_tm/01_unit1_electrostatics",
+        "start_page": 9,
+        "end_page": 87,
+        "page_count": 79
+      },
+      {
+        "directory": "physics_tm/02_unit2_current_electricity",
+        "start_page": 88,
+        "end_page": 132,
+        "page_count": 45
+      },
+      {
+        "directory": "physics_tm/03_unit3_magnetism_and_magnetic_effects_of_electric_current",
+        "start_page": 133,
+        "end_page": 202,
+        "page_count": 70
+      },
+      {
+        "directory": "physics_tm/04_unit4_electromagnetic_induction_and_alternating_current",
+        "start_page": 203,
+        "end_page": 274,
+        "page_count": 72
+      },
+      {
+        "directory": "physics_tm/05_unit5_electromagnetic_waves",
+        "start_page": 275,
+        "end_page": 294,
+        "page_count": 20
+      },
+      {
+        "directory": "physics_tm/06_practical",
+        "start_page": 295,
+        "end_page": 329,
+        "page_count": 35
+      },
+      {
+        "directory": "physics_tm/07_annexure",
+        "start_page": 330,
+        "end_page": 338,
+        "page_count": 9
+      },
+      {
+        "directory": "physics_tm/08_glossary",
+        "start_page": 339,
+        "end_page": 352,
+        "page_count": 14
+      }
+    ]
+  },
+  {
+    "book_index": 14,
+    "class": "12",
+    "subject": "Physics (Vol II)",
+    "medium": "Tamil",
+    "official_filename": "12th_Physics_Vol-2_Tamil%20Medium_Text.pdf",
+    "expected_page_count": 312,
+    "tree_page_count": 312,
+    "directory_count": 8,
+    "first_page": 1,
+    "last_page": 312,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "physics_tm/09_vol2_prelims",
+    "last_directory": "physics_tm/16_vol2_glossary",
+    "directory_ranges": [
+      {
+        "directory": "physics_tm/09_vol2_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "physics_tm/10_unit6_ray_optics",
+        "start_page": 9,
+        "end_page": 60,
+        "page_count": 52
+      },
+      {
+        "directory": "physics_tm/11_unit7_wave_optics",
+        "start_page": 61,
+        "end_page": 115,
+        "page_count": 55
+      },
+      {
+        "directory": "physics_tm/12_unit8_dual_nature_of_radiation_and_matter",
+        "start_page": 116,
+        "end_page": 148,
+        "page_count": 33
+      },
+      {
+        "directory": "physics_tm/13_unit9_atomic_and_nuclear_physics",
+        "start_page": 149,
+        "end_page": 202,
+        "page_count": 54
+      },
+      {
+        "directory": "physics_tm/14_unit10_electronics_and_communication",
+        "start_page": 203,
+        "end_page": 260,
+        "page_count": 58
+      },
+      {
+        "directory": "physics_tm/15_unit11_recent_developments_in_physics",
+        "start_page": 261,
+        "end_page": 292,
+        "page_count": 32
+      },
+      {
+        "directory": "physics_tm/16_vol2_glossary",
+        "start_page": 293,
+        "end_page": 312,
+        "page_count": 20
+      }
+    ]
+  },
+  {
+    "book_index": 15,
+    "class": "12",
+    "subject": "Physics (Vol II)",
+    "medium": "English",
+    "official_filename": "12th_Physics_Vol-2_English%20Medium_Text.pdf",
+    "expected_page_count": 296,
+    "tree_page_count": 296,
+    "directory_count": 8,
+    "first_page": 1,
+    "last_page": 296,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "physics_em/09_vol2_prelims",
+    "last_directory": "physics_em/16_vol2_glossary",
+    "directory_ranges": [
+      {
+        "directory": "physics_em/09_vol2_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "physics_em/10_unit6_ray_optics",
+        "start_page": 9,
+        "end_page": 60,
+        "page_count": 52
+      },
+      {
+        "directory": "physics_em/11_unit7_wave_optics",
+        "start_page": 61,
+        "end_page": 115,
+        "page_count": 55
+      },
+      {
+        "directory": "physics_em/12_unit8_dual_nature_of_radiation_and_matter",
+        "start_page": 116,
+        "end_page": 148,
+        "page_count": 33
+      },
+      {
+        "directory": "physics_em/13_unit9_atomic_and_nuclear_physics",
+        "start_page": 149,
+        "end_page": 202,
+        "page_count": 54
+      },
+      {
+        "directory": "physics_em/14_unit10_electronics_and_communication",
+        "start_page": 203,
+        "end_page": 260,
+        "page_count": 58
+      },
+      {
+        "directory": "physics_em/15_unit11_recent_developments_in_physics",
+        "start_page": 261,
+        "end_page": 292,
+        "page_count": 32
+      },
+      {
+        "directory": "physics_em/16_vol2_glossary",
+        "start_page": 293,
+        "end_page": 296,
+        "page_count": 4
+      }
+    ]
+  },
+  {
+    "book_index": 16,
+    "class": "12",
+    "subject": "Chemistry (Vol I)",
+    "medium": "Tamil",
+    "official_filename": "12th_Chemistry-Vol-1_Tamil%20Medium_Text.pdf",
+    "expected_page_count": 328,
+    "tree_page_count": 328,
+    "directory_count": 11,
+    "first_page": 1,
+    "last_page": 328,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "chemistry_tm/00_prelims",
+    "last_directory": "chemistry_tm/10_glossary",
+    "directory_ranges": [
+      {
+        "directory": "chemistry_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 10,
+        "page_count": 10
+      },
+      {
+        "directory": "chemistry_tm/01_unit1_metallurgy",
+        "start_page": 11,
+        "end_page": 38,
+        "page_count": 28
+      },
+      {
+        "directory": "chemistry_tm/02_unit2_p_block_elements_I",
+        "start_page": 39,
+        "end_page": 73,
+        "page_count": 35
+      },
+      {
+        "directory": "chemistry_tm/03_unit3_p_block_elements_II",
+        "start_page": 74,
+        "end_page": 120,
+        "page_count": 47
+      },
+      {
+        "directory": "chemistry_tm/04_unit4_transition_and_inner_transition_elements",
+        "start_page": 121,
+        "end_page": 155,
+        "page_count": 35
+      },
+      {
+        "directory": "chemistry_tm/05_unit5_coordination_chemistry",
+        "start_page": 156,
+        "end_page": 204,
+        "page_count": 49
+      },
+      {
+        "directory": "chemistry_tm/06_unit6_solid_state",
+        "start_page": 205,
+        "end_page": 236,
+        "page_count": 32
+      },
+      {
+        "directory": "chemistry_tm/07_unit7_chemical_kinetics",
+        "start_page": 237,
+        "end_page": 270,
+        "page_count": 34
+      },
+      {
+        "directory": "chemistry_tm/08_answer_key",
+        "start_page": 271,
+        "end_page": 293,
+        "page_count": 23
+      },
+      {
+        "directory": "chemistry_tm/09_practical",
+        "start_page": 294,
+        "end_page": 318,
+        "page_count": 25
+      },
+      {
+        "directory": "chemistry_tm/10_glossary",
+        "start_page": 319,
+        "end_page": 328,
+        "page_count": 10
+      }
+    ]
+  },
+  {
+    "book_index": 17,
+    "class": "12",
+    "subject": "Chemistry (Vol II)",
+    "medium": "Tamil",
+    "official_filename": "12th_Chemistry-Vol-2_Tamil%20Medium_Text.pdf",
+    "expected_page_count": 344,
+    "tree_page_count": 344,
+    "directory_count": 11,
+    "first_page": 1,
+    "last_page": 344,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "chemistry_tm/11_vol2_prelims",
+    "last_directory": "chemistry_tm/21_vol2_glossary",
+    "directory_ranges": [
+      {
+        "directory": "chemistry_tm/11_vol2_prelims",
+        "start_page": 1,
+        "end_page": 4,
+        "page_count": 4
+      },
+      {
+        "directory": "chemistry_tm/12_unit8_ionic_equilibrium",
+        "start_page": 5,
+        "end_page": 38,
+        "page_count": 34
+      },
+      {
+        "directory": "chemistry_tm/13_unit9_electro_chemistry",
+        "start_page": 39,
+        "end_page": 76,
+        "page_count": 38
+      },
+      {
+        "directory": "chemistry_tm/14_unit10_surface_chemistry",
+        "start_page": 77,
+        "end_page": 113,
+        "page_count": 37
+      },
+      {
+        "directory": "chemistry_tm/15_unit11_hydroxy_compounds_and_ethers",
+        "start_page": 114,
+        "end_page": 155,
+        "page_count": 42
+      },
+      {
+        "directory": "chemistry_tm/16_unit12_carbonyl_compounds_and_carboxylic_acids",
+        "start_page": 156,
+        "end_page": 208,
+        "page_count": 53
+      },
+      {
+        "directory": "chemistry_tm/17_unit13_organic_nitrogen_compounds",
+        "start_page": 209,
+        "end_page": 249,
+        "page_count": 41
+      },
+      {
+        "directory": "chemistry_tm/18_unit14_biomolecules",
+        "start_page": 250,
+        "end_page": 288,
+        "page_count": 39
+      },
+      {
+        "directory": "chemistry_tm/19_unit15_chemistry_in_everyday_life",
+        "start_page": 289,
+        "end_page": 317,
+        "page_count": 29
+      },
+      {
+        "directory": "chemistry_tm/20_vol2_answers",
+        "start_page": 318,
+        "end_page": 341,
+        "page_count": 24
+      },
+      {
+        "directory": "chemistry_tm/21_vol2_glossary",
+        "start_page": 342,
+        "end_page": 344,
+        "page_count": 3
+      }
+    ]
+  },
+  {
+    "book_index": 18,
+    "class": "12",
+    "subject": "Chemistry (Vol II)",
+    "medium": "English",
+    "official_filename": "12th_Chemistry-Vol-2_English%20Medium_Text.pdf",
+    "expected_page_count": 328,
+    "tree_page_count": 328,
+    "directory_count": 11,
+    "first_page": 1,
+    "last_page": 328,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "chemistry_em/11_vol2_prelims",
+    "last_directory": "chemistry_em/21_vol2_glossary",
+    "directory_ranges": [
+      {
+        "directory": "chemistry_em/11_vol2_prelims",
+        "start_page": 1,
+        "end_page": 4,
+        "page_count": 4
+      },
+      {
+        "directory": "chemistry_em/12_unit8_ionic_equilibrium",
+        "start_page": 5,
+        "end_page": 36,
+        "page_count": 32
+      },
+      {
+        "directory": "chemistry_em/13_unit9_electro_chemistry",
+        "start_page": 37,
+        "end_page": 72,
+        "page_count": 36
+      },
+      {
+        "directory": "chemistry_em/14_unit10_surface_chemistry",
+        "start_page": 73,
+        "end_page": 107,
+        "page_count": 35
+      },
+      {
+        "directory": "chemistry_em/15_unit11_hydroxy_compounds_and_ethers",
+        "start_page": 108,
+        "end_page": 148,
+        "page_count": 41
+      },
+      {
+        "directory": "chemistry_em/16_unit12_carbonyl_compounds_and_carboxylic_acids",
+        "start_page": 149,
+        "end_page": 199,
+        "page_count": 51
+      },
+      {
+        "directory": "chemistry_em/17_unit13_organic_nitrogen_compounds",
+        "start_page": 200,
+        "end_page": 240,
+        "page_count": 41
+      },
+      {
+        "directory": "chemistry_em/18_unit14_biomolecules",
+        "start_page": 241,
+        "end_page": 275,
+        "page_count": 35
+      },
+      {
+        "directory": "chemistry_em/19_unit15_chemistry_in_everyday_life",
+        "start_page": 276,
+        "end_page": 300,
+        "page_count": 25
+      },
+      {
+        "directory": "chemistry_em/20_vol2_answers",
+        "start_page": 301,
+        "end_page": 323,
+        "page_count": 23
+      },
+      {
+        "directory": "chemistry_em/21_vol2_glossary",
+        "start_page": 324,
+        "end_page": 328,
+        "page_count": 5
+      }
+    ]
+  },
+  {
+    "book_index": 19,
+    "class": "12",
+    "subject": "Botany",
+    "medium": "Tamil",
+    "official_filename": "12th_Botany_TM_Text.pdf",
+    "expected_page_count": 336,
+    "tree_page_count": 336,
+    "directory_count": 12,
+    "first_page": 1,
+    "last_page": 336,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "botany_tm/00_prelims",
+    "last_directory": "botany_tm/11_practical",
+    "directory_ranges": [
+      {
+        "directory": "botany_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 10,
+        "page_count": 10
+      },
+      {
+        "directory": "botany_tm/01_chapter1",
+        "start_page": 11,
+        "end_page": 44,
+        "page_count": 34
+      },
+      {
+        "directory": "botany_tm/02_chapter2",
+        "start_page": 45,
+        "end_page": 64,
+        "page_count": 20
+      },
+      {
+        "directory": "botany_tm/03_chapter3",
+        "start_page": 65,
+        "end_page": 97,
+        "page_count": 33
+      },
+      {
+        "directory": "botany_tm/04_chapter4",
+        "start_page": 98,
+        "end_page": 128,
+        "page_count": 31
+      },
+      {
+        "directory": "botany_tm/05_chapter5",
+        "start_page": 129,
+        "end_page": 142,
+        "page_count": 14
+      },
+      {
+        "directory": "botany_tm/06_chapter6",
+        "start_page": 143,
+        "end_page": 170,
+        "page_count": 28
+      },
+      {
+        "directory": "botany_tm/07_chapter7",
+        "start_page": 171,
+        "end_page": 200,
+        "page_count": 30
+      },
+      {
+        "directory": "botany_tm/08_chapter8",
+        "start_page": 201,
+        "end_page": 222,
+        "page_count": 22
+      },
+      {
+        "directory": "botany_tm/09_chapter9",
+        "start_page": 223,
+        "end_page": 240,
+        "page_count": 18
+      },
+      {
+        "directory": "botany_tm/10_chapter10",
+        "start_page": 241,
+        "end_page": 307,
+        "page_count": 67
+      },
+      {
+        "directory": "botany_tm/11_practical",
+        "start_page": 308,
+        "end_page": 336,
+        "page_count": 29
+      }
+    ]
+  },
+  {
+    "book_index": 20,
+    "class": "12",
+    "subject": "Botany",
+    "medium": "English",
+    "official_filename": "12th_Botany_EM_Text.pdf",
+    "expected_page_count": 312,
+    "tree_page_count": 312,
+    "directory_count": 12,
+    "first_page": 1,
+    "last_page": 312,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "botany_em/00_prelims",
+    "last_directory": "botany_em/11_practical",
+    "directory_ranges": [
+      {
+        "directory": "botany_em/00_prelims",
+        "start_page": 1,
+        "end_page": 10,
+        "page_count": 10
+      },
+      {
+        "directory": "botany_em/01_chapter1",
+        "start_page": 11,
+        "end_page": 42,
+        "page_count": 32
+      },
+      {
+        "directory": "botany_em/02_chapter2",
+        "start_page": 43,
+        "end_page": 61,
+        "page_count": 19
+      },
+      {
+        "directory": "botany_em/03_chapter3",
+        "start_page": 62,
+        "end_page": 91,
+        "page_count": 30
+      },
+      {
+        "directory": "botany_em/04_chapter4",
+        "start_page": 92,
+        "end_page": 119,
+        "page_count": 28
+      },
+      {
+        "directory": "botany_em/05_chapter5",
+        "start_page": 120,
+        "end_page": 132,
+        "page_count": 13
+      },
+      {
+        "directory": "botany_em/06_chapter6",
+        "start_page": 133,
+        "end_page": 158,
+        "page_count": 26
+      },
+      {
+        "directory": "botany_em/07_chapter7",
+        "start_page": 159,
+        "end_page": 187,
+        "page_count": 29
+      },
+      {
+        "directory": "botany_em/08_chapter8",
+        "start_page": 188,
+        "end_page": 208,
+        "page_count": 21
+      },
+      {
+        "directory": "botany_em/09_chapter9",
+        "start_page": 209,
+        "end_page": 225,
+        "page_count": 17
+      },
+      {
+        "directory": "botany_em/10_chapter10",
+        "start_page": 226,
+        "end_page": 287,
+        "page_count": 62
+      },
+      {
+        "directory": "botany_em/11_practical",
+        "start_page": 288,
+        "end_page": 312,
+        "page_count": 25
+      }
+    ]
+  },
+  {
+    "book_index": 21,
+    "class": "12",
+    "subject": "Zoology",
+    "medium": "Tamil",
+    "official_filename": "12th_Zoology_TM_Text.pdf",
+    "expected_page_count": 336,
+    "tree_page_count": 336,
+    "directory_count": 18,
+    "first_page": 1,
+    "last_page": 336,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "zoology_tm/00_prelims",
+    "last_directory": "zoology_tm/17_practical",
+    "directory_ranges": [
+      {
+        "directory": "zoology_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "zoology_tm/01_chapter1",
+        "start_page": 9,
+        "end_page": 19,
+        "page_count": 11
+      },
+      {
+        "directory": "zoology_tm/02_chapter2",
+        "start_page": 20,
+        "end_page": 43,
+        "page_count": 24
+      },
+      {
+        "directory": "zoology_tm/03_chapter3",
+        "start_page": 44,
+        "end_page": 60,
+        "page_count": 17
+      },
+      {
+        "directory": "zoology_tm/04_chapter4",
+        "start_page": 61,
+        "end_page": 80,
+        "page_count": 20
+      },
+      {
+        "directory": "zoology_tm/05_chapter5",
+        "start_page": 81,
+        "end_page": 116,
+        "page_count": 36
+      },
+      {
+        "directory": "zoology_tm/06_chapter6",
+        "start_page": 117,
+        "end_page": 141,
+        "page_count": 25
+      },
+      {
+        "directory": "zoology_tm/07_chapter7",
+        "start_page": 142,
+        "end_page": 160,
+        "page_count": 19
+      },
+      {
+        "directory": "zoology_tm/08_chapter8",
+        "start_page": 161,
+        "end_page": 183,
+        "page_count": 23
+      },
+      {
+        "directory": "zoology_tm/09_chapter9",
+        "start_page": 184,
+        "end_page": 195,
+        "page_count": 12
+      },
+      {
+        "directory": "zoology_tm/10_chapter10",
+        "start_page": 196,
+        "end_page": 218,
+        "page_count": 23
+      },
+      {
+        "directory": "zoology_tm/11_chapter11",
+        "start_page": 219,
+        "end_page": 244,
+        "page_count": 26
+      },
+      {
+        "directory": "zoology_tm/12_chapter12",
+        "start_page": 245,
+        "end_page": 272,
+        "page_count": 28
+      },
+      {
+        "directory": "zoology_tm/13_chapter13",
+        "start_page": 273,
+        "end_page": 292,
+        "page_count": 20
+      },
+      {
+        "directory": "zoology_tm/14_glossary",
+        "start_page": 293,
+        "end_page": 297,
+        "page_count": 5
+      },
+      {
+        "directory": "zoology_tm/15_references",
+        "start_page": 298,
+        "end_page": 300,
+        "page_count": 3
+      },
+      {
+        "directory": "zoology_tm/16_competitive_qs",
+        "start_page": 301,
+        "end_page": 310,
+        "page_count": 10
+      },
+      {
+        "directory": "zoology_tm/17_practical",
+        "start_page": 311,
+        "end_page": 336,
+        "page_count": 26
+      }
+    ]
+  },
+  {
+    "book_index": 22,
+    "class": "12",
+    "subject": "Zoology",
+    "medium": "English",
+    "official_filename": "12th_Zoology_EM_Text.pdf",
+    "expected_page_count": 280,
+    "tree_page_count": 280,
+    "directory_count": 18,
+    "first_page": 1,
+    "last_page": 280,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "zoology_em/00_prelims",
+    "last_directory": "zoology_em/17_practical",
+    "directory_ranges": [
+      {
+        "directory": "zoology_em/00_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "zoology_em/01_chapter1",
+        "start_page": 9,
+        "end_page": 18,
+        "page_count": 10
+      },
+      {
+        "directory": "zoology_em/02_chapter2",
+        "start_page": 19,
+        "end_page": 39,
+        "page_count": 21
+      },
+      {
+        "directory": "zoology_em/03_chapter3",
+        "start_page": 40,
+        "end_page": 52,
+        "page_count": 13
+      },
+      {
+        "directory": "zoology_em/04_chapter4",
+        "start_page": 53,
+        "end_page": 68,
+        "page_count": 16
+      },
+      {
+        "directory": "zoology_em/05_chapter5",
+        "start_page": 69,
+        "end_page": 99,
+        "page_count": 31
+      },
+      {
+        "directory": "zoology_em/06_chapter6",
+        "start_page": 100,
+        "end_page": 119,
+        "page_count": 20
+      },
+      {
+        "directory": "zoology_em/07_chapter7",
+        "start_page": 120,
+        "end_page": 136,
+        "page_count": 17
+      },
+      {
+        "directory": "zoology_em/08_chapter8",
+        "start_page": 137,
+        "end_page": 155,
+        "page_count": 19
+      },
+      {
+        "directory": "zoology_em/09_chapter9",
+        "start_page": 156,
+        "end_page": 164,
+        "page_count": 9
+      },
+      {
+        "directory": "zoology_em/10_chapter10",
+        "start_page": 165,
+        "end_page": 183,
+        "page_count": 19
+      },
+      {
+        "directory": "zoology_em/11_chapter11",
+        "start_page": 184,
+        "end_page": 204,
+        "page_count": 21
+      },
+      {
+        "directory": "zoology_em/12_chapter12",
+        "start_page": 205,
+        "end_page": 226,
+        "page_count": 22
+      },
+      {
+        "directory": "zoology_em/13_chapter13",
+        "start_page": 227,
+        "end_page": 243,
+        "page_count": 17
+      },
+      {
+        "directory": "zoology_em/14_glossary",
+        "start_page": 244,
+        "end_page": 247,
+        "page_count": 4
+      },
+      {
+        "directory": "zoology_em/15_references",
+        "start_page": 248,
+        "end_page": 249,
+        "page_count": 2
+      },
+      {
+        "directory": "zoology_em/16_competitive_qs",
+        "start_page": 250,
+        "end_page": 257,
+        "page_count": 8
+      },
+      {
+        "directory": "zoology_em/17_practical",
+        "start_page": 258,
+        "end_page": 280,
+        "page_count": 23
+      }
+    ]
+  },
+  {
+    "book_index": 23,
+    "class": "12",
+    "subject": "Bio-Zoology",
+    "medium": "Tamil",
+    "official_filename": "12th_Bio-Zoology_TM_Text.pdf",
+    "expected_page_count": 312,
+    "tree_page_count": 312,
+    "directory_count": 17,
+    "first_page": 1,
+    "last_page": 312,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "bio_zoology_tm/00_prelims",
+    "last_directory": "bio_zoology_tm/16_practical",
+    "directory_ranges": [
+      {
+        "directory": "bio_zoology_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "bio_zoology_tm/01_chapter1",
+        "start_page": 9,
+        "end_page": 19,
+        "page_count": 11
+      },
+      {
+        "directory": "bio_zoology_tm/02_chapter2",
+        "start_page": 20,
+        "end_page": 42,
+        "page_count": 23
+      },
+      {
+        "directory": "bio_zoology_tm/03_chapter3",
+        "start_page": 43,
+        "end_page": 59,
+        "page_count": 17
+      },
+      {
+        "directory": "bio_zoology_tm/04_chapter4",
+        "start_page": 60,
+        "end_page": 75,
+        "page_count": 16
+      },
+      {
+        "directory": "bio_zoology_tm/05_chapter5",
+        "start_page": 76,
+        "end_page": 111,
+        "page_count": 36
+      },
+      {
+        "directory": "bio_zoology_tm/06_chapter6",
+        "start_page": 112,
+        "end_page": 133,
+        "page_count": 22
+      },
+      {
+        "directory": "bio_zoology_tm/07_chapter7",
+        "start_page": 134,
+        "end_page": 169,
+        "page_count": 36
+      },
+      {
+        "directory": "bio_zoology_tm/08_chapter8",
+        "start_page": 170,
+        "end_page": 181,
+        "page_count": 12
+      },
+      {
+        "directory": "bio_zoology_tm/09_chapter9",
+        "start_page": 182,
+        "end_page": 199,
+        "page_count": 18
+      },
+      {
+        "directory": "bio_zoology_tm/10_chapter10",
+        "start_page": 200,
+        "end_page": 223,
+        "page_count": 24
+      },
+      {
+        "directory": "bio_zoology_tm/11_chapter11",
+        "start_page": 224,
+        "end_page": 249,
+        "page_count": 26
+      },
+      {
+        "directory": "bio_zoology_tm/12_chapter12",
+        "start_page": 250,
+        "end_page": 269,
+        "page_count": 20
+      },
+      {
+        "directory": "bio_zoology_tm/13_glossary",
+        "start_page": 270,
+        "end_page": 274,
+        "page_count": 5
+      },
+      {
+        "directory": "bio_zoology_tm/14_references",
+        "start_page": 275,
+        "end_page": 277,
+        "page_count": 3
+      },
+      {
+        "directory": "bio_zoology_tm/15_competitive_qs",
+        "start_page": 278,
+        "end_page": 287,
+        "page_count": 10
+      },
+      {
+        "directory": "bio_zoology_tm/16_practical",
+        "start_page": 288,
+        "end_page": 312,
+        "page_count": 25
+      }
+    ]
+  },
+  {
+    "book_index": 24,
+    "class": "12",
+    "subject": "Bio-Zoology",
+    "medium": "English",
+    "official_filename": "12th_Bio-Zoology_EM_Text.pdf",
+    "expected_page_count": 264,
+    "tree_page_count": 264,
+    "directory_count": 17,
+    "first_page": 1,
+    "last_page": 264,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "bio_zoology_em/00_prelims",
+    "last_directory": "bio_zoology_em/16_practical",
+    "directory_ranges": [
+      {
+        "directory": "bio_zoology_em/00_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "bio_zoology_em/01_chapter1",
+        "start_page": 9,
+        "end_page": 18,
+        "page_count": 10
+      },
+      {
+        "directory": "bio_zoology_em/02_chapter2",
+        "start_page": 19,
+        "end_page": 39,
+        "page_count": 21
+      },
+      {
+        "directory": "bio_zoology_em/03_chapter3",
+        "start_page": 40,
+        "end_page": 52,
+        "page_count": 13
+      },
+      {
+        "directory": "bio_zoology_em/04_chapter4",
+        "start_page": 53,
+        "end_page": 65,
+        "page_count": 13
+      },
+      {
+        "directory": "bio_zoology_em/05_chapter5",
+        "start_page": 66,
+        "end_page": 96,
+        "page_count": 31
+      },
+      {
+        "directory": "bio_zoology_em/06_chapter6",
+        "start_page": 97,
+        "end_page": 114,
+        "page_count": 18
+      },
+      {
+        "directory": "bio_zoology_em/07_chapter7",
+        "start_page": 115,
+        "end_page": 145,
+        "page_count": 31
+      },
+      {
+        "directory": "bio_zoology_em/08_chapter8",
+        "start_page": 146,
+        "end_page": 154,
+        "page_count": 9
+      },
+      {
+        "directory": "bio_zoology_em/09_chapter9",
+        "start_page": 155,
+        "end_page": 169,
+        "page_count": 15
+      },
+      {
+        "directory": "bio_zoology_em/10_chapter10",
+        "start_page": 170,
+        "end_page": 188,
+        "page_count": 19
+      },
+      {
+        "directory": "bio_zoology_em/11_chapter11",
+        "start_page": 189,
+        "end_page": 208,
+        "page_count": 20
+      },
+      {
+        "directory": "bio_zoology_em/12_chapter12",
+        "start_page": 209,
+        "end_page": 225,
+        "page_count": 17
+      },
+      {
+        "directory": "bio_zoology_em/13_glossary",
+        "start_page": 226,
+        "end_page": 229,
+        "page_count": 4
+      },
+      {
+        "directory": "bio_zoology_em/14_references",
+        "start_page": 230,
+        "end_page": 231,
+        "page_count": 2
+      },
+      {
+        "directory": "bio_zoology_em/15_competitive_qs",
+        "start_page": 232,
+        "end_page": 239,
+        "page_count": 8
+      },
+      {
+        "directory": "bio_zoology_em/16_practical",
+        "start_page": 240,
+        "end_page": 264,
+        "page_count": 25
+      }
+    ]
+  },
+  {
+    "book_index": 25,
+    "class": "12",
+    "subject": "Computer Science",
+    "medium": "Tamil",
+    "official_filename": "12th_Computer%20Science_TM_Text.pdf",
+    "expected_page_count": 360,
+    "tree_page_count": 360,
+    "directory_count": 21,
+    "first_page": 1,
+    "last_page": 360,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "computer_science_tm/00_prelims",
+    "last_directory": "computer_science_tm/20_practical",
+    "directory_ranges": [
+      {
+        "directory": "computer_science_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 6,
+        "page_count": 6
+      },
+      {
+        "directory": "computer_science_tm/01_chapter1",
+        "start_page": 7,
+        "end_page": 17,
+        "page_count": 11
+      },
+      {
+        "directory": "computer_science_tm/02_chapter2",
+        "start_page": 18,
+        "end_page": 27,
+        "page_count": 10
+      },
+      {
+        "directory": "computer_science_tm/03_chapter3",
+        "start_page": 28,
+        "end_page": 37,
+        "page_count": 10
+      },
+      {
+        "directory": "computer_science_tm/04_chapter4",
+        "start_page": 38,
+        "end_page": 53,
+        "page_count": 16
+      },
+      {
+        "directory": "computer_science_tm/05_python_interleaf",
+        "start_page": 54,
+        "end_page": 54,
+        "page_count": 1
+      },
+      {
+        "directory": "computer_science_tm/06_chapter5",
+        "start_page": 55,
+        "end_page": 76,
+        "page_count": 22
+      },
+      {
+        "directory": "computer_science_tm/07_chapter6",
+        "start_page": 77,
+        "end_page": 98,
+        "page_count": 22
+      },
+      {
+        "directory": "computer_science_tm/08_chapter7",
+        "start_page": 99,
+        "end_page": 123,
+        "page_count": 25
+      },
+      {
+        "directory": "computer_science_tm/09_chapter8",
+        "start_page": 124,
+        "end_page": 141,
+        "page_count": 18
+      },
+      {
+        "directory": "computer_science_tm/10_chapter9",
+        "start_page": 142,
+        "end_page": 179,
+        "page_count": 38
+      },
+      {
+        "directory": "computer_science_tm/11_chapter10",
+        "start_page": 180,
+        "end_page": 192,
+        "page_count": 13
+      },
+      {
+        "directory": "computer_science_tm/12_chapter11",
+        "start_page": 193,
+        "end_page": 208,
+        "page_count": 16
+      },
+      {
+        "directory": "computer_science_tm/13_chapter12",
+        "start_page": 209,
+        "end_page": 236,
+        "page_count": 28
+      },
+      {
+        "directory": "computer_science_tm/14_chapter13",
+        "start_page": 237,
+        "end_page": 271,
+        "page_count": 35
+      },
+      {
+        "directory": "computer_science_tm/15_chapter14",
+        "start_page": 272,
+        "end_page": 290,
+        "page_count": 19
+      },
+      {
+        "directory": "computer_science_tm/16_chapter15",
+        "start_page": 291,
+        "end_page": 318,
+        "page_count": 28
+      },
+      {
+        "directory": "computer_science_tm/17_chapter16",
+        "start_page": 319,
+        "end_page": 332,
+        "page_count": 14
+      },
+      {
+        "directory": "computer_science_tm/18_glossary",
+        "start_page": 333,
+        "end_page": 335,
+        "page_count": 3
+      },
+      {
+        "directory": "computer_science_tm/19_annexure",
+        "start_page": 336,
+        "end_page": 338,
+        "page_count": 3
+      },
+      {
+        "directory": "computer_science_tm/20_practical",
+        "start_page": 339,
+        "end_page": 360,
+        "page_count": 22
+      }
+    ]
+  },
+  {
+    "book_index": 26,
+    "class": "12",
+    "subject": "Computer Science",
+    "medium": "English",
+    "official_filename": "12th_Computer%20Science_EM_Text.pdf",
+    "expected_page_count": 360,
+    "tree_page_count": 360,
+    "directory_count": 21,
+    "first_page": 1,
+    "last_page": 360,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "computer_science_em/00_prelims",
+    "last_directory": "computer_science_em/20_practical",
+    "directory_ranges": [
+      {
+        "directory": "computer_science_em/00_prelims",
+        "start_page": 1,
+        "end_page": 6,
+        "page_count": 6
+      },
+      {
+        "directory": "computer_science_em/01_chapter1",
+        "start_page": 7,
+        "end_page": 16,
+        "page_count": 10
+      },
+      {
+        "directory": "computer_science_em/02_chapter2",
+        "start_page": 17,
+        "end_page": 26,
+        "page_count": 10
+      },
+      {
+        "directory": "computer_science_em/03_chapter3",
+        "start_page": 27,
+        "end_page": 36,
+        "page_count": 10
+      },
+      {
+        "directory": "computer_science_em/04_chapter4",
+        "start_page": 37,
+        "end_page": 51,
+        "page_count": 15
+      },
+      {
+        "directory": "computer_science_em/05_python_interleaf",
+        "start_page": 52,
+        "end_page": 52,
+        "page_count": 1
+      },
+      {
+        "directory": "computer_science_em/06_chapter5",
+        "start_page": 53,
+        "end_page": 72,
+        "page_count": 20
+      },
+      {
+        "directory": "computer_science_em/07_chapter6",
+        "start_page": 73,
+        "end_page": 94,
+        "page_count": 22
+      },
+      {
+        "directory": "computer_science_em/08_chapter7",
+        "start_page": 95,
+        "end_page": 119,
+        "page_count": 25
+      },
+      {
+        "directory": "computer_science_em/09_chapter8",
+        "start_page": 120,
+        "end_page": 137,
+        "page_count": 18
+      },
+      {
+        "directory": "computer_science_em/10_chapter9",
+        "start_page": 138,
+        "end_page": 175,
+        "page_count": 38
+      },
+      {
+        "directory": "computer_science_em/11_chapter10",
+        "start_page": 176,
+        "end_page": 187,
+        "page_count": 12
+      },
+      {
+        "directory": "computer_science_em/12_chapter11",
+        "start_page": 188,
+        "end_page": 203,
+        "page_count": 16
+      },
+      {
+        "directory": "computer_science_em/13_chapter12",
+        "start_page": 204,
+        "end_page": 229,
+        "page_count": 26
+      },
+      {
+        "directory": "computer_science_em/14_chapter13",
+        "start_page": 230,
+        "end_page": 264,
+        "page_count": 35
+      },
+      {
+        "directory": "computer_science_em/15_chapter14",
+        "start_page": 265,
+        "end_page": 283,
+        "page_count": 19
+      },
+      {
+        "directory": "computer_science_em/16_chapter15",
+        "start_page": 284,
+        "end_page": 312,
+        "page_count": 29
+      },
+      {
+        "directory": "computer_science_em/17_chapter16",
+        "start_page": 313,
+        "end_page": 326,
+        "page_count": 14
+      },
+      {
+        "directory": "computer_science_em/18_glossary",
+        "start_page": 327,
+        "end_page": 332,
+        "page_count": 6
+      },
+      {
+        "directory": "computer_science_em/19_annexure",
+        "start_page": 333,
+        "end_page": 336,
+        "page_count": 4
+      },
+      {
+        "directory": "computer_science_em/20_practical",
+        "start_page": 337,
+        "end_page": 360,
+        "page_count": 24
+      }
+    ]
+  },
+  {
+    "book_index": 27,
+    "class": "12",
+    "subject": "Commerce",
+    "medium": "Tamil",
+    "official_filename": "12th_Commerce_TM_Text.pdf",
+    "expected_page_count": 288,
+    "tree_page_count": 288,
+    "directory_count": 13,
+    "first_page": 1,
+    "last_page": 288,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "commerce_tm/00_prelims",
+    "last_directory": "commerce_tm/12_acknowledgement",
+    "directory_ranges": [
+      {
+        "directory": "commerce_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 14,
+        "page_count": 14
+      },
+      {
+        "directory": "commerce_tm/01_unit1",
+        "start_page": 15,
+        "end_page": 35,
+        "page_count": 21
+      },
+      {
+        "directory": "commerce_tm/02_unit2",
+        "start_page": 36,
+        "end_page": 56,
+        "page_count": 21
+      },
+      {
+        "directory": "commerce_tm/03_unit3",
+        "start_page": 57,
+        "end_page": 80,
+        "page_count": 24
+      },
+      {
+        "directory": "commerce_tm/04_unit4",
+        "start_page": 81,
+        "end_page": 112,
+        "page_count": 32
+      },
+      {
+        "directory": "commerce_tm/05_unit5",
+        "start_page": 113,
+        "end_page": 137,
+        "page_count": 25
+      },
+      {
+        "directory": "commerce_tm/06_unit6",
+        "start_page": 138,
+        "end_page": 165,
+        "page_count": 28
+      },
+      {
+        "directory": "commerce_tm/07_unit7",
+        "start_page": 166,
+        "end_page": 183,
+        "page_count": 18
+      },
+      {
+        "directory": "commerce_tm/08_unit8",
+        "start_page": 184,
+        "end_page": 211,
+        "page_count": 28
+      },
+      {
+        "directory": "commerce_tm/09_unit9",
+        "start_page": 212,
+        "end_page": 244,
+        "page_count": 33
+      },
+      {
+        "directory": "commerce_tm/10_unit10",
+        "start_page": 245,
+        "end_page": 284,
+        "page_count": 40
+      },
+      {
+        "directory": "commerce_tm/11_glossary",
+        "start_page": 285,
+        "end_page": 287,
+        "page_count": 3
+      },
+      {
+        "directory": "commerce_tm/12_acknowledgement",
+        "start_page": 288,
+        "end_page": 288,
+        "page_count": 1
+      }
+    ]
+  },
+  {
+    "book_index": 28,
+    "class": "12",
+    "subject": "Commerce",
+    "medium": "English",
+    "official_filename": "12th_Commerce_EM_Text.pdf",
+    "expected_page_count": 288,
+    "tree_page_count": 288,
+    "directory_count": 13,
+    "first_page": 1,
+    "last_page": 288,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "commerce_em/00_prelims",
+    "last_directory": "commerce_em/12_acknowledgement",
+    "directory_ranges": [
+      {
+        "directory": "commerce_em/00_prelims",
+        "start_page": 1,
+        "end_page": 12,
+        "page_count": 12
+      },
+      {
+        "directory": "commerce_em/01_unit1",
+        "start_page": 13,
+        "end_page": 33,
+        "page_count": 21
+      },
+      {
+        "directory": "commerce_em/02_unit2",
+        "start_page": 34,
+        "end_page": 55,
+        "page_count": 22
+      },
+      {
+        "directory": "commerce_em/03_unit3",
+        "start_page": 56,
+        "end_page": 79,
+        "page_count": 24
+      },
+      {
+        "directory": "commerce_em/04_unit4",
+        "start_page": 80,
+        "end_page": 111,
+        "page_count": 32
+      },
+      {
+        "directory": "commerce_em/05_unit5",
+        "start_page": 112,
+        "end_page": 136,
+        "page_count": 25
+      },
+      {
+        "directory": "commerce_em/06_unit6",
+        "start_page": 137,
+        "end_page": 164,
+        "page_count": 28
+      },
+      {
+        "directory": "commerce_em/07_unit7",
+        "start_page": 165,
+        "end_page": 182,
+        "page_count": 18
+      },
+      {
+        "directory": "commerce_em/08_unit8",
+        "start_page": 183,
+        "end_page": 210,
+        "page_count": 28
+      },
+      {
+        "directory": "commerce_em/09_unit9",
+        "start_page": 211,
+        "end_page": 243,
+        "page_count": 33
+      },
+      {
+        "directory": "commerce_em/10_unit10",
+        "start_page": 244,
+        "end_page": 283,
+        "page_count": 40
+      },
+      {
+        "directory": "commerce_em/11_glossary",
+        "start_page": 284,
+        "end_page": 285,
+        "page_count": 2
+      },
+      {
+        "directory": "commerce_em/12_acknowledgement",
+        "start_page": 286,
+        "end_page": 288,
+        "page_count": 3
+      }
+    ]
+  },
+  {
+    "book_index": 29,
+    "class": "12",
+    "subject": "Accountancy",
+    "medium": "Tamil",
+    "official_filename": "12th_Accountancy_TM_Text.pdf",
+    "expected_page_count": 368,
+    "tree_page_count": 368,
+    "directory_count": 12,
+    "first_page": 1,
+    "last_page": 368,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "accountancy_tm/00_prelims",
+    "last_directory": "accountancy_tm/11_glossary",
+    "directory_ranges": [
+      {
+        "directory": "accountancy_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "accountancy_tm/01_unit1",
+        "start_page": 9,
+        "end_page": 46,
+        "page_count": 38
+      },
+      {
+        "directory": "accountancy_tm/02_unit2",
+        "start_page": 47,
+        "end_page": 88,
+        "page_count": 42
+      },
+      {
+        "directory": "accountancy_tm/03_unit3",
+        "start_page": 89,
+        "end_page": 126,
+        "page_count": 38
+      },
+      {
+        "directory": "accountancy_tm/04_unit4",
+        "start_page": 127,
+        "end_page": 144,
+        "page_count": 18
+      },
+      {
+        "directory": "accountancy_tm/05_unit5",
+        "start_page": 145,
+        "end_page": 190,
+        "page_count": 46
+      },
+      {
+        "directory": "accountancy_tm/06_unit6",
+        "start_page": 191,
+        "end_page": 232,
+        "page_count": 42
+      },
+      {
+        "directory": "accountancy_tm/07_unit7",
+        "start_page": 233,
+        "end_page": 270,
+        "page_count": 38
+      },
+      {
+        "directory": "accountancy_tm/08_unit8",
+        "start_page": 271,
+        "end_page": 300,
+        "page_count": 30
+      },
+      {
+        "directory": "accountancy_tm/09_unit9",
+        "start_page": 301,
+        "end_page": 334,
+        "page_count": 34
+      },
+      {
+        "directory": "accountancy_tm/10_unit10",
+        "start_page": 335,
+        "end_page": 365,
+        "page_count": 31
+      },
+      {
+        "directory": "accountancy_tm/11_glossary",
+        "start_page": 366,
+        "end_page": 368,
+        "page_count": 3
+      }
+    ]
+  },
+  {
+    "book_index": 30,
+    "class": "12",
+    "subject": "Accountancy",
+    "medium": "English",
+    "official_filename": "12th_Accountancy_EM_Text.pdf",
+    "expected_page_count": 368,
+    "tree_page_count": 368,
+    "directory_count": 12,
+    "first_page": 1,
+    "last_page": 368,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "accountancy_em/00_prelims",
+    "last_directory": "accountancy_em/11_glossary",
+    "directory_ranges": [
+      {
+        "directory": "accountancy_em/00_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "accountancy_em/01_unit1",
+        "start_page": 9,
+        "end_page": 46,
+        "page_count": 38
+      },
+      {
+        "directory": "accountancy_em/02_unit2",
+        "start_page": 47,
+        "end_page": 88,
+        "page_count": 42
+      },
+      {
+        "directory": "accountancy_em/03_unit3",
+        "start_page": 89,
+        "end_page": 126,
+        "page_count": 38
+      },
+      {
+        "directory": "accountancy_em/04_unit4",
+        "start_page": 127,
+        "end_page": 144,
+        "page_count": 18
+      },
+      {
+        "directory": "accountancy_em/05_unit5",
+        "start_page": 145,
+        "end_page": 190,
+        "page_count": 46
+      },
+      {
+        "directory": "accountancy_em/06_unit6",
+        "start_page": 191,
+        "end_page": 232,
+        "page_count": 42
+      },
+      {
+        "directory": "accountancy_em/07_unit7",
+        "start_page": 233,
+        "end_page": 270,
+        "page_count": 38
+      },
+      {
+        "directory": "accountancy_em/08_unit8",
+        "start_page": 271,
+        "end_page": 300,
+        "page_count": 30
+      },
+      {
+        "directory": "accountancy_em/09_unit9",
+        "start_page": 301,
+        "end_page": 334,
+        "page_count": 34
+      },
+      {
+        "directory": "accountancy_em/10_unit10",
+        "start_page": 335,
+        "end_page": 365,
+        "page_count": 31
+      },
+      {
+        "directory": "accountancy_em/11_glossary",
+        "start_page": 366,
+        "end_page": 368,
+        "page_count": 3
+      }
+    ]
+  },
+  {
+    "book_index": 31,
+    "class": "12",
+    "subject": "Economics",
+    "medium": "Tamil",
+    "official_filename": "12th_Economics_TM_Text.pdf",
+    "expected_page_count": 336,
+    "tree_page_count": 336,
+    "directory_count": 14,
+    "first_page": 1,
+    "last_page": 336,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "economics_tm/00_prelims",
+    "last_directory": "economics_tm/13_glossary",
+    "directory_ranges": [
+      {
+        "directory": "economics_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 6,
+        "page_count": 6
+      },
+      {
+        "directory": "economics_tm/01_chapter1",
+        "start_page": 7,
+        "end_page": 28,
+        "page_count": 22
+      },
+      {
+        "directory": "economics_tm/02_chapter2",
+        "start_page": 29,
+        "end_page": 49,
+        "page_count": 21
+      },
+      {
+        "directory": "economics_tm/03_chapter3",
+        "start_page": 50,
+        "end_page": 67,
+        "page_count": 18
+      },
+      {
+        "directory": "economics_tm/04_chapter4",
+        "start_page": 68,
+        "end_page": 93,
+        "page_count": 26
+      },
+      {
+        "directory": "economics_tm/05_chapter5",
+        "start_page": 94,
+        "end_page": 116,
+        "page_count": 23
+      },
+      {
+        "directory": "economics_tm/06_chapter6",
+        "start_page": 117,
+        "end_page": 152,
+        "page_count": 36
+      },
+      {
+        "directory": "economics_tm/07_chapter7",
+        "start_page": 153,
+        "end_page": 185,
+        "page_count": 33
+      },
+      {
+        "directory": "economics_tm/08_chapter8",
+        "start_page": 186,
+        "end_page": 211,
+        "page_count": 26
+      },
+      {
+        "directory": "economics_tm/09_chapter9",
+        "start_page": 212,
+        "end_page": 250,
+        "page_count": 39
+      },
+      {
+        "directory": "economics_tm/10_chapter10",
+        "start_page": 251,
+        "end_page": 279,
+        "page_count": 29
+      },
+      {
+        "directory": "economics_tm/11_chapter11",
+        "start_page": 280,
+        "end_page": 304,
+        "page_count": 25
+      },
+      {
+        "directory": "economics_tm/12_chapter12",
+        "start_page": 305,
+        "end_page": 332,
+        "page_count": 28
+      },
+      {
+        "directory": "economics_tm/13_glossary",
+        "start_page": 333,
+        "end_page": 336,
+        "page_count": 4
+      }
+    ]
+  },
+  {
+    "book_index": 32,
+    "class": "12",
+    "subject": "Economics",
+    "medium": "English",
+    "official_filename": "12th_Economics_EM_Text.pdf",
+    "expected_page_count": 296,
+    "tree_page_count": 296,
+    "directory_count": 15,
+    "first_page": 1,
+    "last_page": 296,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "economics_em/00_prelims",
+    "last_directory": "economics_em/14_notes",
+    "directory_ranges": [
+      {
+        "directory": "economics_em/00_prelims",
+        "start_page": 1,
+        "end_page": 6,
+        "page_count": 6
+      },
+      {
+        "directory": "economics_em/01_chapter1_introduction_to_macro_economics",
+        "start_page": 7,
+        "end_page": 24,
+        "page_count": 18
+      },
+      {
+        "directory": "economics_em/02_chapter2_national_income",
+        "start_page": 25,
+        "end_page": 42,
+        "page_count": 18
+      },
+      {
+        "directory": "economics_em/03_chapter3_theories_of_employment_and_income",
+        "start_page": 43,
+        "end_page": 57,
+        "page_count": 15
+      },
+      {
+        "directory": "economics_em/04_chapter4_consumption_and_investment_functions",
+        "start_page": 58,
+        "end_page": 81,
+        "page_count": 24
+      },
+      {
+        "directory": "economics_em/05_chapter5_monetary_economics",
+        "start_page": 82,
+        "end_page": 100,
+        "page_count": 19
+      },
+      {
+        "directory": "economics_em/06_chapter6_banking",
+        "start_page": 101,
+        "end_page": 130,
+        "page_count": 30
+      },
+      {
+        "directory": "economics_em/07_chapter7_international_economics",
+        "start_page": 131,
+        "end_page": 159,
+        "page_count": 29
+      },
+      {
+        "directory": "economics_em/08_chapter8_international_economic_organisations",
+        "start_page": 160,
+        "end_page": 181,
+        "page_count": 22
+      },
+      {
+        "directory": "economics_em/09_chapter9_fiscal_economics",
+        "start_page": 182,
+        "end_page": 217,
+        "page_count": 36
+      },
+      {
+        "directory": "economics_em/10_chapter10_environmental_economics",
+        "start_page": 218,
+        "end_page": 242,
+        "page_count": 25
+      },
+      {
+        "directory": "economics_em/11_chapter11_economics_of_development_and_planning",
+        "start_page": 243,
+        "end_page": 262,
+        "page_count": 20
+      },
+      {
+        "directory": "economics_em/12_chapter12_statistics_and_econometrics",
+        "start_page": 263,
+        "end_page": 283,
+        "page_count": 21
+      },
+      {
+        "directory": "economics_em/13_glossary",
+        "start_page": 284,
+        "end_page": 287,
+        "page_count": 4
+      },
+      {
+        "directory": "economics_em/14_notes",
+        "start_page": 288,
+        "end_page": 296,
+        "page_count": 9
+      }
+    ]
+  },
+  {
+    "book_index": 33,
+    "class": "12",
+    "subject": "History",
+    "medium": "Tamil",
+    "official_filename": "12th_History_TM_Text.pdf",
+    "expected_page_count": 312,
+    "tree_page_count": 312,
+    "directory_count": 18,
+    "first_page": 1,
+    "last_page": 312,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "history_tm/00_prelims",
+    "last_directory": "history_tm/17_notes",
+    "directory_ranges": [
+      {
+        "directory": "history_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 4,
+        "page_count": 4
+      },
+      {
+        "directory": "history_tm/01_chapter1",
+        "start_page": 5,
+        "end_page": 20,
+        "page_count": 16
+      },
+      {
+        "directory": "history_tm/02_chapter2",
+        "start_page": 21,
+        "end_page": 37,
+        "page_count": 17
+      },
+      {
+        "directory": "history_tm/03_chapter3",
+        "start_page": 38,
+        "end_page": 50,
+        "page_count": 13
+      },
+      {
+        "directory": "history_tm/04_chapter4",
+        "start_page": 51,
+        "end_page": 71,
+        "page_count": 21
+      },
+      {
+        "directory": "history_tm/05_chapter5",
+        "start_page": 72,
+        "end_page": 85,
+        "page_count": 14
+      },
+      {
+        "directory": "history_tm/06_chapter6",
+        "start_page": 86,
+        "end_page": 96,
+        "page_count": 11
+      },
+      {
+        "directory": "history_tm/07_chapter7",
+        "start_page": 97,
+        "end_page": 114,
+        "page_count": 18
+      },
+      {
+        "directory": "history_tm/08_chapter8",
+        "start_page": 115,
+        "end_page": 131,
+        "page_count": 17
+      },
+      {
+        "directory": "history_tm/09_chapter9",
+        "start_page": 132,
+        "end_page": 149,
+        "page_count": 18
+      },
+      {
+        "directory": "history_tm/10_chapter10",
+        "start_page": 150,
+        "end_page": 173,
+        "page_count": 24
+      },
+      {
+        "directory": "history_tm/11_chapter11",
+        "start_page": 174,
+        "end_page": 203,
+        "page_count": 30
+      },
+      {
+        "directory": "history_tm/12_chapter12",
+        "start_page": 204,
+        "end_page": 225,
+        "page_count": 22
+      },
+      {
+        "directory": "history_tm/13_chapter13",
+        "start_page": 226,
+        "end_page": 254,
+        "page_count": 29
+      },
+      {
+        "directory": "history_tm/14_chapter14",
+        "start_page": 255,
+        "end_page": 283,
+        "page_count": 29
+      },
+      {
+        "directory": "history_tm/15_chapter15",
+        "start_page": 284,
+        "end_page": 307,
+        "page_count": 24
+      },
+      {
+        "directory": "history_tm/16_timeline",
+        "start_page": 308,
+        "end_page": 309,
+        "page_count": 2
+      },
+      {
+        "directory": "history_tm/17_notes",
+        "start_page": 310,
+        "end_page": 312,
+        "page_count": 3
+      }
+    ]
+  },
+  {
+    "book_index": 34,
+    "class": "12",
+    "subject": "History",
+    "medium": "English",
+    "official_filename": "12th_History_EM_Text.pdf",
+    "expected_page_count": 272,
+    "tree_page_count": 272,
+    "directory_count": 18,
+    "first_page": 1,
+    "last_page": 272,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "history_em/00_prelims",
+    "last_directory": "history_em/17_notes",
+    "directory_ranges": [
+      {
+        "directory": "history_em/00_prelims",
+        "start_page": 1,
+        "end_page": 4,
+        "page_count": 4
+      },
+      {
+        "directory": "history_em/01_chapter1_rise_of_nationalism_in_india",
+        "start_page": 5,
+        "end_page": 19,
+        "page_count": 15
+      },
+      {
+        "directory": "history_em/02_chapter2_rise_of_extremism_and_swadeshi_movement",
+        "start_page": 20,
+        "end_page": 34,
+        "page_count": 15
+      },
+      {
+        "directory": "history_em/03_chapter3_impact_of_world_war_I_on_indian_freedom_movement",
+        "start_page": 35,
+        "end_page": 45,
+        "page_count": 11
+      },
+      {
+        "directory": "history_em/04_chapter4_advent_of_gandhi_and_mass_mobilisation",
+        "start_page": 46,
+        "end_page": 64,
+        "page_count": 19
+      },
+      {
+        "directory": "history_em/05_chapter5_period_of_radicalism_in_anti_imperialist_struggles",
+        "start_page": 65,
+        "end_page": 76,
+        "page_count": 12
+      },
+      {
+        "directory": "history_em/06_chapter6_communalism_in_nationalist_politics",
+        "start_page": 77,
+        "end_page": 87,
+        "page_count": 11
+      },
+      {
+        "directory": "history_em/07_chapter7_last_phase_of_indian_national_movement",
+        "start_page": 88,
+        "end_page": 103,
+        "page_count": 16
+      },
+      {
+        "directory": "history_em/08_chapter8_reconstruction_of_post_colonial_india",
+        "start_page": 104,
+        "end_page": 118,
+        "page_count": 15
+      },
+      {
+        "directory": "history_em/09_chapter9_envisioning_a_new_socio_economic_order",
+        "start_page": 119,
+        "end_page": 133,
+        "page_count": 15
+      },
+      {
+        "directory": "history_em/10_chapter10_modern_world_the_age_of_reason",
+        "start_page": 134,
+        "end_page": 154,
+        "page_count": 21
+      },
+      {
+        "directory": "history_em/11_chapter11_the_age_of_revolutions",
+        "start_page": 155,
+        "end_page": 179,
+        "page_count": 25
+      },
+      {
+        "directory": "history_em/12_chapter12_europe_in_turmoil",
+        "start_page": 180,
+        "end_page": 198,
+        "page_count": 19
+      },
+      {
+        "directory": "history_em/13_chapter13_imperialism_and_its_onslaught",
+        "start_page": 199,
+        "end_page": 222,
+        "page_count": 24
+      },
+      {
+        "directory": "history_em/14_chapter14_outbreak_of_world_war_II_and_its_impact_in_colonies",
+        "start_page": 223,
+        "end_page": 247,
+        "page_count": 25
+      },
+      {
+        "directory": "history_em/15_chapter15_the_world_after_world_war_II",
+        "start_page": 248,
+        "end_page": 268,
+        "page_count": 21
+      },
+      {
+        "directory": "history_em/16_timeline",
+        "start_page": 269,
+        "end_page": 270,
+        "page_count": 2
+      },
+      {
+        "directory": "history_em/17_notes",
+        "start_page": 271,
+        "end_page": 272,
+        "page_count": 2
+      }
+    ]
+  },
+  {
+    "book_index": 35,
+    "class": "12",
+    "subject": "Geography",
+    "medium": "Tamil",
+    "official_filename": "12th_Geography_TM_Text.pdf",
+    "expected_page_count": 232,
+    "tree_page_count": 232,
+    "directory_count": 17,
+    "first_page": 1,
+    "last_page": 232,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "geography_tm/00_prelims",
+    "last_directory": "geography_tm/16_acknowledgement",
+    "directory_ranges": [
+      {
+        "directory": "geography_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "geography_tm/01_chapter1",
+        "start_page": 9,
+        "end_page": 30,
+        "page_count": 22
+      },
+      {
+        "directory": "geography_tm/02_chapter2",
+        "start_page": 31,
+        "end_page": 55,
+        "page_count": 25
+      },
+      {
+        "directory": "geography_tm/03_chapter3",
+        "start_page": 56,
+        "end_page": 77,
+        "page_count": 22
+      },
+      {
+        "directory": "geography_tm/04_chapter4",
+        "start_page": 78,
+        "end_page": 102,
+        "page_count": 25
+      },
+      {
+        "directory": "geography_tm/05_chapter5",
+        "start_page": 103,
+        "end_page": 128,
+        "page_count": 26
+      },
+      {
+        "directory": "geography_tm/06_chapter6",
+        "start_page": 129,
+        "end_page": 148,
+        "page_count": 20
+      },
+      {
+        "directory": "geography_tm/07_chapter7",
+        "start_page": 149,
+        "end_page": 164,
+        "page_count": 16
+      },
+      {
+        "directory": "geography_tm/08_chapter8",
+        "start_page": 165,
+        "end_page": 181,
+        "page_count": 17
+      },
+      {
+        "directory": "geography_tm/09_chapter9",
+        "start_page": 182,
+        "end_page": 187,
+        "page_count": 6
+      },
+      {
+        "directory": "geography_tm/10_chapter10",
+        "start_page": 188,
+        "end_page": 199,
+        "page_count": 12
+      },
+      {
+        "directory": "geography_tm/11_chapter11",
+        "start_page": 200,
+        "end_page": 208,
+        "page_count": 9
+      },
+      {
+        "directory": "geography_tm/12_chapter12",
+        "start_page": 209,
+        "end_page": 218,
+        "page_count": 10
+      },
+      {
+        "directory": "geography_tm/13_chapter13",
+        "start_page": 219,
+        "end_page": 227,
+        "page_count": 9
+      },
+      {
+        "directory": "geography_tm/14_glossary",
+        "start_page": 228,
+        "end_page": 230,
+        "page_count": 3
+      },
+      {
+        "directory": "geography_tm/15_notes",
+        "start_page": 231,
+        "end_page": 231,
+        "page_count": 1
+      },
+      {
+        "directory": "geography_tm/16_acknowledgement",
+        "start_page": 232,
+        "end_page": 232,
+        "page_count": 1
+      }
+    ]
+  },
+  {
+    "book_index": 36,
+    "class": "12",
+    "subject": "Geography",
+    "medium": "English",
+    "official_filename": "12th_Geography_EM_Text.pdf",
+    "expected_page_count": 216,
+    "tree_page_count": 216,
+    "directory_count": 15,
+    "first_page": 1,
+    "last_page": 216,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "geography_em/00_prelims",
+    "last_directory": "geography_em/14_backmatter",
+    "directory_ranges": [
+      {
+        "directory": "geography_em/00_prelims",
+        "start_page": 1,
+        "end_page": 3,
+        "page_count": 3
+      },
+      {
+        "directory": "geography_em/01_chapter1_population_geography",
+        "start_page": 4,
+        "end_page": 29,
+        "page_count": 26
+      },
+      {
+        "directory": "geography_em/02_chapter2_human_settlements",
+        "start_page": 30,
+        "end_page": 43,
+        "page_count": 14
+      },
+      {
+        "directory": "geography_em/03_chapter3_resources",
+        "start_page": 44,
+        "end_page": 69,
+        "page_count": 26
+      },
+      {
+        "directory": "geography_em/04_chapter4_economic_activities",
+        "start_page": 70,
+        "end_page": 93,
+        "page_count": 24
+      },
+      {
+        "directory": "geography_em/05_chapter5_cultural_and_political_geography",
+        "start_page": 94,
+        "end_page": 117,
+        "page_count": 24
+      },
+      {
+        "directory": "geography_em/06_chapter6_geoinformatics",
+        "start_page": 118,
+        "end_page": 137,
+        "page_count": 20
+      },
+      {
+        "directory": "geography_em/07_chapter7_sustainable_development",
+        "start_page": 138,
+        "end_page": 152,
+        "page_count": 15
+      },
+      {
+        "directory": "geography_em/08_chapter8_man_made_disasters",
+        "start_page": 153,
+        "end_page": 166,
+        "page_count": 14
+      },
+      {
+        "directory": "geography_em/09_chapter9_surveying",
+        "start_page": 167,
+        "end_page": 171,
+        "page_count": 5
+      },
+      {
+        "directory": "geography_em/10_chapter10_map_projection",
+        "start_page": 172,
+        "end_page": 184,
+        "page_count": 13
+      },
+      {
+        "directory": "geography_em/11_chapter11_thematic_mapping",
+        "start_page": 185,
+        "end_page": 193,
+        "page_count": 9
+      },
+      {
+        "directory": "geography_em/12_chapter12_representation_of_geographical_data",
+        "start_page": 194,
+        "end_page": 202,
+        "page_count": 9
+      },
+      {
+        "directory": "geography_em/13_chapter13_statistical_techniques",
+        "start_page": 203,
+        "end_page": 211,
+        "page_count": 9
+      },
+      {
+        "directory": "geography_em/14_backmatter",
+        "start_page": 212,
+        "end_page": 216,
+        "page_count": 5
+      }
+    ]
+  },
+  {
+    "book_index": 37,
+    "class": "12",
+    "subject": "Political Science",
+    "medium": "Tamil",
+    "official_filename": "12th_Political%20Science%20TM_Text.pdf",
+    "expected_page_count": 360,
+    "tree_page_count": 360,
+    "directory_count": 14,
+    "first_page": 1,
+    "last_page": 360,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "political_science_tm/00_prelims",
+    "last_directory": "political_science_tm/13_annexure",
+    "directory_ranges": [
+      {
+        "directory": "political_science_tm/00_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "political_science_tm/01_unit1_constitution_of_india",
+        "start_page": 9,
+        "end_page": 26,
+        "page_count": 18
+      },
+      {
+        "directory": "political_science_tm/02_unit2_legislature",
+        "start_page": 27,
+        "end_page": 54,
+        "page_count": 28
+      },
+      {
+        "directory": "political_science_tm/03_unit3_executive",
+        "start_page": 55,
+        "end_page": 75,
+        "page_count": 21
+      },
+      {
+        "directory": "political_science_tm/04_unit4_indian_judiciary",
+        "start_page": 76,
+        "end_page": 100,
+        "page_count": 25
+      },
+      {
+        "directory": "political_science_tm/05_unit5_federalism_in_india",
+        "start_page": 101,
+        "end_page": 123,
+        "page_count": 23
+      },
+      {
+        "directory": "political_science_tm/06_unit6_administrative_machinery_in_india",
+        "start_page": 124,
+        "end_page": 148,
+        "page_count": 25
+      },
+      {
+        "directory": "political_science_tm/07_unit7_challenges_of_nation_building",
+        "start_page": 149,
+        "end_page": 175,
+        "page_count": 27
+      },
+      {
+        "directory": "political_science_tm/08_unit8_planning_and_development_politics",
+        "start_page": 176,
+        "end_page": 207,
+        "page_count": 32
+      },
+      {
+        "directory": "political_science_tm/09_unit9_india_and_the_world",
+        "start_page": 208,
+        "end_page": 233,
+        "page_count": 26
+      },
+      {
+        "directory": "political_science_tm/10_unit10_india_and_its_neighbours",
+        "start_page": 234,
+        "end_page": 278,
+        "page_count": 45
+      },
+      {
+        "directory": "political_science_tm/11_unit11_international_organisations",
+        "start_page": 279,
+        "end_page": 311,
+        "page_count": 33
+      },
+      {
+        "directory": "political_science_tm/12_unit12_environmental_concerns_and_globalisation",
+        "start_page": 312,
+        "end_page": 339,
+        "page_count": 28
+      },
+      {
+        "directory": "political_science_tm/13_annexure",
+        "start_page": 340,
+        "end_page": 360,
+        "page_count": 21
+      }
+    ]
+  },
+  {
+    "book_index": 38,
+    "class": "12",
+    "subject": "Political Science",
+    "medium": "English",
+    "official_filename": "12th_Political%20Science%20EM_Text.pdf",
+    "expected_page_count": 328,
+    "tree_page_count": 328,
+    "directory_count": 14,
+    "first_page": 1,
+    "last_page": 328,
+    "is_strictly_contiguous": true,
+    "boundary_status": "STRUCTURAL_CONTIGUITY_VERIFIED",
+    "first_directory": "political_science_em/00_prelims",
+    "last_directory": "political_science_em/13_annexure",
+    "directory_ranges": [
+      {
+        "directory": "political_science_em/00_prelims",
+        "start_page": 1,
+        "end_page": 8,
+        "page_count": 8
+      },
+      {
+        "directory": "political_science_em/01_unit1_constitution_of_india",
+        "start_page": 9,
+        "end_page": 24,
+        "page_count": 16
+      },
+      {
+        "directory": "political_science_em/02_unit2_legislature",
+        "start_page": 25,
+        "end_page": 49,
+        "page_count": 25
+      },
+      {
+        "directory": "political_science_em/03_unit3_executive",
+        "start_page": 50,
+        "end_page": 70,
+        "page_count": 21
+      },
+      {
+        "directory": "political_science_em/04_unit4_indian_judiciary",
+        "start_page": 71,
+        "end_page": 91,
+        "page_count": 21
+      },
+      {
+        "directory": "political_science_em/05_unit5_federalism_in_india",
+        "start_page": 92,
+        "end_page": 114,
+        "page_count": 23
+      },
+      {
+        "directory": "political_science_em/06_unit6_administrative_machinery_in_india",
+        "start_page": 115,
+        "end_page": 140,
+        "page_count": 26
+      },
+      {
+        "directory": "political_science_em/07_unit7_challenges_of_nation_building",
+        "start_page": 141,
+        "end_page": 167,
+        "page_count": 27
+      },
+      {
+        "directory": "political_science_em/08_unit8_planning_and_development_politics",
+        "start_page": 168,
+        "end_page": 195,
+        "page_count": 28
+      },
+      {
+        "directory": "political_science_em/09_unit9_india_and_the_world",
+        "start_page": 196,
+        "end_page": 215,
+        "page_count": 20
+      },
+      {
+        "directory": "political_science_em/10_unit10_india_and_its_neighbours",
+        "start_page": 216,
+        "end_page": 256,
+        "page_count": 41
+      },
+      {
+        "directory": "political_science_em/11_unit11_international_organisations",
+        "start_page": 257,
+        "end_page": 284,
+        "page_count": 28
+      },
+      {
+        "directory": "political_science_em/12_unit12_environmental_concerns_and_globalisation",
+        "start_page": 285,
+        "end_page": 309,
+        "page_count": 25
+      },
+      {
+        "directory": "political_science_em/13_annexure",
+        "start_page": 310,
+        "end_page": 328,
+        "page_count": 19
+      }
+    ]
+  }
+]
