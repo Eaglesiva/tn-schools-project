@@ -38,6 +38,7 @@
 - Where the audit says `PENDING`, `MANUAL_REVIEW_REQUIRED`, `FULL_DIFF_PENDING`, `API_MAPPING_UNRESOLVED`, or `MAIN_CONTENT_COMPARISON_PENDING`, do not mark CURRENT or ARCHIVE.
 - Do not replace main book/page assets or change viewer routing until official school distribution, full-book comparison, page maps, TOC and Book-back alignment are verified.
 - Original audit branches remain preserved; copied evidence in main/Common is not permission to delete a branch.
+- Archive only after the [Common Archive Policy](../04-quality-control/ARCHIVE_POLICY.md) has been satisfied.
 
 ---
 
