@@ -86,3 +86,12 @@
 - Added a link from each Class 1–12 repository's local audit README back to its section in the Common master index.
 
 - Extended workflow inspection to Classes 1–8 audit branches: each `scert-audit-classN.yml` stages audit manifests/snapshots/summaries and official-edition page assets, then pushes only to its triggering audit branch. No direct Cloudflare deploy step was found; branch Preview deployments remain a Cloudflare dashboard question.
+
+
+### Remaining branch document classification
+
+- Inspected the remaining Class 9–12 refresh / update branches and both Class 10 content branches plus the Class 10 master-tracking branch.
+- Centralized the 2026-11-05 cross-class master tracker, 165-record index CSV, final audit status, local-vs-GitHub inventory, term-II probes, 38-book refresh targets, TOC-contiguity audit and latest working blueprint in Common.
+- Copied Class 9 refresh evidence, Class 10 maths verification/visual evidence and English refresh evidence, Class 11 batch reports, and Class 12 aggregate refresh / official-update reports into their matching repositories' `main/docs/edition-audit/2026-27/`.
+- Added a branch-by-branch document migration map and explicit branch-retirement gate to [branch inventory](../06-migration-control/branch-inventory.md).
+- The Class 10 Tamil answer/quiz content branches remain separate because their actual question/answer changes need QA; only their shared documentation was centralized.
