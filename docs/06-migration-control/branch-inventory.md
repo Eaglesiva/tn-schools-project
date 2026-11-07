@@ -41,3 +41,31 @@ The final state should use `main` as the active branch, but the transition must 
 6. Only after these checks, decide whether each historical working branch can be closed/deleted.
 
 **No branch was deleted or merged by this inventory.**
+
+## Document migration map — inspected branches
+
+| Branch family | Document classification | Destination copied to | Remaining branch-only material / hold |
+|---|---|---|---|
+| Classes 1–8 `scert/class-XX/audit-2026-27` | Class-specific audit manifest and summary | Each matching class `main/docs/edition-audit/2026-27/` | Official edition page splits and source audit workflow remain on audit branches pending Edition Gate / viewer mapping |
+| Class 9 `scert/class-09/audit-2026-27` | Class 9 manifest, summary and Page-2 comparison | Class 9 `main/docs/edition-audit/2026-27/` | Official edition source assets remain on audit branch pending production decision |
+| Class 9 `scert/refresh/class-09` | Five subject refresh evidence JSON files | Class 9 `main/docs/edition-audit/2026-27/refresh_evidence/` | Refreshed book assets remain on branch until comparison and deployment checks |
+| Class 10 content branches (two Tamil Iyal 1 branches) | Shared/global blueprint and audit snapshots; Class 10 Tamil diff and answer/quiz work | Shared records copied to Common; Class 10 diff copied to Class 10 `main/docs/edition-audit/2026-27/` | Actual answer/quiz content changes remain isolated in their content branches pending QA |
+| Class 10 `feature/scert-edition-pilot` | Pilot edition assets; duplicated shared docs | Shared docs centralized in Common; class-specific evidence preserved in Class 10 | Pilot page assets remain isolated; no production promotion |
+| Class 10 `scert/master-edition-tracking` | Cross-class master tracker, index CSV, audit status, global evidence and working blueprint | Common `docs/07-audit-evidence/master-edition-tracking-2026-11-05/` | Class 10 maths visual/verification evidence copied to Class 10 main; original branch preserved pending full branch retirement review |
+| Class 10 `scert/refresh/class-10` | Class 10 English refresh evidence | Class 10 `main/docs/edition-audit/2026-27/refresh_evidence/` | Refreshed English page assets remain on refresh branch pending comparison |
+| Class 10 `scert/class-10/official-version-updates` | Shared master audit reports plus Class 10-specific diff / official update report | Shared reports copied to Common; Class 10-specific reports copied to Class 10 main | Official Science/Social Science split assets remain on update branch pending full content comparison |
+| Class 11 `scert/class-11/official-version-updates` | Class 11 verification report and batch 1–4 reports | Class 11 `main/docs/edition-audit/2026-27/` | Official 2024 split books remain on update branch pending per-book comparison |
+| Class 12 `scert/refresh/class-12` | Aggregate refresh evidence for all refreshed books | Class 12 `main/docs/edition-audit/2026-27/refresh_evidence/` | Individual page assets remain on refresh branch pending edition reconciliation |
+| Class 12 `scert/class-12/official-version-updates` | Class 12 verification and cloud update reports | Class 12 `main/docs/edition-audit/2026-27/` | Official split books remain on update branch pending per-book comparison |
+
+## Branch retirement gate
+
+A branch may be considered for deletion only after:
+1. Every unique Markdown / CSV / JSON / image evidence file is copied or intentionally retained in the class repository.
+2. The copied file hashes / content are verified against the source branch.
+3. All page assets have a final CURRENT / ARCHIVE / PENDING decision.
+4. GitHub Pages viewer paths and `pages.json` are reconciled.
+5. Cloudflare production and Preview deployment settings are verified.
+6. The user approves retirement of the branch.
+
+No branch has been deleted or merged in this consolidation pass.
