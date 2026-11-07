@@ -124,7 +124,9 @@ API Limit, Binary Size Limit அல்லது Permission பிரச்சி
 
 ### STEP 1 — முழுமையான Book Inventory
 
-ஒரு வகுப்பில் உள்ள ஒவ்வொரு புத்தகத்தையும் தனித்தனி Record-ஆகப் பதிவு செய்யவும்.
+ஒரு வகுப்பின் Active Repository main-ஐ முதலில் Recursive Git Tree மூலம் முழுமையாகப் பார்த்து, **எத்தனை உண்மையான புத்தகங்கள் / Volume-கள் உள்ளன** என்பதை முதலில் கணக்கிடவும். ஒவ்வொரு புத்தகத்தையும் தனித்தனி Book Record-ஆகப் பதிவு செய்யவும். ஒரே புத்தகத்தின் duplicate folders / versions இருந்தால் அவற்றையும் தனித்தனி candidate-ஆகப் பதிவு செய்யவும்; எண்ணிக்கையை ஊகிக்கக்கூடாது.
+
+**முக்கிய வரிசை:** முதலில் புத்தகத்தைக் கண்டறி → புத்தகத்தின் இரண்டாம் பக்கத்தை (page_02.pdf, page-002.pdf அல்லது manifest-ல் குறிப்பிடப்பட்ட சரியான Page 2) திறந்து imprint-ஐப் பார் → Edition-ஐ வகைப்படுத்து → அந்த புத்தகத்துக்குரிய support files-ஐ map செய் → அதன் பிறகே migration. Book split முடிவதற்கு முன் unrelated code / quiz / correction வேலையில் மாறக்கூடாது.
 
 கட்டாய அடையாள விவரங்கள்:
 
@@ -165,6 +167,19 @@ PDF-ஐ Browser / Remote Viewer மூலம் நேரடியாகத் �
 
 **முடிவு Status:** PAGE2_VERIFIED, OFFICIAL_SOURCE_VERIFIED, IMPRINT_UNCLEAR, SOURCE_UNAVAILABLE, PENDING_FULL_CONTENT_CHECK போன்ற தெளிவான நிலைகளைப் பயன்படுத்தவும்.
 
+#### STEP 2-A — இரண்டு புத்தகங்கள் இருந்தால் Old / New / Identical முடிவு
+
+ஒவ்வொரு ஒரே Class + Subject + Medium + Term + Volume புத்தகத்திற்கும் Main-ல் உள்ள candidate-களை Page 2 imprint மூலம் முதலில் ஒப்பிடவும்:
+
+1. Page 2-ல் உள்ள First Edition / Revised Edition / Reprint / Correction மற்றும் அச்சிடப்பட்ட ஆண்டை அப்படியே பதிவு செய்யவும். Academic Year-ஐ Printed Edition Year என்று தவறாகக் கருதக்கூடாது.
+2. இரண்டு candidate-களின் Page 2 வேறு edition / year என்பதை காட்டினால், அதிகாரப்பூர்வ listing மற்றும் book identity மூலம் எது புதியது, எது பழையது என்பதை உறுதி செய்யவும்.
+3. இரண்டும் ஒரே புத்தகம், ஒரே edition / year என்று தெரிந்தால் உடனே Archive செய்யக்கூடாது. முழு PDF அல்லது எல்லா page-level Blob SHA-களையும் ஒப்பிட்டு **100% identical** என்பதை உறுதிப்படுத்தவும்; page count, TOC, lesson order, book-back பகுதிகளையும் cross-check செய்யவும்.
+4. 100% identical duplicate என்றால் சமீபத்திய / அதிகாரப்பூர்வமாகத் தேர்ந்தெடுக்கப்பட்ட ஒரு canonical copy-ஐ Active-ல் வைத்துக் கொள்ளவும். தேவையற்ற duplicate path-ஐ Archive-க்கு அனுப்ப வேண்டாம்; அது user-approved Migration Branch-ல் மட்டும் நீக்கப்படலாம். Register-ல் IDENTICAL_DUPLICATE_NO_ARCHIVE என்று பதிவு செய்து “பழைய edition தனியாக இல்லை; identical duplicate மட்டும் இருந்தது” என்று குறிப்பிடவும்.
+5. Same imprint/year இருந்தும் ஏதேனும் page/content வேறுபாடு இருந்தால் SAME_EDITION_CONTENT_MISMATCH_REVIEW என்று நிறுத்தவும். வேறுபாட்டை ஆய்வு செய்யாமல் old/new என்று தானாகப் பிரிக்கவோ duplicate என்று நீக்கவோ கூடாது.
+6. ஒரே புத்தகம் மட்டுமே இருந்தால் official source + Page 2 மூலம் அதன் நிலையைத் தீர்மானிக்கவும். Current edition என்று உறுதியானால் Active-ல் வைத்திருக்கவும். ஒரே பழைய edition மட்டுமே இருந்து புதிய edition இன்னும் வெளியிடப்படவில்லை என்றால் அதை புதியதாகக் காட்டக்கூடாது; தேவையானால் Archive-ல் வைத்துப் Active-ல் RELEASE_PENDING / Archive link மட்டும் காட்டவும்.
+
+**கட்டாய Decision Labels:** NEW_EDITION, LEGACY_EDITION, IDENTICAL_DUPLICATE_NO_ARCHIVE, SINGLE_CURRENT_EDITION, LEGACY_ONLY_RELEASE_PENDING, SAME_EDITION_CONTENT_MISMATCH_REVIEW, EDITION_UNVERIFIED.
+
 ### STEP 3 — பழைய / புதிய உள்ளடக்க Mapping
 
 GitHub Main Tree மற்றும் பொருத்தமான Audit / Edition Branch Tree-ஐப் பெற்று ஒப்பிடவும்.
@@ -184,6 +199,10 @@ GitHub Main Tree மற்றும் பொருத்தமான Audit / Ed
 - Master Quiz / Index / Routing தொடர்புகள்
 
 ஒவ்வொரு Question / Answer / Quiz கோப்பும் எந்த Edition-ஐ அடிப்படையாகக் கொண்டு உருவாக்கப்பட்டது என்பதைச் சரிபார்க்க வேண்டும்.
+
+**Book Package Rule:** ஒரு புத்தகத்துடன் நேரடியாகச் சேர்ந்துள்ள அனைத்து PDF page files, pages.json, toc.json, edition metadata, manifests, questions.md, answers.md, quiz.md, quiz.json, source references மற்றும் அதன் index/mapping கோப்புகளையும் ஒரே Book Package-ஆகக் கருதவும். Folder-க்கு தொடர்பில்லாத root-level / subject-level question files-ஐ உள்ளடக்க ஆதாரத்தின் அடிப்படையில் அந்தந்த புத்தகத்துடன் map செய்யவும். உறுதி இல்லாததை UNMAPPED_SUPPORT_FILE என்று பதிவு செய்து, தவறான edition-க்கு நகர்த்த வேண்டாம்.
+
+**முக்கியம்:** பழைய புத்தகம் Archive-க்கு நகரும்போது அதற்குரிய முழு support package-மும் அதனுடன் செல்ல வேண்டும். PDF-ஐ மட்டும் நகர்த்தி அதனுடன் தொடர்புடைய questions / manifests-ஐ விட்டுவிடக்கூடாது.
 
 **இந்த Step-ல் செய்யக்கூடாதவை:**
 - Questions-ஐ புதிய புத்தகத்தில் தானாக copy செய்தல்.
@@ -224,6 +243,8 @@ GitHub Main Tree மற்றும் பொருத்தமான Audit / Ed
 
 **Current Path, Planned Destination Path, Final Path ஆகிய மூன்றையும் ஒரே Column-ல் கலக்கக்கூடாது.** Migration முடியும் முன் Planned Path-ஐ Live Link என்று காட்டக்கூடாது.
 
+கூடுதல் கட்டாய Register fields: Book Count / Candidate Count, Page 2 Imprint, Edition Decision, Full Content Identity Result, Canonical Active Copy, Archive Required (YES/NO), Package File Count, Batch Checkpoint, Last Verified Batch Commit, Unmapped Support Files. IDENTICAL_DUPLICATE_NO_ARCHIVE என்றால் Archive Destination காலியாகவே இருக்க வேண்டும்; காரணம் Notes-ல் குறிப்பிடப்பட வேண்டும்.
+
 ### STEP 5 — Migration Plan மற்றும் ARCHIVE_APPROVED Gate
 
 Draft Register முடிந்த பிறகு:
@@ -235,7 +256,8 @@ Draft Register முடிந்த பிறகு:
    - புதிய Edition எந்த Active Folder-ல் (`books/2026-27/...`) இருக்க வேண்டும் என்று பட்டியலிடவும்.
    - பழைய Questions / Answers / Quiz-க்கான Archive Mapping தரவும் (பழைய கேள்விகள் Archive-க்கு மட்டுமே செல்ல வேண்டும்).
    - மாற்றப்பட வேண்டிய பழைய பாடநூல் கோப்புகள் (Archive Payload) மற்றும் மாற்றப்படக்கூடாத Infrastructure கோப்புகள் (HTML, JS, Docs, CSV) இரண்டையும் தனித்தனியாகப் பட்டியலிடவும்.
-4. **பயனர் ஒப்புதல்:** Draft Register, Payload எண்ணிக்கை மற்றும் Mapping-ஐ பயனரிடம் சமர்ப்பித்து நேரடி ஒப்புதல் பெற வேண்டும்.
+4. **பயனர் ஒப்புதல்:** Draft Register, Payload எண்ணிக்கை, ஒவ்வொரு புத்தகத்தின் Old / New / Identical முடிவு, support-file mapping மற்றும் batch திட்டத்தைப் பயனரிடம் சமர்ப்பித்து நேரடி ஒப்புதல் பெற வேண்டும்.
+5. **Book-first execution gate:** புத்தகத்தின் edition முடிவும் முழு package mapping-மும் முடியும் முன் TOC/Viewer redesign, question correction, answer writing, quiz regeneration அல்லது unrelated cleanup தொடங்கக்கூடாது. முதலில் தேவையான புத்தகங்கள் சரியான Active / Archive இடத்திற்குச் செல்ல வேண்டும்; அதன் பிறகே தனியாக அனுமதிக்கப்பட்ட corrections செய்யலாம்.
 
 **பயனரின் தெளிவான எழுத்துப்பூர்வ ஒப்புதல் கிடைக்கும் வரை எந்த File Move, Delete, Overwrite, Transfer அல்லது Branch Merge-மும் செய்யக்கூடாது.**
 
@@ -254,18 +276,22 @@ Draft Register முடிந்த பிறகு:
 
 இதனால் PDF Content-ஐ மீண்டும் Download / Upload செய்ய வேண்டியதில்லை. அதே Repository-க்குள் Path மட்டும் மாறுகிறது.
 
-#### B. ஒரு Repository-லிருந்து மற்றொரு Repository-க்கு Archive Transfer மற்றும் பாதுகாப்பான நீக்குதல் நெறிமுறை
+#### B. Cross-Repository Book Package Transfer — Book-first, resumable batches
 
-இது இரண்டு களஞ்சியங்களுக்கு இடையே பழைய பாடநூல் கோப்புகளைப் பாதுகாப்பாக இடமாற்றம் செய்வதற்கான ஒற்றைத் தொடர் செயல்முறையாகும்:
+**ஒரே பெரிய upload / tree / commit ஆக முழு class-ஐ நகர்த்தக்கூடாது.** ஒரே Chat / Session-ல் தொடர்ச்சியாகப் பணியைச் செய்யலாம்; ஆனால் commit / recovery unit என்பது ஒரு புத்தகம் மற்றும் அதன் support package.
 
-1. **Source தரவுப் பெறுதல்:** Active Repository-யின் main கிளையிலிருந்து பழைய பாடநூல் கோப்புகளின் (PDFs, questions.md, pages.json) பட்டியல் மற்றும் Blob SHA-கள் GitHub REST API மூலம் படிக்கப்படுகின்றன.
-2. **In-Memory Streaming Transfer:** பயனரின் கணினிக்கு எந்தவொரு கோப்பையும் பதிவிறக்கம் செய்யாமல், GitHub API வழியே Destination Archive Repository-யின் migration/class-XX-legacy-import கிளைக்கு legacy-2018-2022/ கீழ் Blobs மற்றும் Tree நேரடியாக உருவாக்கப்படுகின்றன.
-3. **100% SHA Integrity Audit:** இடமாற்றம் செய்யப்பட்ட அனைத்துக் கோப்புகளும் (1,176 அல்லது 1,462 கோப்புகள்) Source மற்றும் Destination-ல் ஒப்பிடப்பட்டு, 100% Blob SHA சமநிலை, 0 Mismatch, 0 Missing என்பது தணிக்கை செய்யப்படுகிறது.
-4. **மூலக் கோப்புகள் நீக்குதல் கட்டுப்பாடு (Source Deletion Gate):**
-   - **முக்கிய விதி:** Active Repository-யின் main கிளையில் நேரடியாக எந்தவொரு பழைய கோப்பும் நீக்கப்படக்கூடாது.
-   - Archive Copy மற்றும் SHA தணிக்கை 100% வெற்றி பெற்றதாகப் பயனர் ஒப்புதல் அளித்த பிறகே, Active Repository-ன் பிரத்யேக **Active Migration Branch**-ல் (migration/class-XX-edition-upgrade) பழைய பாடக் கோப்பகங்கள் (	amil/, english/, maths_tm/, social_science_tm/ போன்றவை) நீக்கப்பட வேண்டும்.
-   - Active Repository-ன் Infrastructure கோப்புகள் (HTML, JS, Docs, CSV) ஒருபோதும் நீக்கப்படக்கூடாது.
-5. **Two-Step Merge Gate:** Archive Main Merge (Step 8.1) முதலில் நிறைவேற்றப்பட்டு உறுதி செய்யப்பட்ட பிறகே, Active Migration Branch (Step 8.2) Active Main-ல் Merge செய்யப்பட வேண்டும்.
+1. **ஒரு புத்தகத்தைத் தேர்வு செய்:** STEP 1–4-ல் உறுதி செய்யப்பட்ட Book ID-ஐ மட்டும் எடுத்துக் கொள்ளவும். அந்த புத்தகத்தின் source paths, destination paths, file count மற்றும் source Blob SHA-களை immutable manifest-ல் பதிவு செய்யவும்.
+2. **Book Package-ஐ முழுமையாகப் பட்டியலிடு:** PDFs / page files, pages.json, toc.json, edition metadata, questions, answers, quiz, source references, relevant index mapping ஆகியவற்றை ஒரே package manifest-ல் சேர்க்கவும். புத்தகத்துக்கு தொடர்பில்லாத files-ஐ சேர்க்கக்கூடாது.
+3. **Batch அளவு:** ஒரு நேரத்தில் ஒரு புத்தகத்தின் package மட்டுமே செயல்படுத்தவும். ஒரு package 200–300 files-ஐத் தாண்டினால், அதே புத்தகத்தை தொடர்ச்சியான page-range / file-range sub-batches-ஆகப் பிரிக்கவும். ஒவ்வொரு batch-லும் அதிகபட்சம் 200–300 file operations மட்டும். இரண்டு சிறிய புத்தகங்களை ஒரே commit-ல் சேர்க்க வேண்டுமானால் அவற்றின் மொத்தமும் 300 files-க்கு உட்பட்டிருக்க வேண்டும்; இல்லையெனில் தனித்தனி commit. அடுத்த புத்தகத்துக்கு மாறுவதற்கு முன் தற்போதைய புத்தகத்தின் அனைத்து batches-மும் PASS ஆக வேண்டும்.
+4. **Idempotent destination check:** ஒவ்வொரு batch தொடங்கும் முன் Archive branch tree-ல் destination paths உள்ளனவா என்று பார்க்கவும். Path + Blob SHA இரண்டும் source-க்கு சமமாக இருந்தால் ALREADY_VERIFIED என்று குறித்துத் upload-ஐத் தவிர்க்கவும். Path இல்லை என்றால் மட்டும் upload செய்யவும். Path ஏற்கெனவே இருந்தும் SHA வேறுபட்டால் overwrite செய்யாமல் DESTINATION_CONFLICT என்று நிறுத்தி ஆய்வு செய்யவும்.
+5. **Controlled Blob transfer:** Cross-repo file-களுக்குத் தேவையான Blob மட்டும் GitHub API மூலம் in-memory/base64 முறையில் உருவாக்கவும். குறைந்த concurrency (பரிந்துரை 2–4 requests) பயன்படுத்தவும்; uncontrolled parallel uploads / rapid polling கூடாது. ஒரே repository-க்குள் path மட்டும் மாறினால் existing Blob SHA-ஐ மறுபயன்படுத்தவும்.
+6. **ஒவ்வொரு batch-க்கும் Commit:** அந்த batch-ன் Tree-ஐ மட்டும் உருவாக்கி, batch commit செய்யவும். Commit SHA, source SHA, destination SHA, source path, destination path, batch range மற்றும் count ஆகியவற்றை migration-checkpoint manifest-ல் உடனடியாகப் பதிவு செய்யவும். முழு 1,000+ file class payload-ஐ ஒரே Tree / Commit request-ல் உருவாக்கக்கூடாது.
+7. **Batch-level verification:** Commit ஆன உடனே destination tree-ல் batch-ன் ஒவ்வொரு path-யும் இருக்கிறதா, source/destination Git Blob SHA match ஆகிறதா, Missing = 0 / Mismatch = 0 / unexpected extra = 0 தானா என்று சரிபார்க்கவும். Batch PASS ஆன பிறகே அடுத்த batch-ஐத் தொடங்கவும். Book package முழுமை அடைந்ததும் BOOK_PACKAGE_COMPLETE என்று checkpoint செய்யவும்.
+8. **Retry / Back-off:** 403 / 429 அல்லது secondary rate limit வந்தால் Retry-After / reset தகவலை மதித்து காத்திருந்து மீண்டும் முயற்சிக்கவும். Exponential back-off + jitter பயன்படுத்தவும். 422 வந்தால் அதே பெரிய Tree-ஐ மீண்டும் மீண்டும் அனுப்பக்கூடாது; invalid path / entry / missing object / tree payload காரணத்தைத் தனியாகக் கண்டறிந்து, தேவையானால் batch-ஐச் சிறிதாக்கி மீண்டும் முயற்சிக்கவும். நிரூபிக்கப்படாத காரணத்தை rate limit என்று கூறக்கூடாது.
+9. **Checkpoint & Resume:** ஒவ்வொரு வெற்றிகரமான blob மற்றும் ஒவ்வொரு batch commit-க்குப் பிறகும் checkpoint update செய்யவும். Connection interruption / process stop / API failure ஏற்பட்டால் முதல் batch-இலிருந்து restart செய்யக்கூடாது. தற்போதைய destination tree-ஐ checkpoint-உடன் ஒப்பிட்டு ஏற்கெனவே SHA-match ஆன கோப்புகளைத் தவிர்த்து, missing / failed file-களை மட்டும் மீண்டும் முயற்சிக்கவும். ஒரே file-ஐ வெற்றிக்குப் பிறகும் மீண்டும் upload செய்ய வேண்டாம்.
+10. **Current book recovery gate:** ஒரு batch தோல்வியடைந்தால் அந்தப் புத்தகத்தின் வேலை PAUSED_RECOVERABLE ஆக checkpoint செய்யப்பட வேண்டும். அதே புத்தகத்தை முதலில் மீட்டெடுத்து முழுமைப்படுத்தவும்; வேறு புத்தகத்துக்கு அல்லது unrelated task-க்கு மாறி source/destination mapping-ஐக் குழப்பக்கூடாது.
+11. **Source deletion gate:** Archive-ல் அந்தப் புத்தகத்தின் முழு package-மும் 100% SHA-verified ஆகவும், book-level file count / dependencies சரியாகவும் இருக்க வேண்டும். பயனர் ஒப்புதல் கிடைத்த பிறகே Active Migration Branch-ல் பழைய package paths-ஐ நீக்கலாம். Active main-ஐ நேரடியாக மாற்றக்கூடாது. Infrastructure கோப்புகளை நீக்கக்கூடாது.
+12. **Two-step merge:** Archive Main-ல் merge செய்து Main Tree-ஐ மீண்டும் verify செய்த பிறகே Active Migration Branch-ஐ Active Main-ல் merge செய்ய வேண்டும்; இரண்டிற்கும் user approval அவசியம்.
 
 #### C. New Edition Promotion
 
@@ -404,20 +430,28 @@ Main Merge முடிந்தவுடன் கீழ்கண்ட அன�
 
 | செய்ய வேண்டியது | தவிர்க்க வேண்டியது |
 |---|---|
-| ஒவ்வொரு Branch Tree-ஐ ஒருமுறைப் பெற்று அதிலிருந்து தேவைப்படும் File பட்டியலை உருவாக்குதல் | ஒவ்வொரு File-க்கும் மீண்டும் மீண்டும் முழு Tree கேட்பது |
-| ஒரே Batch-ல் பல Blob / Tree / Commit செயல்கள் | நூற்றுக்கணக்கான தனித்தனி File Commit-கள் |
+| முதலில் முழு class tree-யில் உள்ள உண்மையான புத்தக எண்ணிக்கையைக் கண்டறிதல் | PDF-களைப் பார்த்தவுடன் upload / move தொடங்குதல் |
+| ஒவ்வொரு புத்தகத்தின் Page 2 imprint-ஐ வைத்து edition அடையாளம் காணுதல் | Folder name / filename மட்டும் வைத்து old/new முடிவு செய்தல் |
+| ஒரே edition duplicate என்றால் முழு 100% content SHA ஒப்பிட்டு canonical copy மட்டும் வைத்தல் | ஒரே பதிப்பின் duplicate-ஐத் தவறாக Archive-ல் சேமித்தல் |
+| ஒரு புத்தகத்தின் முழு package-ஐ 200–300 file-க்குள் batch செய்து commit செய்தல் | 1,000–1,500 files-ஐ ஒரே upload / tree / commit-ல் அனுப்புதல் |
+| ஒவ்வொரு batch-க்கும் checkpoint + SHA audit செய்து அடுத்த batch-க்கு நகர்தல் | வெற்றி பெற்ற files-ஐ மீண்டும் upload செய்தல் |
+| Retry-க்கு back-off; interruption-க்கு checkpoint resume | ஒரே request-ஐ வேகமாகத் தொடர்ந்து retry செய்து rate limit தூண்டுதல் |
+| ஒரே புத்தகத்தை முடித்து BOOK_PACKAGE_COMPLETE செய்த பின் அடுத்த புத்தகம் | புத்தகத்தை பாதியில் விட்டுவிட்டு unrelated correction / UI / quiz வேலையில் மாறுதல் |
 | ஒரே Repo-க்குள் Existing Blob SHA மறுபயன்பாடு | PDF-களை மீண்டும் Download / Upload செய்தல் |
-| Cross-Repo-க்கு தேவையான கோப்புகள் மட்டும் மாற்றுதல் | முழு Repository-யையும் Clone செய்தல் |
-| ஏற்கெனவே உள்ள Verified Page Assets பயன்படுத்துதல் | தேவையில்லாமல் மீண்டும் PDF Split செய்தல் |
-| Task முடிந்ததா என்று உண்மையான Branch SHA / Commit மூலம் சரிபார்த்தல் | அதே Background Task-ஐ அடிக்கடி Poll செய்து நேரம் வீணாக்குதல் |
-| API Error-ஐ ஒருமுறை ஆய்வு செய்து துல்லியமான மாற்று முயற்சி | Clone / Fetch / Download என்று தொடர்ந்து முறை மாற்றுதல் |
-| சுருக்கமான ஆனால் முழு Audit Report | ஒவ்வொரு 5–10 விநாடிக்கும் பயனற்ற Status Message |
+| Branch / batch commit SHA மூலம் ஒவ்வொரு checkpoint-யும் உறுதிப்படுத்துதல் | Background task-ஐ அடிக்கடி poll செய்து அல்லது வெறும் progress percentage-ஐ நம்புதல் |
 
 **Token Saving முக்கியம்; ஆனால் ஆதாரம் குறையக்கூடாது.** குறைந்த API Calls பயன்படுத்தலாம். ஆனால் முக்கியமான Book / Page / Question / Link Verification-ஐ தவிர்க்கக்கூடாது.
 
 ---
 
-## 7. Pilot-ல் கற்றுக்கொண்ட பாடங்கள் (Class 01 & Class 02)
+## 7. Pilot-ல் கற்றுக்கொண்ட பாடங்கள் (Class 01, Class 02 & Class 03)
+
+### Class 03 Migration — பெரிய ஒரே upload-இல் ஏற்பட்ட recovery / rate-limit பிரச்சினை (2026-11-08)
+
+Class 03 Archive transfer log-ல் 1,462 பழைய files-ஐ ஒரே பெரிய transfer task-ஆக நகர்த்தும்போது repeated retry, task interruption, GitHub rate-limit checks மற்றும் Tree உருவாக்கத்தில் HTTP 422 failure ஆகியவை பதிவாகின. பின்னர் recovery முயற்சிகளுடன் migration முடிந்ததாக report செய்யப்பட்டது. Log மட்டும் பார்த்து 422-ன் துல்லியமான காரணம் உறுதி செய்யப்படவில்லை; எனவே அதை rate limit அல்லது payload size என்று ஆதாரமின்றி வகைப்படுத்தக்கூடாது.
+
+**கட்டாய மாற்றம்:** இனி ஒரே பெரிய class-wide upload தடை. Book-first + 200–300 file sub-batches + per-batch commit + immediate Blob SHA verification + persisted checkpoint + idempotent resume விதி கட்டாயம். ஏற்கெனவே வெற்றி பெற்ற file-களை மீண்டும் upload செய்யக்கூடாது. 422 வந்தால் காரணத்தைத் தனியாக ஆய்வு செய்ய வேண்டும்; same payload-ஐ loop-ஆக retry செய்யக்கூடாது. ஒரே புத்தகத்தின் package முழுமை அடையும் வரை அடுத்த புத்தகத்துக்கோ unrelated correction-க்கோ மாறக்கூடாது.
+
 
 ### Class 02 Pilot-ல் கற்றுக்கொண்ட முக்கியமான பாடம் — Production Viewer & UI Routing பிழை
 - **பிரச்சினை:** Class 02-ல் கோப்புகள் அனைத்தும் Archive மற்றும் Active Repository-களில் 100% Git Blob SHA பொருத்தத்துடன் Merge செய்யப்பட்டன. ஆனால், `index.html`-ல் இருந்த 222 இணைப்புகள் நீக்கப்பட்ட பழைய `./tamil/...` போன்ற Subject Folder-களைச் சுட்டின (404 பிழை). மேலும், `viewer.html`-ல் Default PDF பழைய பாதையைச் சுட்டியதுடன், `page-001.pdf` என்ற புதிய 3-இலக்கப் பெயரமைப்பை ஆதரிக்காமல் முந்தைய/அடுத்த பக்க நகர்வு தடைபட்டது.
@@ -553,7 +587,7 @@ Migration முடிந்ததாக அறிவித்த பிறக�
 
 ### சுருக்கமான கட்டாய விதி
 
-**முதலில் ஆய்வு → ஆதார சரிபார்ப்பு → Rough Register → Folder Mapping → User Approval → GitHub-only Migration → SHA / Path / Link Audit → Archive Main Merge → Active Main Merge → Central Register Update → Final Cross-Verification → COMPLETE.**
+**முதலில் Main Book Inventory / Book Count → ஒவ்வொரு புத்தக Page 2 Imprint → Old / New / Identical Duplicate முடிவு → Questions / Manifests / Support Files Package Mapping → Book-wise 200–300 File Batches + Checkpoint Commits → Batch SHA Audit → Archive Main Verify / Merge → Active Main Verify / Merge → அதன் பிறகே Corrections / UI / Quiz பணிகள் → Central Register → Final Cross-Verification → COMPLETE.**
 
 இந்த வரிசையைத் தவிர்த்து நேரடியாக File Move / Delete / Main Merge செய்யக்கூடாது.
 
