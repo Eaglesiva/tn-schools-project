@@ -10,7 +10,7 @@
 |---:|---:|---|
 | 1 | 6 | [Open Class 1 register](class-01/edition-verification-register.md) — ✅ **Merged to Main** |
 | 2 | 6 | [Open Class 2 register](class-02/edition-verification-register.md) — ✅ **Merged to Main** |
-| 3 | 6 | [Open Class 3 register](class-03/edition-verification-register-draft.md) — ⏳ **Step 0 & 1 Draft Approved (Audit In Progress)** |
+| 3 | 6 | [Draft Register](class-03/edition-verification-register-draft.md) · [Visual Review & Precheck Report](class-03/visual-review-and-precheck-report.md) — ⏳ **UI Precheck In Progress (Precheck Branch 2ef5c90)** |
 | 4 | 3 | [Open Class 4 register](class-04/edition-register.md) |
 | 5 | 3 | [Open Class 5 register](class-05/edition-register.md) |
 | 6 | 5 | [Open Class 6 register](class-06/edition-register.md) |
@@ -138,7 +138,7 @@ The audit branch stores six official 2026 Term-I/II combined books. The manifest
 
 Some Page-2 text is image-only or imperfectly extracted; this is not a reason to guess the imprint. Review the linked PDF directly. Term-III materials recorded as HTTP 403 in the 2026-11-04 audit must remain pending until official sources are refreshed.
 
-Do not archive main files until new edition routes and Book-back links are tested. Preserved evidence: [audit summary](../../07-audit-evidence/class-03/class-03-audit-summary.md) and [audit manifest](../../07-audit-evidence/class-03/class-03-audit-manifest.csv).
+Do not archive main files until new edition routes and Book-back links are tested. Preserved evidence: [Visual Review & Precheck Report](class-03/visual-review-and-precheck-report.md) (Commit `2ef5c90`), [audit summary](../../07-audit-evidence/class-03/class-03-audit-summary.md) and [audit manifest](../../07-audit-evidence/class-03/class-03-audit-manifest.csv).
 
 Links point to the exact Page-2 split and page map at the recorded audit commit. The Page-2 imprint text is transcribed from the source manifest, not visually screen-reviewed in this workspace.
 
