@@ -79,3 +79,8 @@
 - **Edition decision:** no new global CURRENT/ARCHIVE decisions have been made. Classes 10–12 include explicit pending, legacy/newer-main and API-mapping cases; the register preserves those statuses.
 - **Cloudflare:** GitHub workflow behavior is partly understood, but production branch / output directory / preview policy / build watch paths remain dashboard-only settings and are unverified. No deployment setting or production book asset was changed.
 - **Branch cleanup:** no non-main branch has been deleted or merged. Document migration is currently additive and verified; remaining branch-specific evidence still needs classification before any branch can be retired.
+
+
+- Finalized and refreshed the single [MASTER CROSS-VERIFICATION INDEX](../03-edition-register/MASTER_CROSS_VERIFICATION_INDEX.md) after correcting the Class 11 volume-specific links and normalizing Class 7–9 register paths. Current index commit: `fac63c446a3413f905b175f18055defccae481f6`.
+- Corrected the live branch count in [branch inventory](../06-migration-control/branch-inventory.md): 12 main + 22 non-main = 34 current-class branches. No branch deletion or merge was performed.
+- Added a link from each Class 1–12 repository's local audit README back to its section in the Common master index.
