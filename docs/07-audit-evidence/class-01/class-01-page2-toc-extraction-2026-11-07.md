@@ -217,3 +217,166 @@ The separate EVS TOC for both Term-II VOL-II medium editions has not yet been lo
 5. Do not change active_edition, production routing, main branch PDF files, questions, quizzes or archive contents from this text-extraction pass.
 
 **Decision:** All six Page-2 imprints visually/textually confirm First Edition 2026. TOC identification is partial as detailed above. No production merge or archive move is approved by this report.
+
+
+---
+
+## Final TOC page verification — 2026-11-07 (supersedes the earlier partial-TOC note)
+
+All six books' Page-2 pages and all identified subject TOC pages were rendered and inspected directly. This update closes the earlier *TOC-page-location* gaps. It does **not** claim that the complete subject end-page ranges or production viewer routes have already been tested.
+
+### Page-2 evidence — all six books
+
+| Book | Existing Page-2 split PDF | Page-2 imprint |
+|---|---|---|
+| Term-I VOL-I Tamil & English (176 pages) | [page-002.pdf](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term1/vol1_tamil_english/pages/page-002.pdf) | Government of Tamil Nadu / SCERT — First Edition 2026 |
+| Term-I VOL-II Maths & EVS — Tamil (144 pages) | [page-002.pdf](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term1/vol2_maths_evs_tm/pages/page-002.pdf) | தமிழ்நாடு அரசு — முதல் பதிப்பு 2026 / SCERT 2026 |
+| Term-I VOL-II Maths & EVS — English (144 pages) | [page-002.pdf](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term1/vol2_maths_evs_em/pages/page-002.pdf) | Government of Tamil Nadu — First Edition 2026 / SCERT 2026 |
+| Term-II VOL-I Tamil & English (144 pages) | [page-002.pdf](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term2/vol1_tamil_english/pages/page-002.pdf) | தமிழ்நாடு அரசு — முதல் பதிப்பு 2026 / SCERT 2026 |
+| Term-II VOL-II Maths & EVS — Tamil (120 pages) | [page-002.pdf](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term2/vol2_maths_evs_tm/pages/page-002.pdf) | தமிழ்நாடு அரசு — முதல் பதிப்பு 2026 / SCERT 2026 |
+| Term-II VOL-II Maths & EVS — English (120 pages) | [page-002.pdf](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term2/vol2_maths_evs_em/pages/page-002.pdf) | Government of Tamil Nadu — First Edition 2026 / SCERT 2026 |
+
+**Reprint history:** Each Page 2 states First Edition 2026. No separate later reprint/revised-edition line is shown on these six Page-2 pages. Academic year (2026–27) and printed edition (First Edition 2026) remain separate fields.
+
+Each Page-2 PDF already existed in its book's `pages/` directory and was confirmed as a one-page PDF. No duplicate Page-2 PDF was created.
+
+### TOC transcription and immutable evidence links
+
+#### 1. Term-I VOL-I — Tamil & English
+
+Tamil TOC — [PDF split page 10](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term1/vol1_tamil_english/pages/page-010.pdf)
+
+- அலகு 1:
+  - 1. மகிழ்வோடு விளையாடு — printed page 1
+  - 2. கண்டுபிடி... கண்டுபிடி... — printed page 17
+- அலகு 2:
+  - 3. பாப்பாவோடு பாடலாம்! — printed page 54
+  - 4. வந்த பாதை — printed page 82
+
+English Contents — [PDF split page 98](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term1/vol1_tamil_english/pages/page-098.pdf)
+
+- Unit 1 — About Me!
+  - Hi! Hello! — 89
+  - Simba and Chinnu — 100
+  - Shake and Jump! — 109
+  - Look at me! — 120
+- Unit 2 — My Family
+  - Anu’s Red Ribbon — 135
+  - My Finger Family — 143
+  - The Big Big Beetroot — 154
+
+#### 2. Term-I VOL-II — Maths & EVS — Tamil
+
+Mathematics TOC — [PDF split page 7](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term1/vol2_maths_evs_tm/pages/page-007.pdf)
+
+- அலகு 1:
+  - 1. பந்து எங்கே? — 1
+  - 2. எனக்குப் பிடித்த பொருள்கள் — 8
+  - 3. பொம்மைகள் எத்தனை? — 16
+  - 4. விடுபட்டவை எவை? — 36
+- அலகு 2:
+  - 5. யாரிடம் அதிகம்? — 45
+  - 6. மொத்த பலூன்கள் — 47
+  - 7. என்னைச் சுற்றியுள்ள பொருள்கள் — 58
+  - 8. மீதி பலூன்கள் — 65
+
+Environmental Science TOC — [PDF split page 86](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term1/vol2_maths_evs_tm/pages/page-086.pdf) (printed page 79)
+
+- அலகு 1 — என்னைப்பற்றி...
+  - என் உலகம் — 80
+  - என் நலம் — 88
+- அலகு 2 — என்னைச் சுற்றி...
+  - இயற்கையின் பரிசுகள் — 102
+  - என்னைச் சுற்றியுள்ள விலங்குகள் — 116
+
+#### 3. Term-I VOL-II — Maths & EVS — English
+
+Mathematics Contents — [PDF split page 7](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term1/vol2_maths_evs_em/pages/page-007.pdf)
+
+- Unit 1:
+  - Where is the Ball? — 1
+  - Things I Like — 8
+  - How Many Toys? — 16
+  - What are Missing? — 36
+- Unit 2:
+  - Who has More? — 45
+  - Total Balloons — 47
+  - Things Around Me — 58
+  - Remaining Balloons — 65
+
+Environmental Science Contents — [PDF split page 86](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term1/vol2_maths_evs_em/pages/page-086.pdf) (printed page 79)
+
+- Unit 1 — About Me
+  - My World — 80
+  - My Health — 88
+- Unit 2 — Around Me
+  - Nature’s Gifts — 102
+  - Animals Around Me — 116
+
+#### 4. Term-II VOL-I — Tamil & English
+
+Tamil பொருளடக்கம் — [PDF split page 10](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term2/vol1_tamil_english/pages/page-010.pdf)
+
+- அலகு 1:
+  - 1. ஐ... மகிழ்ச்சி! — 1
+  - 2. கண்ணாமூச்சி — 7
+- அலகு 2:
+  - 3. கிளிங்... கிளிங்... — 28
+  - 4. எதனால்? எதனால்? — 45
+
+English Contents — [PDF split page 84](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term2/vol1_tamil_english/pages/page-084.pdf) (printed page 74)
+
+- Unit 1 — My Classroom
+  - My School Bag — 75
+  - The Train Station — 80
+  - Bits of Paper — 86
+  - The Cat’s Hat — 99
+- Unit 2 — Flowers and Insects
+  - The Orange Flowers — 106
+  - The Little Caterpillar — 112
+  - A Pig in the Pit — 126
+
+#### 5. Term-II VOL-II — Maths & EVS — Tamil
+
+Mathematics பொருளடக்கம் — [PDF split page 6](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term2/vol2_maths_evs_tm/pages/page-006.pdf)
+
+- அலகு I:
+  - 1. தாகமுள்ள பறவைகள் — 1
+  - 2. நிழல் விளையாட்டு — 25
+  - 3. எங்களின் புதிய வளையல்கள் — 30
+- அலகு II:
+  - 4. பள்ளி செல்லும் வழியில் — 42
+  - 5. என்னால் முடியும். உன்னால் முடியுமா? — 47
+  - 6. பெட்டியில் உள்ள வளையல்கள் — 53
+
+Environmental Science பொருளடக்கம் — [PDF split page 74](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term2/vol2_maths_evs_tm/pages/page-074.pdf) (printed page 68)
+
+- அலகு 1 — நமது பசுமை நண்பர்கள் — 69
+- அலகு 2 — ஜீனியின் தோட்டம் — 92
+
+#### 6. Term-II VOL-II — Maths & EVS — English
+
+Mathematics Contents — [PDF split page 6](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term2/vol2_maths_evs_em/pages/page-006.pdf)
+
+- Unit I:
+  - Thirsty Birds — 1
+  - Shadow Game — 25
+  - Our New Bangles — 30
+- Unit II:
+  - On the Way to School — 42
+  - I Can. Can You? — 47
+  - Bangles in the Box — 53
+
+Environmental Science Contents — [PDF split page 74](https://github.com/Eaglesiva/tn-class-01/blob/838d5c2f335810ed95753327fe0a0b94ad298a63/official_editions/2026-27/term2/vol2_maths_evs_em/pages/page-074.pdf) (printed page 68)
+
+- Unit 1 — Our Green Friends — 69
+- Unit 2 — Genie’s Garden — 92
+
+### Updated decision
+
+- **Page-2 imprint:** confirmed as First Edition 2026 for all 6 books.
+- **TOC pages:** identified and visually checked for the Tamil and English / Maths and EVS sections listed above.
+- **Combined-volume subject map:** TOC start pages are now recorded; do not yet infer every subject's exact final page boundary or switch production viewer routes until the page sequence and section transitions are mapped and tested.
+- **Git safety:** no main-branch textbook PDF/page assets, `pages.json`, viewer, quiz, or answer files were changed. No archive move, branch merge, or active-edition change was made.
+
+This final extraction supersedes the earlier partial-TOC note in this report.
