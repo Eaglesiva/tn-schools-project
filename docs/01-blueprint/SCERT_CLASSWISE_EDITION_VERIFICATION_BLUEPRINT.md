@@ -18,7 +18,7 @@
 7. If a newer/different official book is confirmed, store it as a **new immutable edition** on a new branch. Keep the existing production edition intact. Do not switch `active_edition`, change `index.html`/viewer routing, merge or deploy without an explicitly reviewed follow-up.
 8. Never commit the official master PDF. Download it to the GitHub Actions runner's temporary directory (for example `/tmp`), process it there, and let the runner discard it when the job ends.
 9. Do not use `git add .`, `git push --force`, `git checkout -B` against an existing branch, destructive shell commands, or an unreviewed mass commit. Stage only explicit new report/manifest and edition paths.
-10. Work in order: Class 1, then 2, 3, 4, 5, and continue upwards. Finish and report one class before starting the next. Within a class, process one official book/volume/medium/term per run.
+10. Work in order: Class 1, then 2, 3, 4, 5, and continue upwards. Finish and report one class before starting the next. Within a class, keep one continuous Chat / Agent session where possible; first complete the class book inventory and edition decisions, then migrate book packages sequentially in resumable batches. Do not start the next book's transfer until the current book package is complete. Each transfer commit batch is capped at 200–300 file operations.
 
 ## 2. Verified source of truth
 
@@ -89,7 +89,7 @@ Important limitations found by directly reading the workflows on 2026-11-04:
 
 Antigravity's local-only environment is not visible to a GitHub reader. The agent must inventory its actual local scripts, project root, installed tools and uncommitted files before claiming they exist. Record exact paths and relevant evidence. Do not guess.
 
-## 4. Required per-book workflow (one item per run)
+## 4. Required per-book workflow (book-first discovery and resumable migration batches)
 
 ### Step A — Refresh the official record
 1. Fetch the live official API/listing at run time. Save the exact API row/JSON snapshot in the run artifact.
@@ -103,7 +103,7 @@ Antigravity's local-only environment is not visible to a GitHub reader. The agen
 2. Locate the correct subject/medium/term folder and its `pages.json` (or other documented page manifest). Read the manifest; do not infer page order by alphabetically sorting directories.
 3. Check that every listed local page path exists in the same repository and that the sequence is complete, unique and in its declared order.
 4. For a combined official volume, define and prove how its page sequence maps to the local subject folders. Use official contents/TOC and page content, not the filename alone.
-5. If multiple plausible local candidates exist, record all candidates and stop as `LOCAL_MAPPING_UNRESOLVED`. Never choose the closest-looking subject name automatically.
+5. If multiple local candidates share the same Class + Subject + Medium + Term + Volume, treat them as possible versions / duplicates: inspect each candidate's actual Page 2 imprint, then compare whole-book identity. Do not stop before this comparison. Use `LOCAL_MAPPING_UNRESOLVED` only when the book identity or subject mapping remains genuinely ambiguous. Never choose the closest-looking subject name automatically.
 
 ### Step C — Download and inspect the official master
 1. Download only the single selected PDF to a temporary runner path such as `/tmp/scert/<class>/<item>/official-master.pdf`.
@@ -132,6 +132,10 @@ Use only one of these evidence-based result labels:
 - `OFFICIAL_NEWER_OR_DIFFERENT` — official book differs materially from the current local edition; attach evidence of the differences and confirm printed imprint/current official distribution separately.
 - `LOCAL_COPY_MISSING` — no credible local page set was found.
 - `OFFICIAL_RECORD_MISSING` — no matching item is present in the live official listing/API.
+- `IDENTICAL_DUPLICATE_NO_ARCHIVE` — two repository copies are proven 100% byte/content-identical for the same book and same edition; keep one canonical Active copy and do not archive the duplicate.
+- `SINGLE_CURRENT_EDITION` — only one copy is present and official evidence confirms it is the current edition; keep it in Active.
+- `LEGACY_ONLY_RELEASE_PENDING` — only an older edition exists and no current replacement is released/available; do not show the old book as current; preserve it according to the Archive policy and mark the current term pending.
+- `SAME_EDITION_CONTENT_MISMATCH_REVIEW` — same Page-2 imprint/year but whole-book content differs; stop automatic migration pending manual review.
 - `API_MAPPING_UNRESOLVED` — official API entry cannot be mapped confidently.
 - `LOCAL_MAPPING_UNRESOLVED` — local page set/subject mapping cannot be established.
 - `MANUAL_REVIEW_REQUIRED` — evidence is incomplete, unreadable or contradictory.
@@ -289,3 +293,33 @@ The pilot's broad OFFICIAL_NEWER_OR_DIFFERENT label may be retained as a prelimi
 - Continue with all other currently listed and downloadable Class 1 records in deterministic sequence: Term-I Vol-II, Term-II Vol-I, Term-II Vol-II, and any other records actually returned by the live API. This is a discovery order, not an assumption that every title is published.
 - Term-III must be discovered from the live API and URL checks. Do not assume it is present or absent based only on the price list.
 - At class completion, reconcile the manifest record count to the raw API snapshot. Every API row must have a visible status; do not silently skip any row.
+
+
+## 10. Book-first repository split and retry-safe migration (mandatory from 2026-11-08)
+
+### A. First identify the books — do not start with upload
+1. Read the exact Active main recursive Git Tree and count the actual book / volume candidates.
+2. Group candidates by Class + Subject + Medium + Term + Volume + exact title. Record every possible duplicate path.
+3. Open each candidate's real Page 2 file, as resolved from its manifest/tree (do not guess the filename). Record the exact First Edition / Revised Edition / Reprint / Correction imprint and printed year.
+4. Compare the Page-2 imprint with the official SCERT/Textbook listing. This identifies likely old/new editions; Page 2 alone does not establish whole-book identity.
+5. If two candidates have the same edition/year, compare the complete master SHA-256 or every page Blob SHA, page count/order, manifest, TOC and book-back sections before declaring them identical.
+6. When 100% identical, retain one canonical latest/official copy in Active; do not create an Archive copy for the duplicate. Record IDENTICAL_DUPLICATE_NO_ARCHIVE and the reason.
+7. When the books are different editions, map the newer edition to Active and the older edition to Archive. Map all questions, answers, quizzes, manifests and related source files to the edition that they actually reference.
+8. If the current term is not yet released, do not invent a new book. If the only available copy is a legacy edition and policy requires historical separation, archive it and mark the Active term RELEASE_PENDING; an Active page may link to Archive only with a clear legacy label.
+9. Do not begin corrections, quiz regeneration, answers, TOC reconstruction or UI redesign before this book/edition decision and package mapping are complete.
+
+### B. Book package definition
+A package includes every file belonging to that book: page PDFs, pages.json, toc.json, edition metadata, questions.md, answers.md, quiz.md, quiz.json, book-back mappings, source/page citations and any book-specific indexes. A question file whose book association cannot be proved must be listed as UNMAPPED_SUPPORT_FILE and must not be silently assigned to either edition.
+
+### C. Small-batch commit and recovery rules
+1. Work on one book package at a time in the same continuous session. One or two small books may share a commit only when their combined transfer remains at or below 300 file operations. Otherwise use separate commits.
+2. Maximum 200–300 file operations per transfer batch. If a book contains more files, split that same book into ordered page-range / file-range sub-batches and finish every sub-batch before moving to the next book.
+3. Before upload, inspect destination paths. If path and Blob SHA already match, mark ALREADY_VERIFIED and skip upload. If path exists with a different SHA, stop as DESTINATION_CONFLICT; never blind-overwrite.
+4. Use GitHub Git Database API in memory / base64. Keep concurrency low (recommended 2–4 requests), avoid rapid polling, and never clone/download repository content to the user's computer.
+5. After each successful blob, persist its checkpoint. After each batch, create a bounded Tree + Commit and record commit SHA, source/destination path, source/destination Blob SHA, batch number/range, and file count.
+6. Immediately verify every file in the committed batch. Proceed only when Missing = 0, SHA Mismatch = 0, and unexpected Extra = 0.
+7. Respect Retry-After / rate-limit reset for 403 / 429. Use exponential back-off with jitter. For 422, inspect the exact error and isolate the invalid entry / missing blob / path / tree issue; do not repeatedly resubmit the same failing Tree.
+8. If interrupted, resume from the latest checkpoint. Re-read the destination branch and skip all files already present with matching SHA. Retry only missing or failed files. Never restart successful uploads from zero.
+9. If a batch fails, pause the current book as PAUSED_RECOVERABLE, recover that book, and do not switch to unrelated work. Mark BOOK_PACKAGE_COMPLETE only after every batch and the whole package audit pass.
+10. Source files may be removed only on the Active Migration Branch after the entire corresponding Archive book package is present and SHA-verified and user approval is recorded. Never delete from main directly. Archive Main is merged and re-verified before Active Main is merged, with user approval at both gates.
+
