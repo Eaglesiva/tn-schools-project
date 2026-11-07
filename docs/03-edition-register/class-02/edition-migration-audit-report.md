@@ -1,13 +1,13 @@
 # Class 02 — Edition Migration Execution & Final Verification Report
 
-**Document Status:** STEP 6 & STEP 7 COMPLETED & 100% VERIFIED ON MIGRATION BRANCHES (READY FOR STEP 8 MAIN MERGE)  
+**Document Status:** **STEP 8 PRODUCTION MAIN MERGE 100% COMPLETED & LIVE ON MAIN**  
 **Target Class:** Class 02 (Tamil Nadu State Board)  
 **Execution Date:** 2026-11-08  
 **Executed by:** Antigravity (Implementation Agent)  
-**Active Repository (`tn-class-02`):** Branch `migration/class-02-edition-upgrade` (Commit: `2e3a4fc122889016e74f3f20cdc6ed2518e95777`)  
-**Archive Repository (`tn-class-02-archive`):** Branch `migration/class-02-legacy-import` (Ingestion Commit: `574fd1a3a94fd3c0e1580b4f8b1c3a16acebdaaf`, Branch HEAD: `bb7b454c2aa12c1ea97fd7fb6189a1ae918904d5`)  
-**Main Branch Status:** `tn-class-02/main` (`196f8e32ccdbbbcf50a89b83d1da8a509fe42e20`) and `tn-class-02-archive/main` (`7f3cb55440bb58d6210e8396901c725f87c52c42`) remain **100% UNTOUCHED / NOT YET MERGED**.  
-**Verification Result:** **100% Zero-Data-Loss / 100% Git Blob SHA Equality confirmed.**
+**Archive Repository (`tn-class-02-archive`):** Main Branch (Merge Commit: [`8c0f7397f6d6e8033d399ed88cb49fa725083401`](https://github.com/Eaglesiva/tn-class-02-archive/commit/8c0f7397f6d6e8033d399ed88cb49fa725083401)) — Holds all 1,176 legacy files under `legacy-2018-2022/`.  
+**Active Repository (`tn-class-02`):** Main Branch (Merge Commit: [`bcf8c7397c4348e6c0dd3a0e629a3ecaae6bd075`](https://github.com/Eaglesiva/tn-class-02/commit/bcf8c7397c4348e6c0dd3a0e629a3ecaae6bd075)) — Holds 854 official 2026 First Edition files under `books/2026-27/`.  
+**Central Register:** [`edition-verification-register.md`](https://github.com/Eaglesiva/tn-schools-project/blob/main/docs/03-edition-register/class-02/edition-verification-register.md)  
+**Verification Result:** **100% Zero-Data-Loss / 100% Git Blob SHA Equality confirmed across both Main branches.**
 
 ---
 
