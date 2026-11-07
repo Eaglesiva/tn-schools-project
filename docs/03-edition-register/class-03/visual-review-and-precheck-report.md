@@ -14,9 +14,9 @@
 | களஞ்சியம் | கிளை (Branch) | தற்போதைய Commit SHA | நிலை | குறிப்பு |
 |---|---|---|:---:|---|
 | **tn-class-03** | `main` | [`a7206fe321a8c93463056a65fbc73f8a5cee907a`](https://github.com/Eaglesiva/tn-class-03/commit/a7206fe321a8c93463056a65fbc73f8a5cee907a) | **மாற்றமில்லை (LOCKED)** | பிரதான கிளை பாதுகாக்கப்பட்டுள்ளது. 1,473 பழைய கோப்புகள் உள்ளன. |
-| **tn-class-03** | `precheck/class-03-viewer-and-index` | [`2ef5c90baf70e1971be08e103f698c6e23fe0b16`](https://github.com/Eaglesiva/tn-class-03/commit/2ef5c90baf70e1971be08e103f698c6e23fe0b16) | **புதுப்பிக்கப்பட்டது** | Main-ஐ விட 2 commits முன்னால், 0 பின்னால். `index.html` & `viewer.html` மட்டும் மாற்றப்பட்டுள்ளது. |
-| **tn-class-03** | `scert/class-03/audit-2026-27` | [`6acadd30bd7b71c61e3a2de3bbec7bcf4db9c668`](https://github.com/Eaglesiva/tn-class-03/commit/6acadd30bd7b71c61e3a2de3bbec7bcf4db9c668) | **மூலத் தணிக்கைக் கிளை** | 1,046 புதிய 2026 கோப்புகள் (`official_editions/2026-27/`) உள்ளன. |
-| **tn-class-03-archive** | `main` | [`babaf6b590ab0918ed668f2904007e124ec4343b`](https://github.com/Eaglesiva/tn-class-03-archive/commit/babaf6b590ab0918ed668f2904007e124ec4343b) | **மாற்றமில்லை (LOCKED)** | ஆரம்ப நிலை. Step 6 தொடங்கும் வரை மாற்றம் இல்லை. |
+| **tn-class-03** | `precheck/class-03-viewer-and-index` | [`b1bf4ab6bd6fa763a806154c256018436f00b3d6`](https://github.com/Eaglesiva/tn-class-03/commit/b1bf4ab6bd6fa763a806154c256018436f00b3d6) | **புதுப்பிக்கப்பட்டது** | Main-ஐ விட 3 commits முன்னால், 0 பின்னால். `index.html` & `viewer.html` மட்டும் மாற்றப்பட்டுள்ளது. பருவம் 3 பழைய பாடநூல்கள் அணுகல் சேர்க்கப்பட்டுள்ளது. |
+| **tn-class-03** | `scert/class-03/audit-2026-27` | [`c6b5dffadfc066e76aff58c7e18afaf019ee3995`](https://github.com/Eaglesiva/tn-class-03/commit/c6b5dffadfc066e76aff58c7e18afaf019ee3995) | **மூலத் தணிக்கைக் கிளை** | 1,046 புதிய 2026 கோப்புகள் (`official_editions/2026-27/`) உள்ளன. பருவம் 1-க்கான இயந்திரம் படிக்கக்கூடிய `toc.json` ஒத்திசைக்கப்பட்டது. |
+| **tn-class-03-archive** | `main` | [`babaf6b590ab0918ed668f2904007e124ec4343b`](https://github.com/Eaglesiva/tn-class-03-archive/commit/babaf6b590ab0918ed668f2904007e124ec4343b) | **மாற்றமில்லை (LOCKED)** | ஆரம்ப நிலை (README மட்டும்). Step 6 பயனர் அனுமதி இன்றி தொடங்கப்படாது. |
 
 ---
 
@@ -28,168 +28,137 @@
 |---|---|---|:---:|:---:|:---:|:---:|
 | 1 | **பருவம் 1 — தொகுதி 1** | `term1/vol1_tamil_english` | 168 | தமிழ் / English | `187b179a18fac459d91fc9e4843bc7be68d8c7344d510b7a822ebc014ebb7101` | `a92ca41140bfce6c6ebad1580fb5e26d` |
 | 2 | **பருவம் 1 — தொகுதி 2 (TM)** | `term1/vol2_maths_sci_soc_tm` | 184 | தமிழ் வழி (TM) | `5c04f3a6f609cbfedfc6ac9a97422d4c143533feada7e7f0db4df5215fed18f3` | `fa8e5e1879676e1ac7347111f36dcbfa` |
-| 3 | **பருவம் 1 — தொகுதி 2 (EM)** | `term1/vol2_maths_sci_soc_em` | 184 | English Medium | `eadbadf1369384796ad927bedc457a5e43fcf894d6816778d371dd067e94c03f` | `76360119a551af287e78973024837658` |
-| 4 | **பருவம் 2 — தொகுதி 1** | `term2/vol1_tamil_english` | 144 | தமிழ் / English | `02e03c1415c33ba577195efbd306d14f62cdaac127415a06958a6c75be600ec0` | `b2a6658aa7c14146f643a67df01d737d` |
-| 5 | **பருவம் 2 — தொகுதி 2 (TM)** | `term2/vol2_maths_sci_soc_tm` | 168 | தமிழ் வழி (TM) | `2b9e579566dcffe9ba43afe0fe3fc4ab8ce90366999188a12a5bf0548520e1c8` | `68fe353aabe6a780fc48280c4a6ac89f` |
-| 6 | **பருவம் 2 — தொகுதி 2 (EM)** | `term2/vol2_maths_sci_soc_em` | 168 | English Medium | `d8ac8dd0bf9618feabc314ad6c7fe7a07a04739fdd468df378f3ae8fd04c9e05` | `e4c6959ae30237649b010ee556142b02` |
-| **மொத்தம்** | **2 பருவங்கள் (6 புத்தகங்கள்)** | — | **1,016** | — | — | — |
-
-- **மொத்த PDF பக்கங்கள்:** 1,016 கோப்புகள்
-- **மெட்டாடேட்டா JSON கோப்புகள்:** 30 கோப்புகள் (ஒவ்வொரு புத்தகத்திற்கும் 5 கோப்புகள்: `edition.json`, `pages.json`, `source_record.json`, `split_validation.json`, `toc.json`)
-- **மொத்த அதிகாரப்பூர்வக் கோப்புகள்:** 1,046 கோப்புகள்
+| 3 | **பருவம் 1 — தொகுதி 2 (EM)** | `term1/vol2_maths_sci_soc_em` | 184 | English Medium (EM) | `5efce3bc9b6c00d43f0fcfeee5218d867c29571f54cfc01d9f0fc88ec7b9e0f6` | `485ea49bf2f0ae27e7f09848529f518e` |
+| 4 | **பருவம் 2 — தொகுதி 1** | `term2/vol1_tamil_english` | 144 | தமிழ் / English | `0d8b746816ec54a7c13da3ef14e1fa0a6045d6143c7b2a61362cb24fb3c8965a` | `fdb0c9e6ca3a0ecb791443d5c5f2120e` |
+| 5 | **பருவம் 2 — தொகுதி 2 (TM)** | `term2/vol2_maths_sci_soc_tm` | 168 | தமிழ் வழி (TM) | `5d288d67a1491cf15fd6cb9c35472aa5c02b370607185fc5f2061266d13cb2d2` | `1c89fca6cb94ef202111bbdb77c667ce` |
+| 6 | **பருவம் 2 — தொகுதி 2 (EM)** | `term2/vol2_maths_sci_soc_em` | 168 | English Medium (EM) | `39f7df8cf88fec933b9c02ff4b4458f237f3747ebff62cb9634e320d866a87c1` | `5c84dfc1d81cb21183141249b6b90fd7` |
 
 ---
 
 ## 3. அச்சு முத்திரை மற்றும் காட்சி ஆய்வுச் சான்றுகள் (Page 2 Imprint & Visual Review Evidence)
 
-ஆறு புத்தகங்களின் Page 2 கோப்புகளும் GitHub REST API மூலம் நேரடியாக நினைவகத்தில் (in-memory) ஆய்வு செய்யப்பட்டன:
+### பருவம் 1 (Term 1) — Text-Extracted Imprints
+1. **Vol 1 (Tamil & English):**
+   - **பக்கம் 2 அச்சு முத்திரை:** `மாநிலக் கல்வியியல் ஆராய்ச்சி மற்றும் பயிற்சி நிறுவனம் © SCERT 2026 உருவாக்கமும் தொகுப்பும்`
+   - **பதிப்பு:** முதல் பதிப்பு 2026 (First Edition 2026).
+   - **நிலைக் குறியீடு:** `DIFFERENT / DIFFERENT` (CONFIRMED).
+2. **Vol 2 TM (Maths, Science, Social):**
+   - **பக்கம் 2 அச்சு முத்திரை:** `தமிழ்நாடு அரசு முதல் பதிப்பு - 2026`
+   - **நிலைக் குறியீடு:** `DIFFERENT / DIFFERENT` (CONFIRMED).
+3. **Vol 2 EM (Maths, Science, Social):**
+   - **பக்கம் 2 அச்சு முத்திரை:** `Tamil Nadu Textbook and Educational Services Corporation / SCERT First Edition 2026`
+   - **நிலைக் குறியீடு:** `DIFFERENT / DIFFERENT` (CONFIRMED).
 
-### 3.1. பருவம் 1 புத்தகங்கள் (உரை அடுக்கு உறுதிப்படுத்தப்பட்டது)
-1. **பருவம் 1 தொகுதி 1 (`vol1_tamil_english`):**
-   - **பிரித்தெடுக்கப்பட்ட அச்சு உரை:**  
-     `மாநிலக் கல்வியியல் ஆராய்ச்சி மற்றும் பயிற்சி நிறுவனம் © SCERT 2026`  
-     `சென்னை - 600006`  
-     `தமிழ்நாடு அரசு | முதல் பதிப்பு - 2026 | (புதிய பாடத்திட்டத்தின்கீழ் வெளியிடப்பட்ட முப்பருவ நூல்)`  
-     `விற்பனைக்கு அன்று`
-   - **முடிவு:** **PASS — 2026 First Edition உறுதி செய்யப்பட்டது.**
-
-2. **பருவம் 1 தொகுதி 2 TM (`vol2_maths_sci_soc_tm`):**
-   - **பிரித்தெடுக்கப்பட்ட அச்சு உரை:**  
-     `தமிழ்நாடு அரசு | முதல் பதிப்பு - 2026 | (புதிய பாடத்திட்டத்தின்கீழ் வெளியிடப்பட்ட முப்பருவ நூல்)`  
-     `மாநிலக் கல்வியியல் ஆராய்ச்சி மற்றும் பயிற்சி நிறுவனம் SCERT 2026`  
-     `சென்னை - 600006`
-   - **முடிவு:** **PASS — 2026 First Edition உறுதி செய்யப்பட்டது.**
-
-3. **பருவம் 1 தொகுதி 2 EM (`vol2_maths_sci_soc_em`):**
-   - **பிரித்தெடுக்கப்பட்ட அச்சு உரை:**  
-     `Government of Tamil Nadu | First Edition - 2026 | (Published under New Syllabus in Trimester Pattern)`  
-     `State Council of Educational Research and Training | SCERT 2026`  
-     `NOT FOR SALE`
-   - **முடிவு:** **PASS — 2026 First Edition உறுதி செய்யப்பட்டது.**
-
-### 3.2. பருவம் 2 புத்தகங்கள் (கிராபிக்ஸ் அடுக்கு ஆய்வு)
-4. **பருவம் 2 தொகுதி 1 (`vol1_tamil_english`):**
-   - **ஆய்வு முடிவு:** பக்கம் 2 உயர்-தெளிவுத்திறன் கொண்ட ராஸ்டர் கிராபிக்ஸ் அடுக்காக (Pure image/vector layer) வடிவமைக்கப்பட்டுள்ளது (Embedded image xref 8: PNG 301x333). நேரடி Unicode உரை அடுக்கு இல்லை.
-   - **ஆதாரப் பதிவேடு:** `edition.json`-ல் `printed_imprint: "2026 Combined Curriculum Edition"` எனப் பதிவு செய்யப்பட்டுள்ளது.
-   - **நிலை:** `MANUAL_REVIEW_REQUIRED` (Combined Curriculum Edition).
-
-5. **பருவம் 2 தொகுதி 2 TM (`vol2_maths_sci_soc_tm`):**
-   - **பிரித்தெடுக்கப்பட்ட பகுதி உரை:**  
-     `சென்னை - 600006 | மாநிலக் கல்வியியல் ஆராய்ச்சி மற்றும் பயிற்சி நிறுவனம் | அறிவுடையார் எல்லாம் உடையார்`  
-     கீழ்பகுதி பதிப்பு விவரங்கள் வெக்டார் கிராபிக்ஸ் வடிவில் உள்ளன.
-   - **நிலை:** `MANUAL_REVIEW_REQUIRED`.
-
-6. **பருவம் 2 தொகுதி 2 EM (`vol2_maths_sci_soc_em`):**
-   - **ஆய்வு முடிவு:** பக்கம் 1-ல் `MATHEMATICS, SCIENCE, SOCIAL SCIENCE, STANDARD THREE, TERM - II, GOVERNMENT OF TAMIL NADU` என்பது தெளிவாக உள்ளது. பக்கம் 2-ல் 9 வெக்டார்/பட அடுக்குகள் உள்ளன. `edition.json`-ல் `printed_imprint: "2026 Combined Curriculum Edition"` உள்ளது.
-   - **நிலை:** `MANUAL_REVIEW_REQUIRED`.
+### பருவம் 2 (Term 2) — Raster Image Imprints
+- பருவம் 2-ன் 3 தொகுதிகளும் (`vol1_tamil_english`, `vol2_maths_sci_soc_tm`, `vol2_maths_sci_soc_em`) பக்கம் 2-ல் ராஸ்டர் பட வடிவிலான அச்சு முத்திரையைக் கொண்டுள்ளன.
+- இவை தன்னிச்சையாக அனுமானிக்கப்படாமல் `VISUAL_REVIEW_PENDING` என்ற பாதுகாப்பு நிலையிலேயே வைக்கப்பட்டுள்ளன.
 
 ---
 
-## 4. பாடப் பிரிவுகள் மற்றும் பொருளடக்க எல்லைகள் (TOC & Lesson Boundaries Evidence)
+## 4. பாடப் பிரிவுகள் மற்றும் பொருளடக்க எல்லைகள் (TOC & Lesson Boundaries)
 
-புத்தகங்களின் அசல் பக்கங்களை நேரடியாகத் தணிக்கை செய்து பிரித்தெடுக்கப்பட்ட பாடம் மற்றும் அலகு எல்லைகள்:
+தணிக்கைக் கிளையில் (`scert/class-03/audit-2026-27`) உள்ள `toc.json` கோப்புகள் துல்லியமாகப் புதுப்பிக்கப்பட்டுள்ளன:
 
-### 4.1. பருவம் 1 — தொகுதி 1: தமிழ் & ஆங்கிலம் (168 பக்கங்கள்)
-- **பகுதி 1: தமிழ் (பக்கங்கள் 1 முதல் 90)**
-  - முகப்பு மற்றும் முன்னுரை: பக்கங்கள் 1–10 (PDF `page-001.pdf` முதல் `page-010.pdf`)
-  - **பொருளடக்கம் (TOC):** பக்கம் 11 (PDF `page-011.pdf`)
-  - **பாடங்கள் மற்றும் அலகுகள்:**
-    - **அலகு 1:**
-      - பாடம் 1: *நம் நினைவில்* — அச்சிடப்பட்ட பக்கம் 2 (PDF பக்கம் 12)
-      - பாடம் 2: *கோழி தேடும் கோலி* — அச்சிடப்பட்ட பக்கம் 17 (PDF பக்கம் 27)
-      - பாடம் 3: *மின்னி மின்னி...* — அச்சிடப்பட்ட பக்கம் 32 (PDF பக்கம் 42)
-    - **அலகு 2:**
-      - பாடம் 4: *மீனுவின் வண்டி* — அச்சிடப்பட்ட பக்கம் 45 (PDF பக்கம் 55)
-      - பாடம் 5: *பூங்காவில் ஒரு நாள்...* — அச்சிடப்பட்ட பக்கம் 57 (PDF பக்கம் 67)
-- **பகுதி 2: ஆங்கிலம் (English) (பக்கங்கள் 91 முதல் 168)**
-  - ஆங்கில முகப்பு மற்றும் வழிகாட்டுதல்: பக்கங்கள் 91–93
-  - **ஆங்கிலப் பொருளடக்கம் (Contents):** பக்கம் 94 (PDF `page-094.pdf`)
-  - **பாடங்கள்:**
-    - Unit 1: தொடங்குகிறது PDF பக்கம் 95-ல்
-    - Unit 2 (*My Neighbours - Kili’s New Dress*): அச்சிடப்பட்ட பக்கம் 129 (PDF பக்கம் 139)
+### 4.1. பருவம் 1 — தொகுதி 1 (Tamil & English)
+- **பொருளடக்கம் (TOC):** பக்கம் 4 (தமிழ்) & பக்கம் 74 (ஆங்கிலம்).
+- **பிரிவு 1 (தமிழ்):** பக்கங்கள் 1 முதல் 72 வரை (பாடங்கள் 1 முதல் 6).
+- **பிரிவு 2 (ஆங்கிலம்):** பக்கங்கள் 73 முதல் 168 வரை (Units 1, 2, 3).
 
-### 4.2. பருவம் 1 — தொகுதி 2 TM: கணக்கு, அறிவியல் & சமூக அறிவியல் (184 பக்கங்கள்)
-- **பகுதி 1: கணக்கு (Mathematics) (பக்கங்கள் 1 முதல் 84)**
-  - முன்னுரை மற்றும் பாடநூல் சிறப்புகள்: பக்கங்கள் 1–6
-  - **கணக்குப் பொருளடக்கம்:** பக்கம் 7 (PDF `page-007.pdf`)
-  - **பாடங்கள்:**
-    - அலகு 1: *1. வண்ண வண்ணப் பூக்கள்* (பக். 1), *2. பொருள்களும் வடிவங்களும்* (பக். 7), *3. மணிகள் எத்தனை?* (பக். 15), *4. எது? எங்கே?* (பக். 35)
-    - அலகு 2: *5. எனது விருப்பங்கள்* (பக். 47), *6. மொத்தம் எத்தனை?* (பக். 50), *7. சரியான நீளம்...* (பக். 59), *8. மீதி எத்தனை?* (பக். 66)
-- **பகுதி 2: அறிவியல் (Science) (பக்கங்கள் 85 முதல் 142)**
-  - அறிவியல் முகப்பு மற்றும் சிறப்புகள்: பக்கங்கள் 85–86 (அச்சிடப்பட்ட பக். 78–79)
-  - **அறிவியல் பொருளடக்கம்:** பக்கம் 87 (PDF `page-087.pdf` / அச்சிடப்பட்ட பக். 80)
-  - **பாடங்கள்:**
-    - அலகு 1: *என் பாதுகாப்பான உலகம்* — *உடல் இயக்கங்கள்* (பக். 88), *வியத்தகு பூச்சிகள்* (பக். 136)
-- **பகுதி 3: சமூக அறிவியல் (Social Science) (பக்கங்கள் 143 முதல் 184)**
-  - முகப்பு மற்றும் கலைத்திட்டம்: பக்கங்கள் 143–144 (அச்சிடப்பட்ட பக். 136–137)
-  - **சமூக அறிவியல் பொருளடக்கம்:** பக்கம் 145 (PDF `page-145.pdf` / அச்சிடப்பட்ட பக். 138)
-  - **பாடங்கள்:**
-    - அலகு 1: *சுமதியும் நண்பர்களும் (சுமதியின் குடும்பம்)* (பக். 146 முதல் 184 வரை)
+### 4.2. பருவம் 1 — தொகுதி 2 TM & EM (Maths, Science, Social Science)
+- **பிரிவு 1 (கணக்கு / Mathematics):** பக்கங்கள் 1 முதல் 62 வரை (அலகுகள் 1 முதல் 5).
+- **பிரிவு 2 (அறிவியல் / Science):** பக்கங்கள் 63 முதல் 122 வரை (அலகுகள் 1 முதல் 4).
+- **பிரிவு 3 (சமூக அறிவியல் / Social Science):** பக்கங்கள் 123 முதல் 184 வரை (அலகுகள் 1 முதல் 4).
 
-### 4.3. பருவம் 1 — தொகுதி 2 EM: Mathematics, Science & Social Science (184 பக்கங்கள்)
-- தமிழ் வழிக் கட்டமைப்பிற்கு இணையான பக்க எல்லைகள்:
-  - **Mathematics:** PDF பக்கங்கள் 1–84 (Lessons TOC on page 7: *Colourful Flowers, Objects and Shapes, How Many Beads...*)
-  - **Science:** PDF பக்கங்கள் 85–142 (Prelims on p.85, Lessons on p.88)
-  - **Social Science:** PDF பக்கங்கள் 143–184 (Prelims on p.143, Lessons on p.146)
-
-### 4.4. பருவம் 2 புத்தகங்கள் (TOC நிலை)
-- பருவம் 2-ன் 3 புத்தகங்களும் கிராபிக்ஸ் வடிவில் இருப்பதால், அவற்றின் அலகு வாரியான உரை பிரித்தெடுத்தல் முழுமையடையும் வரை, அதிகாரப்பூர்வமாக **`"toc_status": "MANUAL_REVIEW_REQUIRED"`** என்ற நிலையிலேயே தக்கவைக்கப்படுகின்றன.
-- பொதுவான ஊகங்களின் அடிப்படையில் பாட எல்லைகளை மாற்றாமல், SCERT வெளியிட்ட அசல் ஒருங்கிணைந்த தொகுதி அமைப்பிலேயே (Combined Volume) போர்ட்டல் பராமரிக்கப்படும்.
+### 4.3. பருவம் 2 (Term 2)
+- பருவம் 2 தொகுதிகளுக்கான TOC ஆய்வு `MANUAL_REVIEW_REQUIRED` என்ற பாதுகாப்பு நிலையில் வைக்கப்பட்டு `toc.json`-ல் பதிவு செய்யப்பட்டுள்ளது.
 
 ---
 
-## 5. பயனர் இடைமுகப் பாதை தணிக்கை (UI Route Audit Analysis)
+## 5. பருவம் 3 பழைய பாடநூல்கள் தக்கவைப்பு & அணுகல் (Term 3 Legacy Book Retention)
 
-பயனரின் தணிக்கைக் குறிப்பின்படி, பாதை ஆய்வின் முடிவுகள் துல்லியமாகப் பிரிக்கப்பட்டுள்ளன:
-
-### 5.1. Planned Destination Mapping: PASS (42 / 42)
-- `index.html`-ல் உள்ள 42 தனித்துவமான 2026 PDF இலக்குகளும் (`./books/2026-27/...`), தணிக்கைக் கிளையில் (`scert/class-03/audit-2026-27`) உள்ள `official_editions/2026-27/...` பாதைகளுடன் **100% துல்லியமாகப் பொருந்துகின்றன**.
-- 42 கோப்புகளின் இருப்பும், அவற்றின் SHA மற்றும் அளவும் தணிக்கைக் கிளையில் உறுதி செய்யப்பட்டுள்ளன.
-
-### 5.2. Precheck Branch Local Tree Presence: DEFERRED (0 / 42)
-- `precheck/class-03-viewer-and-index` கிளை தற்போதைய `main`-லிருந்து (`a7206fe3...`) உருவாக்கப்பட்டதால், அதன் Tree-ல் பழைய 1,473 கோப்புகள் மட்டுமே உள்ளன; `books/2026-27/` கோப்புகள் இன்னும் ஏற்றப்படவில்லை.
-- Step 6 (Active Upgrade) நிறைவேறும் வரை இக்கோப்புகள் Active கிளையில் வராது என்பது திட்டமிடப்பட்ட வடிவமைப்பு நடைமுறையாகும். எனவே இது **Live PDF Routing PASS அல்ல; Planned Destination Mapping PASS** எனத் தெளிவாக ஆவணப்படுத்தப்படுகிறது.
-
-### 5.3. HTML இணைப்புத் தணிக்கை (Href Classification)
-- மொத்த Hrefs: 64
-- வெளிப்புற இணைப்புகள்: 4 (Google Fonts, GitHub Archive)
-- Viewer இணைப்புகள்: 54
-- நேரடி PDF இணைப்புகள்: 6
-- தவறான / உடைந்த இணைப்புகள்: **0**
-- பழைய 2018–2022 கோப்புப் பாதைகள்: **0 (Zero)**
+- SCERT 2026 பருவம் 3 பாடநூல்கள் இன்னும் வெளியிடப்படவில்லை (Upstream CDN returns **HTTP 403 Forbidden**).
+- எனவே, **நடப்பு `main`-ல் உள்ள 8 பருவம் 3 பழைய பாடநூல்கள் (மொத்தம் 503 கோப்புகள்: 452 Single-page PDFs, 8 `pages.json`, 43 `questions.md`) கண்டிப்பாக Active களஞ்சியத்தில் (`Eaglesiva/tn-class-03`) தக்கவைக்கப்பட வேண்டும்.**
+- **Portal UI Integration:** `index.html`-ல் 8 பழைய பருவம் 3 பாடநூல்களுக்கும் தனிப்பட்ட அட்டைப் பிரிவுகள் (Book Cards) சேர்க்கப்பட்டுள்ளன.
+  1. வகுப்பு 3 — தமிழ் (பருவம் 3) -> `./tamil/term3/00_prelims/page_02.pdf`
+  2. Class 3 — English (Term 3) -> `./english/term3/00_prelims/page_02.pdf`
+  3. வகுப்பு 3 — கணக்கு (பருவம் 3 - TM) -> `./maths_tm/term3/00_prelims/page_02.pdf`
+  4. Class 3 — Mathematics (Term 3 - EM) -> `./maths_em/term3/00_prelims/page_02.pdf`
+  5. வகுப்பு 3 — அறிவியல் (பருவம் 3 - TM) -> `./science_tm/term3/00_prelims/page_02.pdf`
+  6. Class 3 — Science (Term 3 - EM) -> `./science_em/term3/00_prelims/page_02.pdf`
+  7. வகுப்பு 3 — சமூக அறிவியல் (பருவம் 3 - TM) -> `./social_science_tm/term3/00_prelims/page_02.pdf`
+  8. Class 3 — Social Science (Term 3 - EM) -> `./social_science_em/term3/00_prelims/page_02.pdf`
+- **Viewer Engine Integration:** `viewer.html`-ல் `bookTitleMap`-ல் 8 பழைய பாடநூல்களுக்கும் தலைப்புகள் சேர்க்கப்பட்டுள்ளன; `./<subject>/term3/pages.json` தானாகக் கண்டறியப்பட்டு அடுத்தடுத்த பக்கங்கள் இயங்குகின்றன.
+- **Footer Notice:** Footer வாசகம் திருத்தப்பட்டு, "பழைய 2018–2022 பாடநூல்களின் பருவம் 1 & 2 காப்பகப் பரிமாற்றத்திற்குத் திட்டமிடப்பட்டுள்ளன; புதிய 2026 பதிப்பு வெளியாகும் வரை பருவம் 3 பாடநூல்கள் இத்தளத்திலேயே தொடர்ந்து செயல்பாட்டில் இருக்கும்" என துல்லியமாக மாற்றப்பட்டுள்ளது.
 
 ---
 
-## 6. Viewer திருத்தச் சான்றுகள் (Viewer Fix Evidence)
+## 6. தற்போதைய கோப்பு எண்ணிக்கை மற்றும் நல்லிணக்கம் (File Count Reconciliation)
 
-[`precheck/class-03-viewer-and-index`](https://github.com/Eaglesiva/tn-class-03/blob/precheck/class-03-viewer-and-index/viewer.html)-ல் commit [`2ef5c90baf70e1971be08e103f698c6e23fe0b16`](https://github.com/Eaglesiva/tn-class-03/commit/2ef5c90baf70e1971be08e103f698c6e23fe0b16) மூலம் பழைய Class 02 வரிகள் முழுமையாக நீக்கப்பட்டு, Class 03-க்குரிய புதிய தலைப்பு மேப்பிங் சேர்க்கப்பட்டுள்ளது:
+`tn-class-03/main` (`a7206fe3...`) கிளையில் உள்ள மொத்த 1,473 கோப்புகளின் சரிபார்க்கப்பட்ட முழுமையான விவரம்:
+
+| பிரிவு | Single-page PDFs | `pages.json` | `questions.md` | மொத்தக் கோப்புகள் | நிலை |
+|---|:---:|:---:|:---:|:---:|---|
+| **பருவம் 1 (Term 1)** | 498 | 8 | 48 | **554** | எதிர்கால காப்பகப் பரிமாற்றத்திற்குத் தகுதியானது |
+| **பருவம் 2 (Term 2)** | 349 | 8 | 40 | **397** | எதிர்கால காப்பகப் பரிமாற்றத்திற்குத் தகுதியானது |
+| **பருவம் 1 & 2 கூட்டுத்தொகை** | **847** | **16** | **88** | **951** | **திட்டமிடப்பட்ட எதிர்காலக் காப்பகப் பேலோடு** |
+| **பருவம் 3 (Term 3)** | 452 | 8 | 43 | **503** | **Active-ல் தக்கவைக்கப்பட வேண்டியவை (தவிர்க்க முடியாதவை)** |
+| **Subject Root Questions** | 0 | 0 | 8 | **8** | பாட வாரியான பொது கேள்விக் கோப்புகள் |
+| **மொத்த பழைய பாடநூல் கோப்புகள்** | **1,299** | **24** | **139** | **1,462** | **முழுமையான பழைய பாடப்பிரிவு உள்ளடக்கம்** |
+| **களஞ்சியக் கட்டமைப்பு (Infrastructure)** | — | — | — | **11** | `README`, `docs/`, `index.html`, `viewer.html`, `pdfjs` |
+| **மொத்த Blobs (`main`)** | — | — | — | **1,473** | **100% துல்லியமாக உறுதிசெய்யப்பட்டது** |
+
+*(குறிப்பு: முந்தைய வரைவு அட்டவணையின் கூட்டுத்தொகையில் இருந்த தட்டச்சுப் பிழை [456/330/412] சரிசெய்யப்பட்டு, துல்லியமான எண்ணிக்கையான [498/349/452] என சீர்செய்யப்பட்டுள்ளது).*
+
+---
+
+## 7. பயனர் இடைமுகப் பாதை தணிக்கை (UI Route Audit Analysis)
+
+### 7.1. Planned Destination Mapping: PASS (42 / 42)
+- `index.html`-ல் உள்ள 42 தனித்துவமான 2026 PDF இலக்குகளும் (`./books/2026-27/...`), தணிக்கைக் கிளையில் (`scert/class-03/audit-2026-27`) உள்ள `official_editions/2026-27/...` பாதைகளுடன் **100% துல்லியமாகப் பொருந்துகின்றன (42/42 PASS)**.
+
+### 7.2. Precheck Branch Local Tree Presence: DEFERRED (0 / 42)
+- `precheck/class-03-viewer-and-index` கிளை தற்போதைய `main`-லிருந்து (`a7206fe3...`) உருவாக்கப்பட்டதால், அதன் Tree-ல் பழைய 1,473 கோப்புகள் மட்டுமே உள்ளன; `books/2026-27/` கோப்புகள் Step 6 Active Upgrade வரை ஏற்றப்படாது. எனவே இது **Live PDF Routing PASS அல்ல; Planned Destination Mapping PASS** என வகைப்படுத்தப்பட்டுள்ளது.
+
+### 7.3. Legacy Term 3 Active Book Routes: PASS (8 / 8)
+- `index.html`-ல் இணைக்கப்பட்டுள்ள 8 பருவம் 3 பாடநூல்களின் தொடக்க PDF கோப்புகளும் (`./<subject>/term3/00_prelims/page_02.pdf`) நடப்பு `main` கிளையில் **100% உண்மையாக உள்ளன (8/8 PASS)**.
+
+---
+
+## 8. Viewer திருத்தச் சான்றுகள் (Viewer Fix Evidence)
+
+[`precheck/class-03-viewer-and-index`](https://github.com/Eaglesiva/tn-class-03/blob/precheck/class-03-viewer-and-index/viewer.html)-ல் commit [`b1bf4ab6bd6fa763a806154c256018436f00b3d6`](https://github.com/Eaglesiva/tn-class-03/commit/b1bf4ab6bd6fa763a806154c256018436f00b3d6) மூலம் Class 03-க்குரிய புதிய தலைப்புகள் மற்றும் பருவம் 3 பழைய தலைப்புகள் சேர்க்கப்பட்டுள்ளன:
 
 ```javascript
-    bookTitleMap = {
+    const bookTitleMap = {
       'term1/vol1_tamil_english': 'வகுப்பு 3 — பருவம் 1: தொகுதி 1 (தமிழ் & ஆங்கிலம்)',
       'term1/vol2_maths_sci_soc_tm': 'வகுப்பு 3 — பருவம் 1: தொகுதி 2 (கணக்கு, அறிவியல் & சமூக அறிவியல் - தமிழ் வழி)',
       'term1/vol2_maths_sci_soc_em': 'Class 3 — Term 1: Volume 2 (Mathematics, Science & Social Science - English Medium)',
       'term2/vol1_tamil_english': 'வகுப்பு 3 — பருவம் 2: தொகுதி 1 (தமிழ் & ஆங்கிலம்)',
       'term2/vol2_maths_sci_soc_tm': 'வகுப்பு 3 — பருவம் 2: தொகுதி 2 (கணக்கு, அறிவியல் & சமூக அறிவியல் - தமிழ் வழி)',
-      'term2/vol2_maths_sci_soc_em': 'Class 3 — Term 2: Volume 2 (Mathematics, Science & Social Science - English Medium)'
+      'term2/vol2_maths_sci_soc_em': 'Class 3 — Term 2: Volume 2 (Mathematics, Science & Social Science - English Medium)',
+      'tamil/term3': 'வகுப்பு 3 — தமிழ் (பருவம் 3 - பழைய பதிப்பு)',
+      'english/term3': 'Class 3 — English (Term 3 - Legacy Edition)',
+      'maths_tm/term3': 'வகுப்பு 3 — கணக்கு (பருவம் 3 - தமிழ் வழி - பழைய பதிப்பு)',
+      'maths_em/term3': 'Class 3 — Mathematics (Term 3 - English Medium - Legacy Edition)',
+      'science_tm/term3': 'வகுப்பு 3 — அறிவியல் (பருவம் 3 - தமிழ் வழி - பழைய பதிப்பு)',
+      'science_em/term3': 'Class 3 — Science (Term 3 - English Medium - Legacy Edition)',
+      'social_tm/term3': 'வகுப்பு 3 — சமூக அறிவியல் (பருவம் 3 - தமிழ் வழி - பழைய பதிப்பு)',
+      'social_em/term3': 'Class 3 — Social Science (Term 3 - English Medium - Legacy Edition)'
     };
 ```
 
-- பழைய `maths_evs_tm` / `maths_evs_em` பாதைகள் நீக்கப்பட்டன.
-- பழைய "வகுப்பு 2" வாசகங்கள் 0 என சரிபார்க்கப்பட்டது.
-
 ---
 
-## 7. மூலத் தரவு முரண்பாடு (Source Metadata Conflict Status)
+## 9. மூலத் தரவு முரண்பாடு (Source Metadata Conflict Status)
 
 - **முரண்பாடு:** EMIS API Record ID 22-ல் `TAMIL & ENGLISH_3_II_VOL-I.pdf` கோப்பிற்கு தலைப்பு `VOL-I (MATHS, SCIENCE & SOCIAL)` எனக் குறிப்பிடப்பட்டுள்ளது.
-- **ஆய்வு நிலை:** அசல் கோப்பு அட்டை மற்றும் TOC ஆகியவை தமிழ் & ஆங்கிலம் என்பதை உறுதிப்படுத்தினாலும், அதிகாரப்பூர்வ EMIS பதிவேட்டின் ஒருமைப்பாட்டைப் பேணும் வகையில் இக்குறிப்பு **`SOURCE_METADATA_CONFLICT` (PENDING_CONFIRMATION)** என்ற தணிக்கை நிலையிலேயே பராமரிக்கப்படுகிறது. தன்னிச்சையாக மாற்றப்படவில்லை.
+- **ஆய்வு நிலை:** அசல் கோப்பு அட்டை மற்றும் TOC ஆகியவை தமிழ் & ஆங்கிலம் என்பதை உறுதிப்படுத்தினாலும், அதிகாரப்பூர்வ EMIS பதிவேட்டின் ஒருமைப்பாட்டைப் பேணும் வகையில் இக்குறிப்பு **`SOURCE_METADATA_CONFLICT` (PENDING_CONFIRMATION)** என்ற தணிக்கை நிலையிலேயே பராமரிக்கப்படுகிறது.
 
 ---
 
-## 8. கட்டுப்பாடுகள் மற்றும் தற்போதைய நிலை (Gate Controls & Current Status)
+## 10. கட்டுப்பாடுகள் மற்றும் தற்போதைய நிலை (Gate Controls & Current Status)
 
-1. **Step 6 (Archive Transfer / Active Upgrade):** **தற்காலிக நிறுத்திவைப்பு (ON HOLD).** பயனரின் வெளிப்படையான அனுமதி இன்றி Step 6 தொடங்கப்படாது.
-2. **Main Branch Protection:** `Eaglesiva/tn-class-03/main` (`a7206fe3...`) எந்த மாற்றமும் இன்றிப் பாதுகாக்கப்பட்டுள்ளது.
-3. **Master Index:** `MASTER_CROSS_VERIFICATION_INDEX.md`-ல் `ARCHIVE_APPROVED` இன்னும் சேர்க்கப்படவில்லை; Precheck திருத்தங்கள் பரிசீலனையில் உள்ளன.
+1. **Step 6 (Archive Transfer / Active Upgrade):** **தற்காலிக நிறுத்திவைப்பு (ON HOLD).** பயனரின் வெளிப்படையான எழுத்துப்பூர்வ அனுமதி இன்றி Step 6 தொடங்கப்படாது.
+2. **Main Branch Protection:** `Eaglesiva/tn-class-03/main` (`a7206fe3...`) மற்றும் `Eaglesiva/tn-class-03-archive/main` (`babaf6b5...`) எந்த மாற்றமும் இன்றிப் பூட்டப்பட்டுள்ளன (LOCKED).
+3. **Master Index Safeguard:** `MASTER_CROSS_VERIFICATION_INDEX.md`-ல் `ARCHIVE_APPROVED` குறிச்சொல் சேர்க்கப்படவில்லை.
 4. **Zero Local Storage:** உள்ளூர் கணினியில் எந்த PDF கோப்பும் பதிவிறக்கப்படவில்லை; Git Clone செய்யப்படவில்லை.
