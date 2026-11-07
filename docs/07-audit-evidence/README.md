@@ -16,6 +16,24 @@ The following files were copied from the Class 10 working branch `scert/class-10
 
 > These are dated evidence snapshots. Their original status labels must not be treated as final CURRENT/ARCHIVE decisions. Use the live class edition registers and the Edition Gate before production changes.
 
+
+## Cross-class master-tracking snapshot (2026-11-05)
+
+These files were found on `tn-class-10` branch `scert/master-edition-tracking` and copied into Common. The branch was acting as a temporary shared home for Classes 1–12, so these records belong in the Common control repository rather than remaining tied to Class 10.
+
+- [Latest working project blueprint — 2026-11-05](master-edition-tracking-2026-11-05/PROJECT_BLUEPRINT_TA_2026-11-05.md)
+- [Final master audit status](master-edition-tracking-2026-11-05/FINAL_MASTER_AUDIT_STATUS.md)
+- [Local vs GitHub artifact inventory](master-edition-tracking-2026-11-05/LOCAL_VS_GITHUB_ARTIFACT_INVENTORY.md)
+- [Next audit notes — Class 9](master-edition-tracking-2026-11-05/NEXT_AUDIT_CLASS_09_TA.md)
+- [Next audit notes — Class 11](master-edition-tracking-2026-11-05/NEXT_AUDIT_CLASS_11_TA.md)
+- [SCERT master edition index CSV](master-edition-tracking-2026-11-05/SCERT_MASTER_EDITION_INDEX.csv)
+- [SCERT master edition tracker](master-edition-tracking-2026-11-05/SCERT_MASTER_EDITION_TRACKER.md)
+- [38-book refresh targets](master-edition-tracking-2026-11-05/scert_38_refresh_targets.json)
+- [Term-II probe results](master-edition-tracking-2026-11-05/term2_probe_results.csv)
+- [38-book TOC contiguity audit](master-edition-tracking-2026-11-05/scert_38_toc_contiguity_audit.json)
+
+> The master tracker reports the historical audit snapshot (165 in-scope records, 124 accessible / 41 HTTP 403, 38 books refreshed on main and 30 cloud-updated editions on update branches). Treat those as recorded audit metrics, not as a fresh live status check or final CURRENT/ARCHIVE decision. Reconcile against the per-class manifests and direct Page-2 links in the Master Cross-Verification Index.
+
 ## Class-wise current audit sources
 
 | Class | Audit source branch | Primary audit record |
