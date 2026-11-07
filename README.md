@@ -6,6 +6,7 @@ This is the central control repository for the Tamil Nadu SCERT textbook, Book-b
 - [Master progress](docs/00-project-control/master-progress.md)
 - [Branch inventory](docs/06-migration-control/branch-inventory.md)
 - [Common blueprint](docs/01-blueprint/PROJECT_BLUEPRINT_COMMON_TA.md)
+- [Canonical SCERT edition-verification blueprint](docs/01-blueprint/SCERT_CLASSWISE_EDITION_VERIFICATION_BLUEPRINT.md)
 - [Step 1–3 workflow](docs/02-workflow/BOOK_BACK_QUIZ_WORKFLOW_TA.md)
 - [Edition register](docs/03-edition-register/README.md)
 - [Cloudflare deployment policy](docs/04-quality-control/CLOUDFLARE_DEPLOYMENT_POLICY.md)
