@@ -28,7 +28,7 @@
 - Class 11 shows two non-main branches.
 - Class 12 shows three non-main branches.
 - Common repository `tn-schools-project` currently shows only `main`.
-- Total observed current-class branches: 12 `main` + 20 non-main = 32 branches. This count excludes the 12 archive repositories.
+- Total observed current-class branches: 12 `main` + 22 non-main = 34 branches. This count excludes the 12 archive repositories.
 
 ## Consolidation rule
 
