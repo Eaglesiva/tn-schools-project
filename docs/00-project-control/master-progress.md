@@ -38,3 +38,25 @@
 ## Production safety state
 
 **No class main branch book files were changed by this consolidation. No Archive repository content was overwritten. No branch was merged or deleted.**
+
+
+## Chat continuation — live repository consolidation (2026-11-07, 18:30 IST)
+
+### Completed in this continuation
+
+- Re-queried the live branch lists for all 12 current class repositories and exhausted each branch-search continuation. The observed inventory is 12 `main` branches plus 20 non-main branches. Class 10 has seven non-main branches; Classes 9, 11 and 12 have two, two and three respectively. The Common repository currently has only `main`.
+- Updated [branch inventory](../06-migration-control/branch-inventory.md) with the live branch snapshot (commit `cf72d4d78bb18e19f7116c02f35544c0595b01f4`).
+- Copied the canonical [SCERT Class-wise Edition Verification Blueprint](../01-blueprint/SCERT_CLASSWISE_EDITION_VERIFICATION_BLUEPRINT.md) into Common from the Class 10 repository; the original source remains in Class 10.
+- Copied the shared cross-class audit reports, legacy working blueprint and global CSV manifests from the Class 10 working branch into [Common audit evidence](../07-audit-evidence/README.md). These are retained as dated historical evidence, not final edition decisions.
+- Copied class-specific 2026–27 audit manifests and summaries into each corresponding current repository under `docs/edition-audit/2026-27/` for Classes 1–12. Added a README pointer in each class repository. The original working branches remain unchanged.
+- Added the Common audit evidence index and linked it from the Common repository README.
+
+### Not yet completed / safety holds
+
+- No textbook PDF/page assets, `pages.json`, viewer routing, Book-back questions, answers or quiz content were moved or replaced in this continuation.
+- No branch was merged or deleted. All original audit/content branches remain intact.
+- Page-2 imprint text is available in the existing manifests and direct Page-2 PDF links are recorded in the class registers where already prepared. A fresh visual review of every Page-2 PDF and complete per-book register consolidation is still pending; extracted manifest text must not be represented as a new visual inspection.
+- Full-book comparisons, TOC boundaries, subject mapping, Book-back alignment and production viewer checks remain mandatory before CURRENT/ARCHIVE decisions.
+- Cloudflare deployment policy is documented, but the Cloudflare dashboard settings have not been inspected or changed. Common remains documentation-only and is not a Pages production source.
+
+**Next safe step:** finish the unified per-book register (Classes 1–12) with immutable commit links to each full page set, Page-2 split PDF, page map, official source, imprint, page count and comparison status; then review class-specific remaining documents and Cloudflare settings before any production migration.
