@@ -37,3 +37,26 @@ Official Cloudflare documentation:
 ## Current restriction
 
 The Cloudflare dashboard could not be inspected or modified from this workspace. Therefore existing Page projects remain unchanged until their settings are checked directly. Do not treat a GitHub branch cleanup as proof that Cloudflare deployment settings are safe.
+
+
+## Live GitHub workflow inspection — 2026-11-07
+
+The following current-main workflow directories were checked across `tn-class-01` through `tn-class-12`:
+
+- Classes 1–8 and 11: no `.github/workflows/` directory found on `main`.
+- Class 9: `scert-c9-refresh.yml` runs manually or on pushes to `scert/refresh/class-09`; it checks out the triggering branch and pushes back to that same branch.
+- Class 10: `scert-c10-refresh.yml` is scoped to `scert/refresh/class-10`; `scert-edition-sync.yml` is manual-only and defaults to `feature/scert-edition-pilot`, staging only the selected subject's `editions/` folder and `editions.json`; `scert-preview-page2.yml` uploads a temporary GitHub Actions artifact and does not commit files.
+- Class 11: the official edition update workflow is manual-only and pushes the batch results to the triggering update branch.
+- Class 12: `scert-c12-refresh.yml` is scoped to `scert/refresh/class-12`; the official edition update workflow is scoped to `scert/class-12/official-version-updates` and pushes only to that branch.
+
+**Finding:** The inspected workflows do not directly call Cloudflare deployment APIs or push their results to `main`. They are GitHub content-ingestion / verification workflows scoped to non-production branches. However, a Cloudflare Pages Git integration can still create Preview deployments for non-production branch pushes if Preview deployments are enabled in the dashboard.
+
+## What this means for document publishing
+
+- Workflow staging lists do not prove that documentation is excluded from Cloudflare Pages.
+- If a Pages project publishes the repository root as its output directory, `docs/`, CSV manifests and audit artifacts may be served as static files. This cannot be confirmed from GitHub alone.
+- Build watch paths can stop documentation changes from triggering builds; they do **not** filter files out of the published output.
+- Do not move PDFs or viewer assets into a guessed `public/` or `dist/` directory. Current viewers use repository-relative paths, so changing the root without a full URL/path audit can break books.
+- The safe final design is to keep the Pages production branch on `main`, restrict or disable previews for working/audit branches, and publish a deliberate allow-listed site output while preserving the viewer's required book-page assets. This must be validated per repository in the Cloudflare dashboard before implementation.
+
+**Still unverified:** Production branch, build command, root directory, output directory, Preview deployment policy and Build watch paths for each Cloudflare Pages project. No Cloudflare setting was changed.
