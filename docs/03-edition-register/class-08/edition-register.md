@@ -34,7 +34,7 @@ The official PDF links below come from each current Main `edition.json` source r
 
 - Main contains all 8 expected full-year book folders, each with `edition.json`, `pages.json` and a Page-2 PDF.
 - Recorded official page counts total 2,208 pages across the eight books.
-- The current Main promotion commit records 2,240 one-page PDFs plus 8 edition/page manifests (with additional repository files outside this register).
+- The Git tree at the exact Main commit was counted directly: 2,208 single-page PDFs + 40 JSON manifests (5 per book) = 2,248 book assets. This differs from the promotion commit message's 2,240-PDF / 8-JSON breakdown; the Git tree count is the verified file count. The 2,208 page PDFs equal the sum of the eight recorded book page counts. The repository has 15 additional UI/documentation/vendor files outside the 2,248 book assets.
 - The official distribution notice supports the Class 8 annual 2026–27 release.
 - The recorded Page-2 imprint shows publication history beginning in 2019 and reprints/revisions through 2024. **2026–27 is the distribution year; it is not the printed first-edition year.**
 - The current Main records indicate that the page splits were validated. However, a fresh live SCERT API/CDN response and visual review of each Page-2 PDF were not performed in this documentation update. Those checks remain `PENDING`.
