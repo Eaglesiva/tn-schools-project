@@ -120,7 +120,7 @@ The 2026-11-04 audit record says the three in-scope official Term-III files retu
 
 **Migration Status:** ✅ **100% PRODUCTION MERGED TO MAIN & VERIFIED** (2026-11-08)  
 - **Active Repository Main:** [`bcf8c7397c4348e6c0dd3a0e629a3ecaae6bd075`](https://github.com/Eaglesiva/tn-class-02/commit/bcf8c7397c4348e6c0dd3a0e629a3ecaae6bd075) (854 files in `books/2026-27/`)  
-- **Archive Repository Main:** [`8c0f7397f6d6e8033d399ed88cb49fa725083401`](https://github.com/Eaglesiva/tn-class-02-archive/commit/8c0f7397f6d6e8033d399ed88cb49fa725083401) (1,176 files in `legacy-2018-2022/`)  
+- **Archive Repository Main:** `8c0f7397f6d6e8033d399ed88cb49fa725083401` (historical archive reference; archive removed from current scope) (1,176 files in `legacy-2018-2022/`)  
 - **Final Edition Register:** [`docs/03-edition-register/class-02/edition-verification-register.md`](class-02/edition-verification-register.md)  
 - **Final Audit Report:** [`docs/03-edition-register/class-02/edition-migration-audit-report.md`](class-02/edition-migration-audit-report.md)  
 Audit branch: `scert/class-02/audit-2026-27`  
@@ -145,7 +145,7 @@ The audit recorded the three State Board Term-III official PDFs as HTTP 403 on 2
 ## Decision & Production Status
 All six official Term-I/II volumes differ from the local main baseline. Notably, the Term-I Tamil+English volume has the same Page-2 imprint as main, but the remainder/full-book comparison differs. This proves why Page 2 alone cannot settle identity.
 
-- **Archive Repository Status:** ✅ **ARCHIVE_APPROVED & PRODUCTION COMPLETED.** All 1,176 legacy textbook files (1,044 single-page PDFs + 114 questions.md + 18 pages.json) have been ingested into Eaglesiva/tn-class-02-archive under legacy-2018-2022/ and merged to main (Merge Commit: [8c0f7397f6d6e8033d399ed88cb49fa725083401](https://github.com/Eaglesiva/tn-class-02-archive/commit/8c0f7397f6d6e8033d399ed88cb49fa725083401)).
+- **Archive Repository Status:** ✅ **ARCHIVE_APPROVED & PRODUCTION COMPLETED.** All 1,176 legacy textbook files (1,044 single-page PDFs + 114 questions.md + 18 pages.json) have been ingested into Eaglesiva/tn-class-02-archive under legacy-2018-2022/ and merged to main (Merge Commit: 8c0f7397f6d6e8033d399ed88cb49fa725083401 (historical archive reference; archive removed from current scope)).
 - **Active Repository Status:** ✅ **PRODUCTION MERGED TO MAIN.** All 854 official 2026 First Edition files (824 single-page PDFs + 30 JSON manifests) are promoted to ooks/2026-27/ on main (Merge Commit: [cf8c7397c4348e6c0dd3a0e629a3ecaae6bd075](https://github.com/Eaglesiva/tn-class-02/commit/bcf8c7397c4348e6c0dd3a0e629a3ecaae6bd075)).
 - **Viewer / UI Status:** Branch ix/class-02-viewer-and-index (Commit: [53aae66e1734a965a018aa82d9f84aaf539441ab](https://github.com/Eaglesiva/tn-class-02/commit/53aae66e1734a965a018aa82d9f84aaf539441ab)) verified 100% PASS with 0 broken links and full sequential viewer routing (pending user final merge approval).
 - **Audit Records Preserved:** Central Register: [docs/03-edition-register/class-02/edition-verification-register.md](class-02/edition-verification-register.md) and Central Audit Report: [docs/03-edition-register/class-02/edition-migration-audit-report.md](class-02/edition-migration-audit-report.md).
@@ -158,7 +158,7 @@ Page-2 text is drawn from the manifest; direct PDF links above are the one-click
 
 **Migration Status:** ✅ **100% PRODUCTION MERGED TO MAIN & VERIFIED** (2026-11-08)  
 - **Active Repository Main:** [1cf5ef9474140c7378be05402613f6f6dec11623](https://github.com/Eaglesiva/tn-class-03/commit/1cf5ef9474140c7378be05402613f6f6dec11623) (1,046 files in ooks/2026-27/)  
-- **Archive Repository Main:** [28a57ca62960bd29daab1dc99e77c452440f7ad2](https://github.com/Eaglesiva/tn-class-03-archive/commit/28a57ca62960bd29daab1dc99e77c452440f7ad2) (1,462 files in legacy-2018-2022/)  
+- **Archive Repository Main:** 28a57ca62960bd29daab1dc99e77c452440f7ad2 (historical archive reference; archive removed from current scope) (1,462 files in legacy-2018-2022/)  
 - **Final Edition Register:** [docs/03-edition-register/class-03/edition-verification-register.md](class-03/edition-verification-register.md)  
 - **Final Audit Report:** [docs/03-edition-register/class-03/edition-migration-audit-report.md](class-03/edition-migration-audit-report.md)  
 Audit branch: scert/class-03/audit-2026-27  
@@ -179,12 +179,12 @@ Audit date: 2026-11-04
 
 ## Term III
 
-The 2026-11-04 audit record notes that the three official Term-III files returned HTTP 403 Forbidden on the SCERT distribution CDN. All 8 legacy Term 3 books (452 single-page PDFs + 8 manifests + 43 question files = 503 files) are permanently preserved and accessible in [	n-class-03-archive](https://github.com/Eaglesiva/tn-class-03-archive/tree/main/legacy-2018-2022). Active portal cards link directly to these archive files until official 2026 Term 3 books are released by SCERT.
+The 2026-11-04 audit record notes that the three official Term-III files returned HTTP 403 Forbidden on the SCERT distribution CDN. All 8 legacy Term 3 books (452 single-page PDFs + 8 manifests + 43 question files = 503 files) are permanently preserved and accessible in 	n-class-03-archive (historical archive reference; archive removed from current scope). Active portal cards link directly to these archive files until official 2026 Term 3 books are released by SCERT.
 
 ## Migration & Audit Evidence
 
 - **Active Main Branch ([1cf5ef94](https://github.com/Eaglesiva/tn-class-03/commit/1cf5ef9474140c7378be05402613f6f6dec11623)):** Contains 1,046 files in ooks/2026-27/ (1,016 single-page PDFs + 30 manifests) with 100% SHA match against scert/class-03/audit-2026-27.
-- **Archive Main Branch ([28a57ca6](https://github.com/Eaglesiva/tn-class-03-archive/commit/28a57ca62960bd29daab1dc99e77c452440f7ad2)):** Contains 1,462 legacy files in legacy-2018-2022/ with 100% SHA match against pre-migration main (7206fe).
+- **Archive Main Branch (28a57ca6 (historical archive reference; archive removed from current scope)):** Contains 1,462 legacy files in legacy-2018-2022/ with 100% SHA match against pre-migration main (7206fe).
 - **Complete Verification Records:** [Class 03 Final Audit Report](class-03/edition-migration-audit-report.md) · [Class 03 Edition Register](class-03/edition-verification-register.md) · [Visual Review Report](class-03/visual-review-and-precheck-report.md) · [Audit Summary](../../07-audit-evidence/class-03/class-03-audit-summary.md) · [Audit Manifest](../../07-audit-evidence/class-03/class-03-audit-manifest.csv).
 
 ---
