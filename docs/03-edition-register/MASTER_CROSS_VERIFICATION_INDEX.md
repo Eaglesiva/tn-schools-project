@@ -46,6 +46,8 @@
 
 This section supersedes older statements in this index about whether a candidate is still only on an audit branch. It records the current GitHub `main` heads and the book folders visible in those trees; it does **not** claim that every live official CDN URL was re-fetched on 2026-11-09.
 
+**Active-only scope (2026-11-09):** The current work is limited to the latest books on each class repository's `main` branch. The user has removed old-book and Archive content and does not need it now. Do not restore, recreate or migrate legacy books into Archive as part of this work. Archive links in older sections below are historical audit references only and may no longer resolve.
+
 | Class | Current Main commit | What is currently in Main | Remaining version/source check |
 |---:|---|---|---|
 | 1 | [`b20b8d38`](https://github.com/Eaglesiva/tn-class-01/commit/b20b8d38a2decd66db25e8053318027d23a04c1e) | 2026–27 Term-I and Term-II volumes; Page-2 PDFs and edition metadata present. | Term-III is not part of the currently announced sale notices reviewed; do not label it missing from a released set. Recheck official notice/API before adding. |
