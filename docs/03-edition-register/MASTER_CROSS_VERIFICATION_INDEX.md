@@ -42,6 +42,39 @@
 
 ---
 
+## Fresh Main-branch snapshot — 2026-11-09
+
+This section supersedes older statements in this index about whether a candidate is still only on an audit branch. It records the current GitHub `main` heads and the book folders visible in those trees; it does **not** claim that every live official CDN URL was re-fetched on 2026-11-09.
+
+| Class | Current Main commit | What is currently in Main | Remaining version/source check |
+|---:|---|---|---|
+| 1 | [`b20b8d38`](https://github.com/Eaglesiva/tn-class-01/commit/b20b8d38a2decd66db25e8053318027d23a04c1e) | 2026–27 Term-I and Term-II volumes; Page-2 PDFs and edition metadata present. | Term-III is not part of the currently announced sale notices reviewed; do not label it missing from a released set. Recheck official notice/API before adding. |
+| 2 | [`4a77380b`](https://github.com/Eaglesiva/tn-class-02/commit/4a77380ba09eb08293cb0ceaad2557699a1e247d) | 2026–27 Term-I and Term-II volumes; Page-2 PDFs and edition metadata present. | Same Term-III release check as Class 1. |
+| 3 | [`1cf5ef94`](https://github.com/Eaglesiva/tn-class-03/commit/1cf5ef9474140c7378be05402613f6f6dec11623) | 2026–27 Term-I and Term-II volumes; Page-2 PDFs and edition metadata present. | Same Term-III release check as Class 1. |
+| 4 | [`c32cfb04`](https://github.com/Eaglesiva/tn-class-04/commit/c32cfb04a05b097106740b5099d5bdbbf97e4660) | Term-I volumes only. | Term-II sale for Classes 1–7 was announced from 22-09-2026; no Term-II book folder is currently present on Main. The 2026-11-04 audit recorded CDN 403 responses; recheck official URL access. |
+| 5 | [`9b0389fe`](https://github.com/Eaglesiva/tn-class-05/commit/9b0389fecaa4e404ea2ea2cc05a6e60558ef380a) | Term-I volumes only. | Same announced Term-II / current CDN-access check as Class 4. |
+| 6 | [`fc827e1a`](https://github.com/Eaglesiva/tn-class-06/commit/fc827e1aa1b1d1da7fa8bc8907ca26d866cb4e2c) | Term-I volumes only; five Page-2 PDFs and edition metadata present. | Same announced Term-II / current CDN-access check as Class 4. |
+| 7 | [`a724348d`](https://github.com/Eaglesiva/tn-class-07/commit/a724348d75d2e7ce2d357dc64722af97be700d65) | Term-I volumes only; five Page-2 PDFs and edition metadata present. | Same announced Term-II / current CDN-access check as Class 4. |
+| 8 | [`3870582b`](https://github.com/Eaglesiva/tn-class-08/commit/3870582b0c349c5ffe1389f58b9a5856870ebbb6) | Eight 2026–27 full-year books; eight Page-2 PDFs, eight `edition.json` files and eight page maps. | Page-2 imprints in the records mostly show First Edition 2019 / revised editions / reprints through 2024. Academic year 2026–27 must not be confused with printed edition year. |
+| 9 | [`7d675b21`](https://github.com/Eaglesiva/tn-class-09/commit/7d675b21e11a040584bff4050d5cf778bbc96384) | Eight annual book page sets remain on Main. | The 2026-11-04 audit reports matching 2024-reprint Page-2 imprints and page counts for all eight; full page-by-page content comparison remains pending in that report. |
+| 10 | [`2f520f16`](https://github.com/Eaglesiva/tn-class-10/commit/2f520f16230cf43dc8fdade03fdf9dc37cdbdeb6) | Eight annual book page sets remain on Main. | Tamil is recorded as an exact master SHA match; Maths TM/EM are recorded as newer 2025 local editions than the 2024 official portal copies. English remains manual-review pending. Four Science/Social Science official editions are stored on the separate update branch, not confirmed promoted to Main. |
+| 11 | [`a419f6bd`](https://github.com/Eaglesiva/tn-class-11/commit/a419f6bdf64b5ec62fba0bba6a7a470513a44ba5) | Main commit states that 20 subjects were upgraded to official 2026–27 editions; newer 2025 / matched 2024 books were retained. | Reconcile all 32 book/volume records against the current Main Page-2 files and edition metadata before declaring every subject current. |
+| 12 | [`d7c07f01`](https://github.com/Eaglesiva/tn-class-12/commit/d7c07f01fad3019a50db34aa86509c0b153b9f1c) | All 34 annual book records remain represented on Main; Physics EM Vol-I and Chemistry EM Vol-I were updated to official 2024 reprints. | The Class 12 report records Page-2/page-count matches for the other 32; full content diff for the two newly updated volumes remains pending. |
+
+### Source and link conventions for the registers
+
+- Official listing: [SCERT textbook listing](https://tnschools.gov.in/scert-textbook).
+- Distribution evidence: [Tamil Nadu Textbook Corporation notices](https://www.textbookcorp.in/schools).
+- Full official PDF: link the exact URL stored in the book's source record.
+- Official PDF Page-2 viewer: append `#page=2` to the exact PDF URL; this is only a viewer navigation hint until HTTP Range behaviour is proven.
+- GitHub Page 2: link directly to the actual one-page PDF using an immutable Main commit SHA.
+- GitHub page map: link to the matching `pages.json` at that same commit.
+- Do not mark a book `CURRENT` from the academic year, filename, Page-2 imprint or page count alone. Keep unresolved cases `PENDING`.
+
+The Textbook Corporation notice currently reviewed states that 2026–27 Term-II sales for Classes 1–7 began on 22-09-2026, Term-I sales for Classes 1–3 began on 25-05-2026, and Term-I for Classes 4–7 plus annual Classes 8 and 11 began on 14-05-2026. A sales notice confirms the release schedule; it does not by itself prove that the matching PDF URL is currently accessible.
+
+
+---
 
 ## Class 1
 
