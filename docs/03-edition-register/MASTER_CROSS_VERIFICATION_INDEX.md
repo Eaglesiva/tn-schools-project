@@ -75,6 +75,8 @@ This section supersedes older statements in this index about whether a candidate
 
 The Textbook Corporation notice currently reviewed states that 2026–27 Term-II sales for Classes 1–7 began on 22-09-2026, Term-I sales for Classes 1–3 began on 25-05-2026, and Term-I for Classes 4–7 plus annual Classes 8 and 11 began on 14-05-2026. A sales notice confirms the release schedule; it does not by itself prove that the matching PDF URL is currently accessible.
 
+**Current documentation rule:** Use the class-specific registers linked in Quick Navigation as the live per-book reference for current Main Page-2 URLs, official PDF links and edition status. The older detailed audit sections below are retained as dated comparison evidence; where their Main commit or promotion status differs, the current class-specific register and the 2026-11-09 Main snapshot above take precedence.
+
 
 ---
 
