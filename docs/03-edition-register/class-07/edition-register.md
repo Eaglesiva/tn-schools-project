@@ -2,6 +2,7 @@
 
 **Status checked:** 2026-11-09  
 **Active repository:** [Eaglesiva/tn-class-07](https://github.com/Eaglesiva/tn-class-07)  
+**Production Status:** ✅ **Production Verified & Merged to Main**  
 **Current Main commit:** [`a724348d75d2e7ce2d357dc64722af97be700d65`](https://github.com/Eaglesiva/tn-class-07/commit/a724348d75d2e7ce2d357dc64722af97be700d65)  
 **Current Main books folder:** `books/2026-27/term1/`  
 **Official listing:** [SCERT Textbook Listing](https://tnschools.gov.in/scert-textbook)  
