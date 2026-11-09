@@ -36,3 +36,27 @@ For audit branches, prefer commit links:
 `https://github.com/Eaglesiva/<repo>/blob/<audit-commit-sha>/<exact-page-2-path>`
 
 The link must point to the actual `page_002.pdf`, `page-002.pdf`, or corresponding Page-2 split file, not to the folder or a guessed filename.
+
+
+## Official Page-2 links and partial-preview rule (added 2026-11-09)
+
+Keep these links separate in every book record:
+
+1. **Official listing page:** `https://tnschools.gov.in/scert-textbook`
+2. **Official full-PDF download:** the exact SCERT/CDN URL returned by the official listing/API. Do not construct or guess a filename.
+3. **Official PDF opened at Page 2:** append `#page=2` to that exact PDF URL. This asks a PDF viewer to open at page 2; it is a navigation fragment, **not** a separate Page-2-only download endpoint and does not by itself prove that the whole PDF will not be transferred.
+4. **GitHub Page-2 proof:** link directly to the stored one-page `page-002.pdf` / `page_002.pdf` on an immutable commit SHA.
+5. **Page map:** link to that same commit's `pages.json`.
+
+### When may a link be called a Page-2-only / range preview?
+
+Only after a real request to the official PDF has been tested with a `Range: bytes=start-end` request and all of the following are recorded:
+
+- HTTP response is `206 Partial Content`, not `200 OK`.
+- `Content-Range` identifies the returned byte interval and total object length.
+- Returned byte count matches the requested interval and is less than the complete PDF length.
+- A browser or PDF.js test can render Page 2 from those range responses without first downloading the entire master PDF.
+
+`Accept-Ranges: bytes` alone is not sufficient. A `#page=2` link alone is not proof of partial transfer. If the checks above have not been run, label the range preview `NOT_VERIFIED` and retain the official full-PDF link plus the GitHub one-page Page-2 link. Do not invent a separate official Page-2 URL.
+
+**Known limitation:** the earlier Class 10 preview workflow checked the `Accept-Ranges` header but then used a normal full `GET`; that run did not demonstrate a range-only preview. Re-test the actual official PDF URL before marking any source `RANGE_PREVIEW_VERIFIED`.
