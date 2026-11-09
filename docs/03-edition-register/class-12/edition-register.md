@@ -1,6 +1,8 @@
 # Class 12 — Edition Register (2026–27)
 
+**Active repository:** [Eaglesiva/tn-class-12](https://github.com/Eaglesiva/tn-class-12)  
 **Current Main commit:** [`d7c07f01fad3019a50db34aa86509c0b153b9f1c`](https://github.com/Eaglesiva/tn-class-12/commit/d7c07f01fad3019a50db34aa86509c0b153b9f1c)  
+**Production status:** ✅ **Production Verified & Merged to Main**  
 **Audit manifest:** [Open original CSV](https://github.com/Eaglesiva/tn-class-12/blob/scert/class-12/audit-2026-27/docs/class_12_2026_27_audit_manifest.csv)  
 **Official listing:** [SCERT Textbook Listing](https://tnschools.gov.in/scert-textbook) · **Distribution notice:** [Tamil Nadu Textbook Corporation](https://www.textbookcorp.in/schools)  
 **Link convention:** Official Page 2 opens the official full PDF at page 2 with `#page=2`; Current Main Page 2 opens the single-page PDF at the current Main commit.

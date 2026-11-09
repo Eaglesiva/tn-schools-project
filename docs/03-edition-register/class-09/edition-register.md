@@ -1,7 +1,8 @@
 # Class 9 — Edition Register (2026–27)
 
-**Production baseline:** `main`  
-**Main content commit:** [`e5802d3fa74e`](https://github.com/Eaglesiva/tn-class-09/commit/7d675b21e11a040584bff4050d5cf778bbc96384)  
+**Active repository:** [Eaglesiva/tn-class-09](https://github.com/Eaglesiva/tn-class-09)  
+**Current Main commit:** [`7d675b21e11a040584bff4050d5cf778bbc96384`](https://github.com/Eaglesiva/tn-class-09/commit/7d675b21e11a040584bff4050d5cf778bbc96384)  
+**Production status:** ✅ **Production Verified & Merged to Main**  
 **Audit source:** [Class 9 audit branch](https://github.com/Eaglesiva/tn-class-09/tree/scert/class-09/audit-2026-27)  
 **Manifest:** [Open original audit CSV](https://github.com/Eaglesiva/tn-class-09/blob/scert/class-09/audit-2026-27/docs/class_09_2026_27_audit_manifest.csv)  
 **Decision in source audit:** `SAME_EDITION_KEEP_EXISTING` for all eight core Tamil/English books.

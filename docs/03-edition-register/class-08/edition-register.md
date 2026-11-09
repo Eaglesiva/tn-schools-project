@@ -3,6 +3,7 @@
 **Status checked:** 2026-11-09  
 **Active repository:** [Eaglesiva/tn-class-08](https://github.com/Eaglesiva/tn-class-08)  
 **Current Main commit:** [`3870582b0c349c5ffe1389f58b9a5856870ebbb6`](https://github.com/Eaglesiva/tn-class-08/commit/3870582b0c349c5ffe1389f58b9a5856870ebbb6)  
+**Production status:** ✅ **Production Verified & Merged to Main**  
 **Book structure:** Eight full-year standalone textbooks; no term split.  
 **Official distribution notice:** [Tamil Nadu Textbook Corporation](https://www.textbookcorp.in/schools) — Annual textbooks for Class 8 (2026–27) were announced for sale from 14-05-2026.  
 **Official listing:** [SCERT Textbook Listing](https://tnschools.gov.in/scert-textbook)

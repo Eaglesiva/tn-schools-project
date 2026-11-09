@@ -1,6 +1,8 @@
 # Class 10 — Edition Register (2026–27)
 
+**Active repository:** [Eaglesiva/tn-class-10](https://github.com/Eaglesiva/tn-class-10)  
 **Current Main commit:** [`2f520f16230cf43dc8fdade03fdf9dc37cdbdeb6`](https://github.com/Eaglesiva/tn-class-10/commit/2f520f16230cf43dc8fdade03fdf9dc37cdbdeb6)  
+**Production status:** ✅ **Production Verified & Maintained on Main**  
 **Audit source:** [Class 10 audit branch](https://github.com/Eaglesiva/tn-class-10/tree/scert/class-10/audit-2026-27)  
 **Official listing:** [SCERT Textbook Listing](https://tnschools.gov.in/scert-textbook) · **Distribution notice:** [Tamil Nadu Textbook Corporation](https://www.textbookcorp.in/schools)  
 **Link convention:** Official Page 2 opens the full official PDF at page 2 with `#page=2`; GitHub Main Page 2 links below use the current Main commit. A separate official Page-2-only/range link is not verified.

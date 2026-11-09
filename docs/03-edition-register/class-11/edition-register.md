@@ -1,6 +1,8 @@
 # Class 11 — Edition Register (2026–27)
 
+**Active repository:** [Eaglesiva/tn-class-11](https://github.com/Eaglesiva/tn-class-11)  
 **Current Main commit:** [`a419f6bdf64b5ec62fba0bba6a7a470513a44ba5`](https://github.com/Eaglesiva/tn-class-11/commit/a419f6bdf64b5ec62fba0bba6a7a470513a44ba5)  
+**Production status:** ✅ **Production Verified & Merged to Main**  
 **Audit manifest:** [Open original CSV](https://github.com/Eaglesiva/tn-class-11/blob/scert/class-11/audit-2026-27/docs/class_11_2026_27_audit_manifest.csv)  
 **Official listing:** [SCERT Textbook Listing](https://tnschools.gov.in/scert-textbook) · **Distribution notice:** [Tamil Nadu Textbook Corporation](https://www.textbookcorp.in/schools)  
 **Link convention:** Official Page 2 opens the official full PDF at page 2 with `#page=2`; Current Main Page 2 opens the one-page PDF stored on the current Main commit.
